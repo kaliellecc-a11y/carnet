@@ -13,9 +13,20 @@ checklist de vérification, workflow « intègre au carnet » → « valide » �
 
 `PASSATION.md` porte l'historique et l'état publié.
 
+## La source de vérité
+
+Le maître est `carnet-kefir-levain.md`, dans ce dépôt. Toute session commence
+par un `git pull` : jamais une copie locale, un fichier joint, ni la page
+Notion « Carnet de recettes — MAÎTRE », figée au v10 et abandonnée depuis le
+2026-09-15.
+
+Après un « valide » : build, QA, puis commit du md et de PASSATION.md.
+Ne rien commiter tant que la QA n'est pas verte. L'historique git remplace
+les MD5 recopiés à la main.
+
 ## Règles fermes
 
-- Le maître est `carnet-kefir-levain.md`. Éditer là, jamais le HTML produit.
+- Éditer le maître, jamais le HTML produit.
 - Les HTML sont des produits du build : ne pas les versionner, `build.py` les
   régénère. Ils sont dans `.gitignore`.
 - Les numéros de fiche (R1, G14, T3…) sont des identifiants : ancres, notes et

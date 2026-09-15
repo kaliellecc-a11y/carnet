@@ -2,6 +2,18 @@
 
 Dossier de reprise pour continuer ce projet dans une autre conversation, sans avoir à réexpliquer le contexte.
 
+## Source de vérité — le dépôt git (2026-09-15)
+
+**Le maître est `carnet-kefir-levain.md` dans le dépôt https://github.com/kaliellecc-a11y/carnet**, branche `claude/temp-files-review-or97g9`. Toute conversation commence par un `git pull` — jamais par une copie locale, un fichier joint ou la pièce jointe Notion.
+
+Le dépôt porte tout le projet : le md maître, `build.py`, `style.css`, `app.js`, `firebase-init.js`, `REGLES-RECETTES.md`, `PASSATION.md`. Les HTML produits par le build restent hors du dépôt (`.gitignore`) — `build.py` les régénère.
+
+Bascule vérifiée : le md versionné porte le MD5 `a91ec147f8249c5980d925d754312bd9` (68 fiches), celui du maître v11, et `python3 build.py` reproduit `carnet-de-fournil.html` et `.standalone.html` à l'octet près.
+
+Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload` + curl, les MD5 recopiés à la main et la ligne « Historique » de la page. `git log` et `git diff` donnent la même information, sans risque de désynchronisation entre deux copies. Les entrées Notion plus bas dans ce document sont conservées comme historique daté — elles ne décrivent plus le fonctionnement courant.
+
+Reste à faire : ajouter `pdf.js` au dépôt, il manque encore.
+
 ## Lien du carnet (source de vérité vivante)
 
 **https://carnet-de-recettes-celine.netlify.app** — site Netlify (projet `carnet-de-recettes-celine`, siteId `667569cd-4577-48ba-978f-2cb5bf1e48a4`, forfait gratuit). C'est l'adresse à ouvrir sur tous les appareils depuis le 2026-09-11.
@@ -16,7 +28,7 @@ Page privée, accessible depuis tous les appareils connectés au compte de Céli
 
 **État publié : v11 sur Netlify (2026-09-11).** L'Artifact reste figé en v6.1. **v11 validée le 2026-09-11 (HTML + standalone livrés).** PDF non régénéré (attend « republie »). Testé en réel sur le site en ligne : 68 fiches, HTTPS, bandeau synchronisé, écriture d'une note depuis le site relue dans le fichier local, rendu mobile sans débordement horizontal.
 
-**⚠ Maître Notion NON mis à jour en v11** : le connecteur Notion n'était pas disponible dans la session de validation. La page « Carnet de recettes — MAÎTRE » (3d78c668-27b7-81a0-9416-ec81354c4eb1) porte encore le v10 (MD5 5f5e4323…0332). **Le maître v11 qui fait foi est le fichier livré** `carnet-kefir-levain.md` (MD5 a91ec147f8249c5980d925d754312bd9, 68 fiches). À téléverser sur Notion dès qu'un connecteur est disponible, avant toute autre modification.
+**~~⚠ Maître Notion NON mis à jour en v11~~ — résolu autrement le 2026-09-15** : plutôt que de rattraper Notion, le maître v11 (`carnet-kefir-levain.md`, MD5 a91ec147f8249c5980d925d754312bd9, 68 fiches) a été versionné dans git, qui fait foi désormais. La page Notion « Carnet de recettes — MAÎTRE » (3d78c668-27b7-81a0-9416-ec81354c4eb1) reste figée au v10 et n'est plus à jour : ne plus s'en servir comme source.
 
 v11 (2026-09-11) — restructuration par appareil + 22 fiches + synchronisation Firebase :
 - **Rangement** : 4 chapitres par appareil (1. Cuisson traditionnelle · 2. Ninja Woodfire · 3. Turbo Cuisine · 4. Ninja Creami), sous-catégories `Salé · type` / `Sucré · type` / `Bases · sujet`. Les bases ouvrent le chapitre qui les emploie. Recette sur deux appareils : chapitre de la cuisson principale.
@@ -34,9 +46,9 @@ v10 (build) : maître v10 buildé tel quel. Correctif build.py : la colonne d'in
 
 v10 (build) : maître Notion v10 (MD5 5f5e4323…0332) buildé tel quel. Correctif build.py : la colonne d'ingrédients coupait au premier </ul> interne — sur les fiches à groupes (R4-R8, R11, R17, B1-B3) le 2ᵉ groupe fuyait dans la colonne méthode. Extraction désormais équilibrée sur les listes imbriquées. VERSION build.py ramenée de « v11 » à « v10 » pour coller au maître. QA : 47 fiches, 0 ancre cassée, sommaire et index complets, 17 encarts kéfir, JS valide, PDF 56 pages.
 
-**MAÎTRE SUR NOTION (2026-09-10)** : la source unique du carnet est la pièce jointe `carnet-kefir-levain.md` de la page Notion privée « Carnet de recettes — MAÎTRE » (page `3d78c668-27b7-81a0-9416-ec81354c4eb1`, file_upload_id courant et MD5 inscrits sur la page). Toute conversation commence par télécharger ce fichier (`download-attachment`) — jamais par une copie locale ou projet. Après un « valide » : nouveau `create_file_upload` + envoi curl, puis mise à jour du bloc fichier et de la ligne Version sur la page. Céline ne manipule plus rien. Détails : RÈGLES-RECETTES.md §6.
+**~~MAÎTRE SUR NOTION (2026-09-10)~~ — périmé depuis le 2026-09-15, voir « Source de vérité » en tête** : la source unique du carnet est la pièce jointe `carnet-kefir-levain.md` de la page Notion privée « Carnet de recettes — MAÎTRE » (page `3d78c668-27b7-81a0-9416-ec81354c4eb1`, file_upload_id courant et MD5 inscrits sur la page). Toute conversation commence par télécharger ce fichier (`download-attachment`) — jamais par une copie locale ou projet. Après un « valide » : nouveau `create_file_upload` + envoi curl, puis mise à jour du bloc fichier et de la ligne Version sur la page. Céline ne manipule plus rien. Détails : RÈGLES-RECETTES.md §6.
 
-**Projet allégé (2026-09-10)** : le projet contient exactement six fichiers — REGLES-RECETTES.md, PASSATION.md, build.py, style.css, app.js, pdf.js. Le md maître vit sur Notion (voir ci-dessus), pas dans le projet. Les HTML et carnet-de-fournil.md sont des PRODUITS du build : ne jamais les remettre dans le projet, build.py les régénère (doublon .md compris). creami.txt est archivé sur la page Notion MAÎTRE, section Archives (déjà intégré en G1-G16 / B1-B5).
+**~~Projet allégé (2026-09-10)~~ — le dépôt git porte maintenant le md maître en plus des six fichiers** : le projet contient exactement six fichiers — REGLES-RECETTES.md, PASSATION.md, build.py, style.css, app.js, pdf.js. Le md maître vit sur Notion (voir ci-dessus), pas dans le projet. Les HTML et carnet-de-fournil.md sont des PRODUITS du build : ne jamais les remettre dans le projet, build.py les régénère (doublon .md compris). creami.txt est archivé sur la page Notion MAÎTRE, section Archives (déjà intégré en G1-G16 / B1-B5).
 
 **RÈGLES-RECETTES.md fait référence** pour le gabarit de fiche, les macros obligatoires, la checklist de vérification et le workflow discussion → intégration (« intègre au carnet » → « valide » → « republie »). Le lire avant toute création ou modification de fiche.
 

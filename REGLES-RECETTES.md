@@ -76,10 +76,11 @@ Sommaire 3 niveaux (noms seuls) · index par type de plat (depuis les titres `Sa
 1. **Discussion libre** — on met au point la recette dans n'importe quelle conversation du projet, sans format imposé.
 2. **« Intègre au carnet »** — Claude produit : la fiche complète au gabarit, le numéro attribué, le chapitre proposé, le résultat de la checklist §5 (écarts signalés, rien de masqué). Aucune écriture tant que ce n'est pas montré.
 3. **« Valide »** (ou corrections, appliquées directement) — Claude insère la fiche dans `carnet-kefir-levain.md`, met à jour build.py si l'index doit apprendre un terme, rebuild, QA, incrémente la version, trace dans PASSATION.md, livre les fichiers.
-4. **Claude met à jour le maître dans Notion** — le maître vit en pièce jointe sur la page Notion privée « Carnet de recettes — MAÎTRE » (page `3d78c668-27b7-81a0-9416-ec81354c4eb1`). Zéro manipulation pour Céline. Procédure Claude, dans cet ordre :
-    1. En début de tâche : lire la page, récupérer le `file_upload_id` courant dans « Version courante », télécharger le maître via `download-attachment`, vérifier le MD5 annoncé.
-    2. Après « valide » : build + QA en local, puis `create_file_upload` + envoi curl du nouveau md, puis mise à jour de la page — remplacer le bloc fichier, la ligne Version/file_upload_id/MD5, ajouter une ligne d'Historique. Ne jamais mettre à jour la page avant que la QA locale soit verte.
-    3. Le projet Claude ne contient plus le md : uniquement RÈGLES-RECETTES.md, PASSATION.md, build.py, style.css, app.js, pdf.js. Si build.py ou style.css changent, Claude livre les fichiers et le dit explicitement — c'est le seul cas où Céline touche au projet.
+4. **Claude met à jour le maître dans git** — le maître est `carnet-kefir-levain.md`, versionné dans le dépôt `kaliellecc-a11y/carnet`. Zéro manipulation pour Céline. Procédure Claude, dans cet ordre :
+    1. En début de tâche : `git pull` sur la branche de travail. Le dépôt fait foi — jamais une copie locale, un fichier joint ou une pièce jointe Notion.
+    2. Après « valide » : build + QA en local, puis commit du md, de build.py si l'index a appris un terme, et de PASSATION.md. Ne jamais commiter avant que la QA locale soit verte. Le message de commit porte la version et le résumé du changement.
+    3. Un commit = une intégration cohérente. L'historique git remplace la ligne « Historique » et les MD5 recopiés à la main : `git log` et `git diff` donnent la même information sans risque de désynchronisation.
+    4. Le dépôt contient tout le projet : le md maître, build.py, style.css, app.js, firebase-init.js, pdf.js, RÈGLES-RECETTES.md, PASSATION.md. Les HTML produits restent hors du dépôt (`.gitignore`).
 5. **« Republie »** — pipeline complet : build → PDF → mise à jour de l'Artifact. Jamais déclenché sans ce mot.
 
 Mots-clés du projet : `intègre au carnet` · `valide` · `republie` · `complète les macros` (chantier de rattrapage des macros sur les fiches antérieures à v10).

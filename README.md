@@ -10,7 +10,7 @@ de fruits. 68 fiches, rangées par appareil.
 
 | Fichier | Rôle |
 |---|---|
-| `carnet-kefir-levain.md` | Le markdown maître — la source de toutes les recettes |
+| `carnet-kefir-levain.md` | Le markdown maître — source de vérité du carnet, éditer ici |
 | `build.py` | Génère les deux HTML à partir du maître, du CSS et du JS |
 | `style.css` | Design system : palette crème/brun, Fraunces, Literata, IBM Plex Mono |
 | `app.js` | Édition des fiches, notes, journal des fournées, « mes recettes » |
@@ -36,6 +36,12 @@ Prévisualiser :
 python3 -m http.server 8000
 # puis ouvrir http://localhost:8000/carnet-de-fournil.standalone.html
 ```
+
+## Source de vérité
+
+Ce dépôt fait foi depuis le 2026-09-15. Le maître vivait auparavant en pièce
+jointe sur une page Notion ; cette page est figée au v10 et n'est plus
+utilisée.
 
 ## Données
 
