@@ -298,7 +298,7 @@ page = f"""<title>Carnet de recettes</title>
 """
 pathlib.Path("carnet-de-fournil.html").write_text(page, encoding="utf-8")
 
-# standalone (with doctype) for PDF and file delivery
+# standalone (with doctype) : la page mise en ligne, et le fichier livrable
 full = "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">" + page.split("<div class=\"page\">",1)[0] + "</head><body><div class=\"page\">" + page.split("<div class=\"page\">",1)[1] + "</body></html>"
 pathlib.Path("carnet-de-fournil.standalone.html").write_text(full, encoding="utf-8")
 print("ok", len(page))

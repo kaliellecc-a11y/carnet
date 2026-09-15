@@ -4,7 +4,7 @@ Dossier de reprise pour continuer ce projet dans une autre conversation, sans av
 
 ## Source de vérité — le dépôt git (2026-09-15)
 
-**Le maître est `carnet-kefir-levain.md` dans le dépôt https://github.com/kaliellecc-a11y/carnet**, branche `claude/temp-files-review-or97g9`. Toute conversation commence par un `git pull` — jamais par une copie locale, un fichier joint ou la pièce jointe Notion.
+**Le maître est `carnet-kefir-levain.md` dans le dépôt https://github.com/kaliellecc-a11y/carnet**, branche `main`. Toute conversation commence par un `git pull` — jamais par une copie locale, un fichier joint ou la pièce jointe Notion.
 
 Le dépôt porte tout le projet : le md maître, `build.py`, `style.css`, `app.js`, `firebase-init.js`, `REGLES-RECETTES.md`, `PASSATION.md`. Les HTML produits par le build restent hors du dépôt (`.gitignore`) — `build.py` les régénère.
 
@@ -12,7 +12,7 @@ Bascule vérifiée : le md versionné porte le MD5 `a91ec147f8249c5980d925d75431
 
 Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload` + curl, les MD5 recopiés à la main et la ligne « Historique » de la page. `git log` et `git diff` donnent la même information, sans risque de désynchronisation entre deux copies. Les entrées Notion plus bas dans ce document sont conservées comme historique daté — elles ne décrivent plus le fonctionnement courant.
 
-Reste à faire : ajouter `pdf.js` au dépôt, il manque encore.
+**PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
 ## Lien du carnet (source de vérité vivante)
 
@@ -26,7 +26,7 @@ Ancien Artifact (figé en v6.1, notes séparées dans la base Claude) : https://
 
 Page privée, accessible depuis tous les appareils connectés au compte de Céline. Édition directe possible sur la page elle-même (bouton « Modifier la recette », notes, journal des fournées, section « Carnet de notes ») — synchronisée entre appareils sans passer par Claude. Pour ajouter une fiche complète et bien formatée, il faut passer par une conversation Claude.
 
-**État publié : v11 sur Netlify (2026-09-11).** L'Artifact reste figé en v6.1. **v11 validée le 2026-09-11 (HTML + standalone livrés).** PDF non régénéré (attend « republie »). Testé en réel sur le site en ligne : 68 fiches, HTTPS, bandeau synchronisé, écriture d'une note depuis le site relue dans le fichier local, rendu mobile sans débordement horizontal.
+**État publié : v11 sur Netlify (2026-09-11).** L'Artifact reste figé en v6.1. **v11 validée le 2026-09-11 (HTML + standalone livrés).** PDF abandonné depuis le 2026-09-15 (consultation en ligne). Testé en réel sur le site en ligne : 68 fiches, HTTPS, bandeau synchronisé, écriture d'une note depuis le site relue dans le fichier local, rendu mobile sans débordement horizontal.
 
 **~~⚠ Maître Notion NON mis à jour en v11~~ — résolu autrement le 2026-09-15** : plutôt que de rattraper Notion, le maître v11 (`carnet-kefir-levain.md`, MD5 a91ec147f8249c5980d925d754312bd9, 68 fiches) a été versionné dans git, qui fait foi désormais. La page Notion « Carnet de recettes — MAÎTRE » (3d78c668-27b7-81a0-9416-ec81354c4eb1) reste figée au v10 et n'est plus à jour : ne plus s'en servir comme source.
 
@@ -62,17 +62,16 @@ v8 (restructuration) : chapitres par famille — 3. Recettes au kéfir et au lev
 
 ## Politique de travail — IMPORTANT
 
-Céline a demandé explicitement : **enregistrer les corrections/ajouts dans les fichiers sans republier automatiquement**, pour éviter le surcoût de tokens à chaque petit ajout. Ne relancer le pipeline complet (build.py → pdf.js → copie vers outputs → publication Artifact → envoi fichiers) **que si elle le demande explicitement** (« mets à jour », « republie », « envoie-moi la version à jour »).
+Céline a demandé explicitement : **enregistrer les corrections/ajouts dans les fichiers sans republier automatiquement**, pour éviter le surcoût de tokens à chaque petit ajout. Ne relancer le pipeline complet (build.py → mise en ligne sur Netlify) **que si elle le demande explicitement** (« mets à jour », « republie », « envoie-moi la version à jour »).
 
 ## Contenu du dossier
 
 - `carnet-source/` — fichiers sources à éditer pour toute évolution :
   - `carnet-kefir-levain.md` — le markdown maître (8 chapitres par famille, fiches numérotées ; `carnet-de-fournil.md` est son doublon, à maintenir identique)
-  - `build.py` — génère `carnet-de-fournil.html` (pour Artifact) et `.standalone.html` (pour PDF/export) à partir du markdown + `style.css` + `app.js`
+  - `build.py` — génère `carnet-de-fournil.html` (pour Artifact) et `.standalone.html` (mise en ligne et export) à partir du markdown + `style.css` + `app.js`
   - `style.css` — design system « Carnet de fournil » (palette crème/brun, Fraunces/Literata/IBM Plex Mono, dark mode, print)
   - `app.js` — logique d'édition/notes/journal synchronisée (capacité `db` de l'Artifact, fallback localStorage)
-  - `pdf.js` — script Playwright pour générer le PDF depuis le standalone HTML
-- `carnet-formats/` — toutes les formes actuelles du carnet : `.md`, `.html` (Artifact), `.standalone.html`, `.pdf`
+- `carnet-formats/` — toutes les formes actuelles du carnet : `.md`, `.html` (Artifact), `.standalone.html`
 - `recherches-brutes/` — sources utilisées pour construire le carnet : recherche initiale sur le levain/alternatives à la levure, extraction du classeur Creami (glaces), extraction des fiches kéfir d'eau
 
 ## Numérotation des fiches
@@ -119,7 +118,6 @@ Copie de ce qui est stocké en mémoire Claude au moment de cette passation — 
 ```
 cd carnet-source/
 python3 build.py          # régénère carnet-de-fournil.html + .standalone.html
-node pdf.js                # génère le PDF depuis le standalone (Playwright/Chromium)
 ```
 
 Puis publier via l'outil Artifact (action `publish`, en réutilisant l'URL existante ci-dessus pour mettre à jour la même page plutôt que d'en créer une nouvelle).

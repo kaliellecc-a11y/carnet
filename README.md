@@ -28,7 +28,7 @@ python3 build.py
 Deux fichiers sont produits à la racine, tous deux ignorés par git :
 
 - `carnet-de-fournil.html` — fragment sans doctype, pour un Artifact Claude
-- `carnet-de-fournil.standalone.html` — page complète, pour le web et le PDF
+- `carnet-de-fournil.standalone.html` — page complète, c'est elle qui est mise en ligne
 
 Prévisualiser :
 

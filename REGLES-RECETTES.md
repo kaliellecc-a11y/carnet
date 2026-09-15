@@ -80,8 +80,8 @@ Sommaire 3 niveaux (noms seuls) · index par type de plat (depuis les titres `Sa
     1. En début de tâche : `git pull` sur la branche de travail. Le dépôt fait foi — jamais une copie locale, un fichier joint ou une pièce jointe Notion.
     2. Après « valide » : build + QA en local, puis commit du md, de build.py si l'index a appris un terme, et de PASSATION.md. Ne jamais commiter avant que la QA locale soit verte. Le message de commit porte la version et le résumé du changement.
     3. Un commit = une intégration cohérente. L'historique git remplace la ligne « Historique » et les MD5 recopiés à la main : `git log` et `git diff` donnent la même information sans risque de désynchronisation.
-    4. Le dépôt contient tout le projet : le md maître, build.py, style.css, app.js, firebase-init.js, pdf.js, RÈGLES-RECETTES.md, PASSATION.md. Les HTML produits restent hors du dépôt (`.gitignore`).
-5. **« Republie »** — pipeline complet : build → PDF → mise à jour de l'Artifact. Jamais déclenché sans ce mot.
+    4. Le dépôt contient tout le projet : le md maître, build.py, style.css, app.js, firebase-init.js, RÈGLES-RECETTES.md, PASSATION.md. Les HTML produits restent hors du dépôt (`.gitignore`).
+5. **« Republie »** — pipeline complet : build, QA, puis mise en ligne sur Netlify. Jamais déclenché sans ce mot. Pas d'étape PDF : le carnet se consulte en ligne.
 
 Mots-clés du projet : `intègre au carnet` · `valide` · `republie` · `complète les macros` (chantier de rattrapage des macros sur les fiches antérieures à v10).
 
