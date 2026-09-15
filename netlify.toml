@@ -1,12 +1,16 @@
 # Déploiement du carnet sur Netlify.
-# Site : carnet-de-recettes-celine.netlify.app
+# Projet : carnet-de-recettes-celine (667569cd-4577-48ba-978f-2cb5bf1e48a4)
+# https://carnet-de-recettes-celine.netlify.app
 #
-# Hypothèse : build.py assemble le site dans dist/.
-# Si le site est publié tel quel, sans étape de construction,
-# retirer "command" et mettre publish = ".".
+# build.py écrit carnet-de-fournil.standalone.html à la racine ; Netlify
+# sert index.html, d'où la copie vers dist/.
+#
+# Cette configuration ne prend effet que si le dépôt est relié à Netlify.
+# Le déploiement actuel se fait à la main (voir PASSATION.md) : relier git
+# remplacerait ce mode-là.
 
 [build]
-  command = "python3 build.py"
+  command = "pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carnet-de-fournil.standalone.html dist/index.html"
   publish = "dist"
 
 [build.environment]

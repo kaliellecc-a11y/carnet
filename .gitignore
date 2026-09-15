@@ -1,18 +1,17 @@
+# Produits du build — build.py les régénère.
+# Règle du projet (PASSATION.md) : les HTML ne vivent pas dans les sources.
+carnet-de-fournil.html
+carnet-de-fournil.standalone.html
+carnet-de-fournil.md
+*.pdf
+site/
+dist/
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-
-# Build
-dist/
-build/
-*.pdf
-
-# Secrets — la config Firebase réelle ne doit pas être versionnée
-assets/js/firebase-config.local.js
-.env
-.env.*
 
 # OS / éditeurs
 .DS_Store
