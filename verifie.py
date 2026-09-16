@@ -36,6 +36,20 @@ GABARIT_CLASSIQUE = set("RTW")
 # Familles dont la meta doit porter des macros.
 MACROS_ATTENDUES = set("RTWGB")
 
+# Équivalents en grammes des ingrédients comptés à la pièce. Ils vivent ici
+# parce que le balisage (quantites.py) et le recoupement des macros (macros.py)
+# s'appuient tous deux dessus, et que ce module ne dépend de rien.
+PIECES = {
+    "œuf": 50.0, "œufs": 50.0,
+    "jaune": 18.0, "jaunes": 18.0,
+    "blanc": 32.0, "blancs": 32.0,
+}
+
+# Un ingrédient dénombré dont le poids ne pèse rien dans les macros.
+NEGLIGEABLES = ("gousse", "cube", "pincée", "zeste", "feuille", "brin", "trait")
+
+DENOMBRE = re.compile(r"\*\*(\d+)(?:\s*(?:à|-)\s*\d+)?\*\*\s*([a-zà-ÿœ]+)")
+
 # Types de farine : « T65 » ressemble à une fiche Turbo sans en être une.
 FARINES = {"T45", "T55", "T65", "T80", "T110", "T130", "T150"}
 
@@ -178,6 +192,31 @@ def controle_macros(rid: str, corps: str, rap: Rapport) -> None:
         rap.avertit(rid, "meta sans macros (chantier « complète les macros »)")
 
 
+def controle_ingredients_peses(rid: str, corps: str, rap: Rapport) -> None:
+    """Un ingrédient dénombré sans poids fausse les macros de la fiche.
+
+    « 2 pommes » n'entre dans aucun total : ni la somme des poids, ni les
+    calories. Les fiches concernées sont justement celles dont les macros
+    déclarées ne se recoupent pas (voir macros.py). Les assaisonnements
+    dénombrés — une gousse, un cube — ne pèsent rien et ne comptent pas.
+    """
+    meta = re.search(r'<p class="meta">(.*?)</p>', corps, re.S)
+    if not meta or "kcal" not in meta.group(1):
+        return
+    for ligne in bloc_ingredients(corps).split("\n"):
+        s = ligne.strip()
+        if not s.startswith("- "):
+            continue
+        m = DENOMBRE.match(s[2:].strip())
+        if not m:
+            continue
+        mot = m.group(2).lower()
+        if mot in PIECES or any(n in s.lower() for n in NEGLIGEABLES):
+            continue
+        rap.avertit(rid, f"« {s[2:].strip()[:44]} » : dénombré sans poids, "
+                         f"hors des macros")
+
+
 def controle_numeros(fiches: list[tuple[str, str]], rap: Rapport) -> set[str]:
     ids = [rid for rid, _ in fiches]
     for rid, n in Counter(ids).items():
@@ -226,6 +265,7 @@ def main() -> int:
         controle_structure(rid, corps, rap)
         controle_poids(rid, corps, rap)
         controle_macros(rid, corps, rap)
+        controle_ingredients_peses(rid, corps, rap)
     controle_renvois(md, connus, rap)
     controle_sous_categories(md, rap)
 

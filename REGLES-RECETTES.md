@@ -77,7 +77,13 @@ Le gabarit sert aussi au recalcul des quantités dans la page : `quantites.py` b
 
 Une **erreur** arrête le build : rien n'est produit, donc rien n'est déployé. Un **avertissement** laisse construire. `python3 verifie.py` seul donne le rapport sans construire ; `--strict` fait échouer aussi sur les avertissements.
 
-Ce que le contrôle ne sait pas faire, et qui reste à ta charge : la véracité d'une température ou d'un geste, le calcul des macros, la somme des poids contre le rendement annoncé (le rendement est en texte libre), et l'absence de doublon de recette.
+`macros.py` recoupe les macros déclarées, sans donnée extérieure : une fiche annonce ses calories deux fois (pour 100 g et par part), les deux doivent retomber sur le même total. `python3 macros.py` sort le tableau des écarts, `python3 macros.py R7 R20` se limite à des fiches.
+
+**C'est un diagnostic, pas un verdict.** Quatre causes de divergence sont légitimes et illisibles depuis la fiche : la perte à la cuisson (les macros portent sur le cuit, le total sur le cru), les parties non comestibles (os, peau), le rendement composé (« 4 pâtons, 16 crackers chacun » fait 64 crackers), les ingrédients non pesés. L'écart médian du carnet est de −10 %, exactement la perte de cuisson documentée au §2 : une fiche proche de cette médiane se comporte normalement.
+
+Un seul de ces quatre points est contrôlé automatiquement parce qu'il est objectif : un ingrédient **dénombré sans poids** (« 2 pommes ») dans une fiche qui déclare des macros. Il n'entre dans aucun total, fausse les macros et empêche tout recoupement. Les assaisonnements dénombrés — une gousse, un cube, une pincée — sont ignorés.
+
+Ce que rien ne contrôle, et qui reste à ta charge : la véracité d'une température ou d'un geste, le **calcul** des macros lui-même (il faudrait la table Ciqual, absente du dépôt), et l'absence de doublon de recette.
 
 ## 6. Workflow : de la discussion à l'intégration
 

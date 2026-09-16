@@ -14,6 +14,7 @@ de fruits. 68 fiches, rangées par appareil.
 | `build.py` | Génère les deux HTML à partir du maître, du CSS et du JS |
 | `verifie.py` | Contrôle les fiches avant construction ; arrête le build sur erreur |
 | `quantites.py` | Balise les quantités pour que la page sache les recalculer |
+| `macros.py` | Recoupe les macros déclarées entre elles (diagnostic) |
 | `echelle.js` | Recalcul d'une recette dans la page : compteur de parts, pivot |
 | `test-echelle.cjs` | QA du recalcul dans un vrai navigateur (optionnel) |
 | `style.css` | Design system : palette crème/brun, Fraunces, Literata, IBM Plex Mono |

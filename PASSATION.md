@@ -14,6 +14,18 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Macros : recoupement, pas calcul (2026-09-16)
+
+`macros.py` recoupe les deux annonces caloriques d'une fiche (pour 100 g, par part) et signale les écarts. Sans donnée extérieure : c'est le seul contrôle de macros possible tant que la table Ciqual n'est pas dans le dépôt.
+
+Résultat sur le carnet : **écart médian −9,9 %**, ce qui correspond très exactement à la perte de cuisson de ~10 % documentée au §2 — le modèle se valide de lui-même.
+
+Quatre causes de divergence légitimes, aucune lisible depuis la fiche : perte à la cuisson (très supérieure à 10 % pour un cracker déshydraté, cf. R28/R29), parties non comestibles (os et peau de W2), rendement composé (R28 : « 4 pâtons, 16 crackers chacun » fait 64 crackers, pas 16), ingrédients non pesés (R3, R4, R20, R21). C'est pourquoi l'outil est un diagnostic à lancer à la main, pas un contrôle bloquant.
+
+Seul le quatrième point est contrôlé automatiquement, parce qu'il est objectif : `verifie.py` avertit lorsqu'une fiche à macros contient un ingrédient dénombré sans poids (« 2 pommes »). Quatre fiches concernées aujourd'hui — les peser rendrait leurs macros justes et leur recoupement possible.
+
+**Ce qui manque pour calculer vraiment les macros :** la table Ciqual. `ciqual.anses.fr` est bloqué par le proxy réseau des sessions Claude Code, et remplir une table de composition nutritionnelle de mémoire n'est pas acceptable. Le jour où l'export officiel (XLSX ou XML) est déposé dans le dépôt, le calcul automatique devient possible.
+
 ## Recalcul des quantités (2026-09-16)
 
 Chaque fiche porte un bandeau de réglage : compteur de parts, ou clic sur une quantité de la liste pour partir de ce qu'on a sous la main. Éphémère, rien n'est enregistré.

@@ -26,14 +26,7 @@ from __future__ import annotations
 
 import re
 
-from verifie import bloc_ingredients, decoupe_fiches, poids_attendus
-
-# Équivalents en grammes des ingrédients comptés à la pièce.
-PIECES = {
-    "œuf": 50.0, "œufs": 50.0,
-    "jaune": 18.0, "jaunes": 18.0,
-    "blanc": 32.0, "blancs": 32.0,
-}
+from verifie import PIECES, bloc_ingredients, decoupe_fiches, poids_attendus
 
 # Unités de portion : leur présence autorise le réglage « pour N parts ».
 PORTIONS = {

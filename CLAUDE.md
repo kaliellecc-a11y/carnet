@@ -57,6 +57,11 @@ structure par famille, numéros, renvois, rappels de poids, sous-catégories.
 `python3 verifie.py` seul donne le rapport sans construire, et affiche les
 prochains numéros libres.
 
-Restent à contrôler à la main, le script ne sait pas les juger : véracité des
-températures et des gestes, macros, somme des poids contre le rendement,
-absence de doublon, rendu visuel d'une fiche nouvelle.
+`python3 macros.py` recoupe les macros déclarées (kcal pour 100 g contre kcal
+par part). Diagnostic, pas verdict : perte à la cuisson, parties non
+comestibles, rendement composé et ingrédients non pesés expliquent des écarts
+légitimes. L'écart médian du carnet est de −10 %, la perte au four documentée.
+
+Restent à contrôler à la main : véracité des températures et des gestes,
+calcul des macros (la table Ciqual n'est pas dans le dépôt), absence de
+doublon, rendu visuel d'une fiche nouvelle.
