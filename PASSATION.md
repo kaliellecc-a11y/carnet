@@ -18,7 +18,7 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **https://carnet-de-recettes-celine.netlify.app** — site Netlify (projet `carnet-de-recettes-celine`, siteId `667569cd-4577-48ba-978f-2cb5bf1e48a4`, forfait gratuit). C'est l'adresse à ouvrir sur tous les appareils depuis le 2026-09-11.
 
-**Déploiement continu depuis git (2026-09-16).** Le site est relié au dépôt : un push sur `main` déclenche la construction et la mise en ligne. Plus de `deploy-site` à la main, plus de dossier `site/`. La configuration vit dans `netlify.toml` :
+**Déploiement continu depuis git (2026-09-16, en service).** Le site est relié au dépôt : un push sur `main` déclenche la construction et la mise en ligne. Premier build git vert le 2026-09-16 à 08:47 (commit 36ad6a7, 11 s) — Netlify a lu `netlify.toml` et produit un fichier identique au v11 déjà en ligne, ce qui vérifie que `build.py` tourne bien sur leurs serveurs. Plus de `deploy-site` à la main, plus de dossier `site/`. La configuration vit dans `netlify.toml` :
 
 ```
 pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carnet-de-fournil.standalone.html dist/index.html
@@ -26,7 +26,7 @@ pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carne
 
 Publié : `dist/`. Pas de `PYTHON_VERSION` épinglée — `build.py` tourne dès Python 3.8 et toutes les images Netlify en fournissent une plus récente.
 
-Réglages à faire une seule fois dans l'interface Netlify (Site configuration → Build & deploy) : lier le dépôt `kaliellecc-a11y/carnet` et fixer la branche de production sur `main`.
+Liaison faite le 2026-09-16 (Project configuration → Déploiement continu → Dépôt → Link repository). Branche de production : `main`.
 
 Le déploiement remplace le contenu du site ; les notes vivent dans Firestore et ne sont jamais touchées. Un build qui échoue ne déploie rien : la version en ligne reste celle du dernier build vert.
 
