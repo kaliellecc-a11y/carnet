@@ -15,6 +15,9 @@ de fruits. 68 fiches, rangées par appareil.
 | `verifie.py` | Contrôle les fiches avant construction ; arrête le build sur erreur |
 | `quantites.py` | Balise les quantités pour que la page sache les recalculer |
 | `macros.py` | Recoupe les macros déclarées entre elles (diagnostic) |
+| `sw.js` | Service worker : le carnet s'ouvre sans réseau |
+| `hors-ligne.js` | Enregistre le service worker et signale l'état du réseau |
+| `manifest.webmanifest`, `icones/` | Installation sur l'écran d'accueil |
 | `echelle.js` | Recalcul d'une recette dans la page : compteur de parts, pivot |
 | `test-echelle.cjs` | QA du recalcul dans un vrai navigateur (optionnel) |
 | `style.css` | Design system : palette crème/brun, Fraunces, Literata, IBM Plex Mono |
@@ -60,6 +63,23 @@ Vérifier ce comportement dans un navigateur :
 ```bash
 npm install playwright
 node test-echelle.cjs
+```
+
+## Hors ligne
+
+Le carnet s'ouvre sans réseau et s'installe sur l'écran d'accueil comme une
+application. Le service worker garde la page, les polices et le SDK Firebase ;
+il ne touche jamais aux appels Firestore, dont la persistance IndexedDB gère
+déjà la file d'attente hors ligne et la rejoue à la reconnexion.
+
+La page est servie réseau d'abord : une version fraîche prime toujours, et le
+cache ne sert que de filet. Ouvert depuis le disque (`file://`), le fichier
+autonome fonctionne sans service worker, qui n'y est pas enregistré.
+
+```bash
+python3 build.py
+cd dist && python3 -m http.server 8777    # localhost compte comme sécurisé
+node ../test-hors-ligne.cjs               # depuis un autre terminal
 ```
 
 ## Source de vérité

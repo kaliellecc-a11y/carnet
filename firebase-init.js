@@ -15,7 +15,10 @@ window.CARNET_FIREBASE = {
 window.carnetFirebase = function () {
   var cfg = window.CARNET_FIREBASE;
   if (!cfg || !cfg.apiKey || /^COLLE/.test(cfg.apiKey)) return Promise.resolve(null);
-  if (!navigator.onLine && !window.firebase) return Promise.resolve(null);
+  // Hors ligne, le SDK peut venir du cache du service worker : on tente, et
+  // l'échec de chargement retombe de lui-même sur localStorage plus bas.
+  // Une fois chargé, la persistance IndexedDB de Firestore met les écritures
+  // en file d'attente et les rejoue à la reconnexion.
 
   function load(src) {
     return new Promise(function (ok, ko) {

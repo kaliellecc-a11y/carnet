@@ -290,7 +290,8 @@ css = pathlib.Path("style.css").read_text(encoding="utf-8")
 js = pathlib.Path("app.js").read_text(encoding="utf-8")
 fb = pathlib.Path("firebase-init.js").read_text(encoding="utf-8")
 ech = pathlib.Path("echelle.js").read_text(encoding="utf-8")
-js = fb + "\n" + js + "\n" + ech
+hl = pathlib.Path("hors-ligne.js").read_text(encoding="utf-8")
+js = fb + "\n" + js + "\n" + ech + "\n" + hl
 
 page = f"""<title>Carnet de recettes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -325,6 +326,31 @@ page = f"""<title>Carnet de recettes</title>
 pathlib.Path("carnet-de-fournil.html").write_text(page, encoding="utf-8")
 
 # standalone (with doctype) : la page mise en ligne, et le fichier livrable
-full = "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">" + page.split("<div class=\"page\">",1)[0] + "</head><body><div class=\"page\">" + page.split("<div class=\"page\">",1)[1] + "</body></html>"
+tete = ("<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\">"
+        "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
+        "<link rel=\"manifest\" href=\"./manifest.webmanifest\">"
+        "<meta name=\"theme-color\" content=\"#7A3A15\">"
+        "<link rel=\"apple-touch-icon\" href=\"./icones/icone-192.png\">"
+        "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">"
+        "<meta name=\"apple-mobile-web-app-title\" content=\"Carnet\">")
+full = tete + page.split("<div class=\"page\">",1)[0] + "</head><body><div class=\"page\">" + page.split("<div class=\"page\">",1)[1] + "</body></html>"
 pathlib.Path("carnet-de-fournil.standalone.html").write_text(full, encoding="utf-8")
+
+# ---------------------------------------------------------------- dossier servi
+# Tout ce que Netlify publie, assemblé ici plutôt qu'en commandes shell : le
+# service worker et le manifeste doivent être à la racine du site pour couvrir
+# l'ensemble des pages.
+import shutil
+DIST = pathlib.Path("dist")
+if DIST.exists():
+    shutil.rmtree(DIST)
+(DIST / "icones").mkdir(parents=True)
+(DIST / "index.html").write_text(full, encoding="utf-8")
+(DIST / "sw.js").write_text(
+    pathlib.Path("sw.js").read_text(encoding="utf-8").replace("__VERSION__", f"{VERSION}-{DATE}"),
+    encoding="utf-8")
+shutil.copy2("manifest.webmanifest", DIST / "manifest.webmanifest")
+for ico in ("icone-192.png", "icone-512.png"):
+    shutil.copy2(pathlib.Path("icones") / ico, DIST / "icones" / ico)
+print("dist/ prêt :", ", ".join(sorted(p.name for p in DIST.rglob("*") if p.is_file())))
 print("ok", len(page))

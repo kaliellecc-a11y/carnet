@@ -36,6 +36,22 @@ Seul le quatrième point est contrôlé automatiquement, parce qu'il est objecti
 
 **Ce qui manque pour calculer vraiment les macros :** la table Ciqual. `ciqual.anses.fr` est bloqué par le proxy réseau des sessions Claude Code, et remplir une table de composition nutritionnelle de mémoire n'est pas acceptable. Le jour où l'export officiel (XLSX ou XML) est déposé dans le dépôt, le calcul automatique devient possible.
 
+## Hors ligne (2026-09-16)
+
+Le carnet s'ouvre désormais sans réseau et s'installe sur l'écran d'accueil.
+
+La limite notée en v11 — « une note écrite hors ligne ne remonte pas automatiquement au retour du réseau » — venait de **trois verrous en série**, pas d'un défaut de Firestore : sans réseau la page ne chargeait pas du tout, donc Firebase n'était jamais initialisé ; le garde `!navigator.onLine` de `firebase-init.js` empêchait de charger le SDK ; et ce SDK venait d'un CDN non mis en cache. La persistance IndexedDB, elle, était déjà activée depuis v11.
+
+Les trois sont levés : `sw.js` garde la page, les polices et le SDK Firebase ; le garde a été retiré ; `hors-ligne.js` enregistre le service worker et signale l'état du réseau dans le bandeau.
+
+Le service worker ne touche **jamais** aux appels Firestore (`firestore.googleapis.com` et voisins passent sans interception) : s'interposer casserait la file d'attente que le SDK gère déjà.
+
+Page servie **réseau d'abord** : une publication fraîche prime toujours, le cache n'est qu'un filet. `netlify.toml` sert `sw.js` en `no-cache`, sans quoi un service worker figé par le cache HTTP bloquerait le site sur une version. `build.py` assemble maintenant `dist/` lui-même (page, service worker, manifeste, icônes) plutôt que par des `cp` dans le toml : le service worker doit être à la racine pour couvrir tout le site.
+
+QA (`node test-hors-ligne.cjs`, serveur local sur `dist/`) : 10 contrôles — service worker actif, page en cache, 68 fiches affichées réseau coupé, styles et sommaire présents, recalcul des quantités fonctionnel hors ligne, bandeau d'état dans les deux sens, note acceptée sans plantage. Propagation d'une nouvelle version vérifiée aussi.
+
+**Non vérifiable depuis une session Claude Code** : la mise en cache du SDK Firebase et la file d'attente Firestore hors ligne, `gstatic.com` étant bloqué par le proxy réseau. Le mécanisme est en place ; à confirmer en vrai sur le site, mode avion, en écrivant une note puis en rétablissant le réseau.
+
 ## Recalcul des quantités (2026-09-16)
 
 Chaque fiche porte un bandeau de réglage : compteur de parts, ou clic sur une quantité de la liste pour partir de ce qu'on a sous la main. Éphémère, rien n'est enregistré.

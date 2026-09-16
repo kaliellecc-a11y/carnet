@@ -46,6 +46,20 @@ les MD5 recopiés à la main.
   fichiers ; ne relancer le pipeline complet que sur demande explicite
   (« mets à jour », « republie »).
 
+## Hors ligne
+
+Le carnet s'ouvre sans réseau grâce à `sw.js`. Deux règles à ne pas casser :
+
+- Le service worker ne doit **jamais** intercepter les appels Firestore. Sa
+  persistance IndexedDB gère déjà la file d'attente hors ligne ; s'interposer
+  la casserait.
+- `sw.js` est servi en `no-cache` (voir `netlify.toml`). Un service worker figé
+  par le cache HTTP bloque le site sur une version.
+
+`build.py` assemble `dist/` : page, service worker, manifeste, icônes. Le
+service worker doit rester à la racine du site, sinon sa portée ne couvre pas
+le carnet.
+
 ## Vérifier avant de livrer
 
 ```bash
@@ -61,6 +75,9 @@ prochains numéros libres.
 par part). Diagnostic, pas verdict : perte à la cuisson, parties non
 comestibles, rendement composé et ingrédients non pesés expliquent des écarts
 légitimes. L'écart médian du carnet est de −10 %, la perte au four documentée.
+
+`node test-hors-ligne.cjs`, avec un serveur local sur `dist/`, vérifie que le
+carnet s'ouvre réseau coupé.
 
 Restent à contrôler à la main : véracité des températures et des gestes,
 calcul des macros (la table Ciqual n'est pas dans le dépôt), absence de

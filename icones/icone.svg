@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#7A3A15"/>
+  <!-- bocal de kéfir : le fil conducteur du carnet -->
+  <path d="M182 140h148a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8h-6v28c0 10 4 16 12 24 20 20 30 44 30 74v78c0 36-28 64-64 64H210c-36 0-64-28-64-64v-78c0-30 10-54 30-74 8-8 12-14 12-24v-28h-6a8 8 0 0 1-8-8v-20a8 8 0 0 1 8-8z" fill="#F7F1E3"/>
+  <circle cx="214" cy="356" r="22" fill="#7A3A15" opacity=".22"/>
+  <circle cx="286" cy="330" r="30" fill="#7A3A15" opacity=".22"/>
+  <circle cx="254" cy="410" r="16" fill="#7A3A15" opacity=".22"/>
+  <circle cx="312" cy="398" r="12" fill="#7A3A15" opacity=".22"/>
+</svg>

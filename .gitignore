@@ -11,6 +11,8 @@ dist/
 node_modules/
 package-lock.json
 *.png
+# … sauf les icônes de l'application, qui font partie du site publié
+!icones/*.png
 
 # Python
 __pycache__/

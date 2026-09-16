@@ -3,16 +3,24 @@
 # https://carnet-de-recettes-celine.netlify.app
 #
 # Le dépôt est la source : un push sur main déclenche la construction.
-# build.py écrit carnet-de-fournil.standalone.html à la racine ; Netlify sert
-# index.html, d'où la copie vers dist/.
+# build.py assemble lui-même dist/ : la page, le service worker, le manifeste
+# et les icônes. Le service worker doit être servi depuis la racine du site,
+# sinon sa portée ne couvre pas le carnet.
 #
 # Pas de PYTHON_VERSION épinglée : build.py tourne dès Python 3.8, et toutes
 # les images de build Netlify en fournissent une plus récente. Épingler une
 # version absente de l'image ferait échouer le build sans rien apporter.
 
 [build]
-  command = "pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carnet-de-fournil.standalone.html dist/index.html"
+  command = "pip install -r requirements.txt && python3 build.py"
   publish = "dist"
+
+# Un service worker mis en cache par le navigateur fige le site sur une
+# version : il doit toujours être revalidé.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
 
 [[headers]]
   for = "/*"

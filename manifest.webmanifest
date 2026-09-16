@@ -1,0 +1,17 @@
+{
+  "name": "Carnet de recettes",
+  "short_name": "Carnet",
+  "description": "Pâtes levées, glaces et fermentations, au kéfir de fruits.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#EDE4D2",
+  "theme_color": "#7A3A15",
+  "icons": [
+    { "src": "./icones/icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
