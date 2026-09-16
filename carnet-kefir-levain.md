@@ -172,11 +172,11 @@ La base des boissons chaudes de ce chapitre, et le remplaçant du lait dans les 
 - **Le matin**
     - **150 g** · skyr
     - **2** œufs
-    - **1** banane écrasée ou 30 g miel
+    - **100 g** · banane écrasée (1 banane), ou 30 g de miel
     - **3 g** · sel
     - cannelle
 
-**Méthode.** Mélanger la base du soir — avoine (120 g), farine (80 g), kéfir (250 g) —, couvrir, 8-12 h à température ambiante : bulles et odeur de cidre. Le matin, incorporer le skyr (150 g), les jaunes, la banane, le sel (3 g). Monter les 2 blancs, incorporer sans écraser. Poêle antiadhésive feu moyen, un peu de beurre, louche de 60 g, couvercle 2 min, retourner 1 min. Les blancs donnent l'épaisseur ; sans eux, pancakes fins et tendres, très bien aussi.
+**Méthode.** Mélanger la base du soir — avoine (120 g), farine (80 g), kéfir (250 g) —, couvrir, 8-12 h à température ambiante : bulles et odeur de cidre. Le matin, incorporer le skyr (150 g), les jaunes, la banane (100 g), le sel (3 g). Monter les 2 blancs, incorporer sans écraser. Poêle antiadhésive feu moyen, un peu de beurre, louche de 60 g, couvercle 2 min, retourner 1 min. Les blancs donnent l'épaisseur ; sans eux, pancakes fins et tendres, très bien aussi.
 
 **Variantes.** Sarrasin à la place de la T80 · myrtilles posées sur la pâte à la cuisson · version salée sans banane, ciboulette et fromage frais.
 
@@ -304,13 +304,13 @@ La nuit de fermentation attendrit l'avoine, enlève le goût de la farine de poi
 - **250 g** · kéfir
 - **250 g** · fromage blanc
 - **3** œufs
-- **1** pomme râpée ou 1 banane écrasée
+- **150 g** · pomme râpée (1 pomme), ou 100 g de banane écrasée
 - **40 g** · miel
 - **40 g** · huile
 - **1 c. à café** · cannelle
 - **4 g** · sel
 
-**Méthode.** Le soir : l'avoine (150 g), le pois chiche (50 g), le kéfir (250 g), couvert, 8-12 h à température ambiante. Le matin : ajouter le fromage blanc (250 g), les jaunes, le miel (40 g), l'huile (40 g), le fruit, la cannelle, le sel (4 g). Monter les blancs, incorporer. Moule chemisé, 175 °C 45-50 min. Refroidir avant de trancher.
+**Méthode.** Le soir : l'avoine (150 g), le pois chiche (50 g), le kéfir (250 g), couvert, 8-12 h à température ambiante. Le matin : ajouter le fromage blanc (250 g), les jaunes, le miel (40 g), l'huile (40 g), le fruit (150 g), la cannelle, le sel (4 g). Monter les blancs, incorporer. Moule chemisé, 175 °C 45-50 min. Refroidir avant de trancher.
 
 **Variantes.** Noix, graines de courge · carotte râpée + gingembre · 30 g de poudre d'amande pour plus de tenue.
 
@@ -922,12 +922,12 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 
 - **5** œufs
 - **520 g** · skyr nature
-- **2** pommes tranchées finement, précuites avec cannelle et miel, refroidies avant intégration
+- **300 g** · pommes tranchées finement (2 pommes), précuites avec cannelle et miel, refroidies avant intégration
 - **25 g** · mélange maïzena / farine de riz
 - sucre ou miel, selon le sucrant
 - vanille · cannelle · jus de citron
 
-**Méthode.** Précuire les pommes à la poêle avec cannelle et miel, laisser refroidir. Fouetter les œufs, le skyr (520 g), le mélange maïzena-riz (25 g), le sucrant, la vanille, la cannelle, le jus de citron jusqu'à lisse. Verser dans le moule, répartir les pommes. Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur (le centre tremble à peine, la lame ressort propre). Refroidir puis réfrigérer avant de démouler.
+**Méthode.** Précuire les pommes (300 g) à la poêle avec cannelle et miel, laisser refroidir. Fouetter les œufs, le skyr (520 g), le mélange maïzena-riz (25 g), le sucrant, la vanille, la cannelle, le jus de citron jusqu'à lisse. Verser dans le moule, répartir les pommes. Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur (le centre tremble à peine, la lame ressort propre). Refroidir puis réfrigérer avant de démouler.
 </article>
 
 <article class="fiche" markdown="1">
@@ -939,13 +939,14 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 
 - **5** œufs
 - **520 g** · skyr nature
-- **1** banane écrasée + 1 banane en morceaux
+- **100 g** · banane écrasée (1 banane)
+- **100 g** · banane en morceaux (1 banane)
 - **50-60 g** · pépites de chocolat, ajoutées à froid en dernier
 - **25 g** · mélange maïzena / farine de riz
 - **15-20 g** · sucre, ou aucun
 - vanille
 
-**Méthode.** Fouetter les œufs, le skyr (520 g), la banane écrasée, le mélange maïzena-riz (25 g), le sucre (15-20 g, ou rien), la vanille. Incorporer les morceaux de banane, puis les pépites (50-60 g) à froid en dernier (elles ne fondent pas dans l'appareil). Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur. Refroidir puis réfrigérer.
+**Méthode.** Fouetter les œufs, le skyr (520 g), la banane écrasée (100 g), le mélange maïzena-riz (25 g), le sucre (15-20 g, ou rien), la vanille. Incorporer les morceaux de banane (100 g), puis les pépites (50-60 g) à froid en dernier (elles ne fondent pas dans l'appareil). Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur. Refroidir puis réfrigérer.
 </article>
 
 ## 3. Turbo Cuisine

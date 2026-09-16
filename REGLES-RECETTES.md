@@ -81,6 +81,8 @@ Une **erreur** arrête le build : rien n'est produit, donc rien n'est déployé.
 
 **C'est un diagnostic, pas un verdict.** Quatre causes de divergence sont légitimes et illisibles depuis la fiche : la perte à la cuisson (les macros portent sur le cuit, le total sur le cru), les parties non comestibles (os, peau), le rendement composé (« 4 pâtons, 16 crackers chacun » fait 64 crackers), les ingrédients non pesés. L'écart médian du carnet est de −10 %, exactement la perte de cuisson documentée au §2 : une fiche proche de cette médiane se comporte normalement.
 
+**Tout ingrédient qui pèse doit être pesé.** « 2 pommes » n'entre dans aucun total et ne suit pas le recalcul de la page. Écrire le poids, le dénombrement entre parenthèses : `**300 g** · pommes tranchées finement (2 pommes)`. Conventions retenues le 2026-09-16, à ajuster si le calibre diffère : **une pomme ≈ 150 g**, **une banane ≈ 100 g de chair** (une banane entière pèse ≈ 150 g, dont 35 à 40 % de peau). Ces deux valeurs sont celles que les macros déjà déclarées du carnet impliquaient.
+
 Un seul de ces quatre points est contrôlé automatiquement parce qu'il est objectif : un ingrédient **dénombré sans poids** (« 2 pommes ») dans une fiche qui déclare des macros. Il n'entre dans aucun total, fausse les macros et empêche tout recoupement. Les assaisonnements dénombrés — une gousse, un cube, une pincée — sont ignorés.
 
 Ce que rien ne contrôle, et qui reste à ta charge : la véracité d'une température ou d'un geste, le **calcul** des macros lui-même (il faudrait la table Ciqual, absente du dépôt), et l'absence de doublon de recette.

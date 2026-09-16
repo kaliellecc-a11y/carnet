@@ -14,6 +14,16 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Fruits pesés dans R3, R4, R20, R21 (2026-09-16)
+
+Les pommes et bananes de ces quatre fiches étaient dénombrées, pas pesées : hors des totaux, hors des macros, et figées au recalcul de la page. Elles portent maintenant un poids, le dénombrement passant entre parenthèses.
+
+Conventions : **une pomme ≈ 150 g**, **une banane ≈ 100 g de chair**. Deux justifications indépendantes qui convergent — une banane entière pèse ≈ 150 g dont 35 à 40 % de peau, soit ≈ 95-100 g de chair ; et le poids de fruit qu'il faudrait pour que chaque fiche retombe sur la médiane du carnet donne 146 et 158 g pour les pommes, 97 g pour la banane de R4.
+
+Les quantités réelles n'ont pas changé, seulement leur écriture : **les macros déclarées sont donc inchangées**, et c'est justement ce qui se vérifie. R3 et R4 passent à −10,3 % d'écart (la médiane du carnet), R20 à −8,7 %, R21 à −1,7 % — un flan en bain-marie perd moins qu'une fournée au four. Les fiches proches de la médiane passent de 10/20 à 13/20.
+
+`verifie.py` ne signale plus rien. Version du carnet inchangée (v11) : aucune recette n'est modifiée, seule leur rédaction est précisée.
+
 ## Macros : recoupement, pas calcul (2026-09-16)
 
 `macros.py` recoupe les deux annonces caloriques d'une fiche (pour 100 g, par part) et signale les écarts. Sans donnée extérieure : c'est le seul contrôle de macros possible tant que la table Ciqual n'est pas dans le dépôt.
