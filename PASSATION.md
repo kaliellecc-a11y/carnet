@@ -22,7 +22,7 @@ Conventions : **une pomme ≈ 150 g**, **une banane ≈ 100 g de chair**. Deux j
 
 Les quantités réelles n'ont pas changé, seulement leur écriture : **les macros déclarées sont donc inchangées**, et c'est justement ce qui se vérifie. R3 et R4 passent à −10,3 % d'écart (la médiane du carnet), R20 à −8,7 %, R21 à −1,7 % — un flan en bain-marie perd moins qu'une fournée au four. Les fiches proches de la médiane passent de 10/20 à 13/20.
 
-`verifie.py` ne signale plus rien. Version du carnet inchangée (v11) : aucune recette n'est modifiée, seule leur rédaction est précisée.
+`verifie.py` ne signale plus rien. Carnet passé en **v11.1** (2026-09-16) : aucune recette n'est modifiée, seule leur rédaction est précisée — d'où la décimale plutôt qu'une version pleine.
 
 ## Macros : recoupement, pas calcul (2026-09-16)
 
@@ -75,9 +75,11 @@ Ancien Artifact (figé en v6.1, notes séparées dans la base Claude) : https://
 
 Page privée, accessible depuis tous les appareils connectés au compte de Céline. Édition directe possible sur la page elle-même (bouton « Modifier la recette », notes, journal des fournées, section « Carnet de notes ») — synchronisée entre appareils sans passer par Claude. Pour ajouter une fiche complète et bien formatée, il faut passer par une conversation Claude.
 
-**État publié : v11 sur Netlify (2026-09-11).** L'Artifact reste figé en v6.1. **v11 validée le 2026-09-11 (HTML + standalone livrés).** PDF abandonné depuis le 2026-09-15 (consultation en ligne). Testé en réel sur le site en ligne : 68 fiches, HTTPS, bandeau synchronisé, écriture d'une note depuis le site relue dans le fichier local, rendu mobile sans débordement horizontal.
+**État publié : v11.1 sur Netlify (2026-09-16).** L'Artifact reste figé en v6.1. **v11 validée le 2026-09-11 (HTML + standalone livrés).** PDF abandonné depuis le 2026-09-15 (consultation en ligne). Testé en réel sur le site en ligne : 68 fiches, HTTPS, bandeau synchronisé, écriture d'une note depuis le site relue dans le fichier local, rendu mobile sans débordement horizontal.
 
 **~~⚠ Maître Notion NON mis à jour en v11~~ — résolu autrement le 2026-09-15** : plutôt que de rattraper Notion, le maître v11 (`carnet-kefir-levain.md`, MD5 a91ec147f8249c5980d925d754312bd9, 68 fiches) a été versionné dans git, qui fait foi désormais. La page Notion « Carnet de recettes — MAÎTRE » (3d78c668-27b7-81a0-9416-ec81354c4eb1) reste figée au v10 et n'est plus à jour : ne plus s'en servir comme source.
+
+v11.1 (2026-09-16) — outillage et fruits pesés : `verifie.py` (contrôle des fiches, bloquant au build), `quantites.py` + `echelle.js` (recalcul des quantités dans la page), `macros.py` (recoupement des macros déclarées). Pommes et bananes pesées dans R3, R4, R20, R21. Déploiement continu depuis git. Aucune recette modifiée.
 
 v11 (2026-09-11) — restructuration par appareil + 22 fiches + synchronisation Firebase :
 - **Rangement** : 4 chapitres par appareil (1. Cuisson traditionnelle · 2. Ninja Woodfire · 3. Turbo Cuisine · 4. Ninja Creami), sous-catégories `Salé · type` / `Sucré · type` / `Bases · sujet`. Les bases ouvrent le chapitre qui les emploie. Recette sur deux appareils : chapitre de la cuisson principale.

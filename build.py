@@ -3,8 +3,8 @@ import re, sys, markdown, pathlib, html
 import verifie
 import quantites
 
-VERSION = "v11"
-DATE = "2026-09-11"
+VERSION = "v11.1"
+DATE = "2026-09-16"
 
 # Une fiche incohérente ne doit pas atteindre la page : le contrôle passe avant
 # la construction, et une erreur arrête tout. Les avertissements laissent passer.
