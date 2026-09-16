@@ -115,6 +115,27 @@ td:first-child{font-weight:600}
 .q-saisie{font-family:var(--mono);font-size:inherit;width:4.5em;padding:0 3px;
   background:var(--card);color:var(--ink);border:1px solid var(--accent);border-radius:2px}
 
+/* ---- recherche --------------------------------------------------------- */
+.rech{margin:0 0 16px;padding:0 0 14px;border-bottom:1px solid var(--rule-soft)}
+.rech-label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
+.rech-champ{width:100%;font-family:var(--body);font-size:15px;padding:7px 9px;
+  background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:2px}
+.rech-champ:focus{border-color:var(--accent);outline:none}
+.rech-champ::placeholder{color:var(--ink-soft);opacity:.7}
+/* la croix native de <input type="search"> arrive en bleu système : on la
+   redessine dans la palette du carnet */
+.rech-champ::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;
+  width:14px;height:14px;cursor:pointer;background:var(--ink-soft);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 3l10 10M13 3L3 13' stroke='%23000' stroke-width='2' fill='none'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 3l10 10M13 3L3 13' stroke='%23000' stroke-width='2' fill='none'/%3E%3C/svg%3E") center/contain no-repeat}
+.rech-champ::-webkit-search-cancel-button:hover{background:var(--accent-ink)}
+.rech-compteur{display:block;margin-top:6px;font-family:var(--mono);font-size:11px;
+  letter-spacing:.04em;color:var(--accent-ink);min-height:1em}
+.masque{display:none!important}
+
+@media print{.rech{display:none}}
+
 @media print{.echelle{display:none}}
 
 @media print{

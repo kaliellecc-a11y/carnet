@@ -36,6 +36,16 @@ Seul le quatrième point est contrôlé automatiquement, parce qu'il est objecti
 
 **Ce qui manque pour calculer vraiment les macros :** la table Ciqual. `ciqual.anses.fr` est bloqué par le proxy réseau des sessions Claude Code, et remplir une table de composition nutritionnelle de mémoire n'est pas acceptable. Le jour où l'export officiel (XLSX ou XML) est déposé dans le dépôt, le calcul automatique devient possible.
 
+## Recherche (2026-09-16)
+
+Un champ en tête du sommaire filtre les 68 fiches à la frappe. Il porte sur **tout le texte** d'une fiche, pas seulement sur les termes indexés à la main : « bain-marie » trouve ses 4 fiches alors que ce n'est pas une entrée d'index.
+
+Accents et casse ignorés, plusieurs mots se cumulent (intersection), le sommaire se filtre en même temps, les titres de chapitre et de sous-catégorie restent affichés au-dessus des résultats — sans quoi on ne sait plus d'où vient une fiche. Les index sont masqués pendant une recherche. `/` met le curseur dans le champ sauf si l'on écrit déjà ailleurs, `Échap` efface.
+
+L'index est construit dans le navigateur au chargement plutôt qu'au build : le précalculer aurait doublé le poids de la page. Il se reconstruit dès que le nombre de fiches change, ce qui couvre les **recettes personnelles** — elles arrivent de Firestore après le chargement, et sans cela elles seraient restées introuvables.
+
+QA (`node test-recherche.cjs`) : 19 contrôles — filtrage, sommaire synchrone, index masqués, titres conservés, insensibilité aux accents et à la casse, recherche dans la méthode, intersection de deux mots, aucun résultat, remise à zéro, recette personnelle ajoutée après coup, raccourci clavier respectant une saisie en cours.
+
 ## Hors ligne (2026-09-16)
 
 Le carnet s'ouvre désormais sans réseau et s'installe sur l'écran d'accueil.

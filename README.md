@@ -15,6 +15,7 @@ de fruits. 68 fiches, rangées par appareil.
 | `verifie.py` | Contrôle les fiches avant construction ; arrête le build sur erreur |
 | `quantites.py` | Balise les quantités pour que la page sache les recalculer |
 | `macros.py` | Recoupe les macros déclarées entre elles (diagnostic) |
+| `recherche.js` | Recherche instantanée dans les 68 fiches |
 | `sw.js` | Service worker : le carnet s'ouvre sans réseau |
 | `hors-ligne.js` | Enregistre le service worker et signale l'état du réseau |
 | `manifest.webmanifest`, `icones/` | Installation sur l'écran d'accueil |
@@ -64,6 +65,18 @@ Vérifier ce comportement dans un navigateur :
 npm install playwright
 node test-echelle.cjs
 ```
+
+## Recherche
+
+Un champ en tête du sommaire filtre les fiches à la frappe : titre, meta,
+ingrédients, méthode, variantes et pièges, là où l'index des ingrédients ne
+connaît que les termes inscrits à la main dans `build.py`. Accents et casse
+ignorés (« kefir » trouve « kéfir »), plusieurs mots se cumulent, `/` met le
+curseur dans le champ, `Échap` efface.
+
+L'index se construit dans le navigateur au chargement, et se reconstruit dès
+que le nombre de fiches change — pour que les recettes personnelles, arrivées
+de Firestore après coup, soient trouvables elles aussi.
 
 ## Hors ligne
 

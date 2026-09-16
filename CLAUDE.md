@@ -46,6 +46,13 @@ les MD5 recopiés à la main.
   fichiers ; ne relancer le pipeline complet que sur demande explicite
   (« mets à jour », « republie »).
 
+## Recherche
+
+`recherche.js` filtre les fiches à la frappe. Son index est construit dans le
+navigateur et reconstruit quand le nombre de fiches change : c'est ce qui rend
+les recettes personnelles, chargées depuis Firestore après coup, trouvables.
+Masquer se fait par la classe `masque`.
+
 ## Hors ligne
 
 Le carnet s'ouvre sans réseau grâce à `sw.js`. Deux règles à ne pas casser :
