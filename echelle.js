@@ -237,6 +237,12 @@
     if (outils) origine(outils.getAttribute("data-rid"));
   }, true);
 
+  /* La liste de courses a besoin de savoir à quel facteur une fiche est réglée :
+     c'est la seule chose que ce module expose au reste de la page. */
+  window.carnetEchelle = {
+    facteur: function (rid) { return etat[rid] || 1; }
+  };
+
   function demarre() {
     var barres = document.querySelectorAll(".echelle");
     for (var i = 0; i < barres.length; i++) installe(barres[i]);

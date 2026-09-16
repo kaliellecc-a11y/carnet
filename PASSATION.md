@@ -36,6 +36,20 @@ Seul le quatrième point est contrôlé automatiquement, parce qu'il est objecti
 
 **Ce qui manque pour calculer vraiment les macros :** la table Ciqual. `ciqual.anses.fr` est bloqué par le proxy réseau des sessions Claude Code, et remplir une table de composition nutritionnelle de mémoire n'est pas acceptable. Le jour où l'export officiel (XLSX ou XML) est déposé dans le dépôt, le calcul automatique devient possible.
 
+## Liste de courses (2026-09-16)
+
+Une case « courses » par fiche ; les ingrédients des fiches cochées s'additionnent aux quantités réglées, dans un panneau copiable d'un bouton.
+
+Le facteur est figé au moment où l'on coche, comme un panier. La sélection vit dans `localStorage` — éphémère comme le recalcul, elle n'aurait servi à rien entre la cuisine et le marché.
+
+Le regroupement était le vrai sujet. Clé : le libellé nettoyé de sa quantité, de ses parenthèses, et de tout ce qui suit un tiret cadratin ou une virgule. « farine T65 » et « farine T65 — de gruau ou "forte" si possible » s'additionnent ; R8 cumule d'elle-même ses 100 g de levain-mère et ses 350 g de pâte, soit 450 g. **Rien ne fusionne deux écritures différentes** : « zeste d'orange ou de citron » et « zeste d'un citron » restent deux lignes, ce qui est juste. Une ligne en trop se corrige au magasin ; une fusion abusive ne se voit pas.
+
+`echelle.js` expose `window.carnetEchelle.facteur(rid)` — la seule chose qu'il donne au reste de la page.
+
+Arrondi : au-delà du kilo la liste affiche des kg, à 10 g près. Au dixième de kilo, 1 150 g devenait « 1,2 kg », soit 50 g de farine en trop.
+
+QA (`node test-courses.cjs`) : 16 contrôles — cumul dans une fiche et entre fiches, regroupement des libellés précisés, titres de groupe exclus, dénombrements sans unité, ingrédients non pesés conservés, facteur répercuté, persistance après rechargement, tout décocher.
+
 ## Recherche (2026-09-16)
 
 Un champ en tête du sommaire filtre les 68 fiches à la frappe. Il porte sur **tout le texte** d'une fiche, pas seulement sur les termes indexés à la main : « bain-marie » trouve ses 4 fiches alors que ce n'est pas une entrée d'index.

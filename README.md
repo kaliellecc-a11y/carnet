@@ -16,6 +16,7 @@ de fruits. 68 fiches, rangées par appareil.
 | `quantites.py` | Balise les quantités pour que la page sache les recalculer |
 | `macros.py` | Recoupe les macros déclarées entre elles (diagnostic) |
 | `recherche.js` | Recherche instantanée dans les 68 fiches |
+| `courses.js` | Liste de courses cumulée depuis les fiches cochées |
 | `sw.js` | Service worker : le carnet s'ouvre sans réseau |
 | `hors-ligne.js` | Enregistre le service worker et signale l'état du réseau |
 | `manifest.webmanifest`, `icones/` | Installation sur l'écran d'accueil |
@@ -65,6 +66,23 @@ Vérifier ce comportement dans un navigateur :
 npm install playwright
 node test-echelle.cjs
 ```
+
+## Liste de courses
+
+Une case « courses » dans le bandeau de chaque fiche. Les ingrédients des
+fiches cochées s'additionnent, aux quantités réglées, dans un panneau qu'on
+peut copier.
+
+Le facteur est figé au moment où l'on coche, comme un panier : rerégler la
+fiche ensuite ne rejoue pas la liste — décocher puis recocher la met à jour.
+La sélection est gardée sur l'appareil (`localStorage`), sinon préparer sa
+liste puis aller au marché n'aurait pas de sens.
+
+Le regroupement se fait sur le libellé nettoyé de ses précisions : « farine
+T65 » et « farine T65 — de gruau » s'additionnent, y compris deux fois dans
+une même fiche. Deux écritures différentes font deux lignes, jamais une
+fusion : une ligne en trop se corrige au magasin, une fusion abusive ne se
+voit pas.
 
 ## Recherche
 

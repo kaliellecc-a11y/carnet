@@ -46,6 +46,15 @@ les MD5 recopiés à la main.
   fichiers ; ne relancer le pipeline complet que sur demande explicite
   (« mets à jour », « republie »).
 
+## Liste de courses
+
+`courses.js` cumule les ingrédients des fiches cochées. Le regroupement se
+fait sur le libellé nettoyé : ne jamais élargir la fusion à des synonymes
+devinés. Deux écritures différentes doivent rester deux lignes — une ligne en
+trop se corrige au magasin, une fusion abusive ne se voit pas.
+
+`echelle.js` expose `window.carnetEchelle.facteur(rid)` pour cela.
+
 ## Recherche
 
 `recherche.js` filtre les fiches à la frappe. Son index est construit dans le

@@ -292,7 +292,8 @@ fb = pathlib.Path("firebase-init.js").read_text(encoding="utf-8")
 ech = pathlib.Path("echelle.js").read_text(encoding="utf-8")
 hl = pathlib.Path("hors-ligne.js").read_text(encoding="utf-8")
 rch = pathlib.Path("recherche.js").read_text(encoding="utf-8")
-js = fb + "\n" + js + "\n" + ech + "\n" + hl + "\n" + rch
+cou = pathlib.Path("courses.js").read_text(encoding="utf-8")
+js = fb + "\n" + js + "\n" + ech + "\n" + hl + "\n" + rch + "\n" + cou
 
 page = f"""<title>Carnet de recettes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
