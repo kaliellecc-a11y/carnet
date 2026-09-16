@@ -1,7 +1,15 @@
-import re, markdown, pathlib, html
+import re, sys, markdown, pathlib, html
+
+import verifie
 
 VERSION = "v11"
 DATE = "2026-09-11"
+
+# Une fiche incohérente ne doit pas atteindre la page : le contrôle passe avant
+# la construction, et une erreur arrête tout. Les avertissements laissent passer.
+if verifie.main() != 0:
+    sys.exit("\nbuild interrompu : corriger les erreurs ci-dessus")
+print()
 
 SRC = pathlib.Path("carnet-kefir-levain.md")
 md = SRC.read_text(encoding="utf-8")

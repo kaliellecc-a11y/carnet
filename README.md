@@ -12,6 +12,7 @@ de fruits. 68 fiches, rangées par appareil.
 |---|---|
 | `carnet-kefir-levain.md` | Le markdown maître — source de vérité du carnet, éditer ici |
 | `build.py` | Génère les deux HTML à partir du maître, du CSS et du JS |
+| `verifie.py` | Contrôle les fiches avant construction ; arrête le build sur erreur |
 | `style.css` | Design system : palette crème/brun, Fraunces, Literata, IBM Plex Mono |
 | `app.js` | Édition des fiches, notes, journal des fournées, « mes recettes » |
 | `firebase-init.js` | Accès Firestore quand la page tourne hors Artifact Claude |

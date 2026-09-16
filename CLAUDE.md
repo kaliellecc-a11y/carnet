@@ -45,5 +45,11 @@ les MD5 recopiés à la main.
 python3 build.py
 ```
 
-Puis contrôler : nombre de fiches, ancres non cassées, sommaire et index
-complets, encarts kéfir présents.
+Le contrôle `verifie.py` tourne en tête de build et l'arrête sur erreur :
+structure par famille, numéros, renvois, rappels de poids, sous-catégories.
+`python3 verifie.py` seul donne le rapport sans construire, et affiche les
+prochains numéros libres.
+
+Restent à contrôler à la main, le script ne sait pas les juger : véracité des
+températures et des gestes, macros, somme des poids contre le rendement,
+absence de doublon, rendu visuel d'une fiche nouvelle.
