@@ -1,6 +1,7 @@
 import re, sys, markdown, pathlib, html
 
 import verifie
+import quantites
 
 VERSION = "v11"
 DATE = "2026-09-11"
@@ -13,6 +14,10 @@ print()
 
 SRC = pathlib.Path("carnet-kefir-levain.md")
 md = SRC.read_text(encoding="utf-8")
+
+# Les valeurs qui composent chaque recette, relevées sur le markdown avant toute
+# transformation : c'est elles qui disent quel rappel de poids suit le facteur.
+QUANTITES = quantites.quantites_du_maitre(md)
 
 # ---------------------------------------------------------------- liens croisés
 # Toute référence R/G/B/K/T + numéro dans la prose devient un lien vers la fiche.
@@ -232,8 +237,11 @@ def wrap_fiche(m):
                 end = pos + tm.end()
                 break
         gm = (rest[hm.start():end], rest[end:])
-        rest = (rest[:hm.start()] + '<div class="fgrid"><aside class="ing">' + gm[0]
-                + '</aside><div class="mode">' + gm[1] + '</div></div>')
+        connus = QUANTITES.get(rid, set())
+        rest = (rest[:hm.start()] + '<div class="fgrid"><aside class="ing">'
+                + quantites.balise_liste(gm[0])
+                + '</aside><div class="mode">'
+                + quantites.balise_methode(gm[1], connus) + '</div></div>')
     # encart F1 : injecté dans toute fiche R dont les ingrédients emploient le kéfir
     note = ""
     ing_txt = gm[0].lower() if gm else ""
@@ -242,7 +250,16 @@ def wrap_fiche(m):
                 '30 g de grains · 1 L d\'eau non chlorée · 60 g de sucre blanc, bocal couvert non hermétique, '
                 'filtré, à température ambiante — test « pschitt » à l\'ouverture. '
                 f'Détails et réglages : <a class="xref" href="#k1">{COURT["K1"]}</a>.</p>')
+    # rendement balisé, et bandeau de réglage hors de la zone éditable
+    reference = None
+    mm = re.search(r'(<p class="meta">)(.*)$', head, re.S)
+    if mm:
+        meta_balisee, reference = quantites.balise_meta(mm.group(2))
+        head = head[:mm.start()] + mm.group(1) + meta_balisee
+    echelle = quantites.barre(rid, reference)
+
     ui = f"""
+{echelle}
 <div class="fiche-body" data-rid="{rid}">{note}{rest}</div>
 <div class="outils" data-rid="{rid}">
   <div class="barre">
@@ -272,7 +289,8 @@ body = body.replace("<table>", "<div class=\"table-wrap\"><table>").replace("</t
 css = pathlib.Path("style.css").read_text(encoding="utf-8")
 js = pathlib.Path("app.js").read_text(encoding="utf-8")
 fb = pathlib.Path("firebase-init.js").read_text(encoding="utf-8")
-js = fb + "\n" + js
+ech = pathlib.Path("echelle.js").read_text(encoding="utf-8")
+js = fb + "\n" + js + "\n" + ech
 
 page = f"""<title>Carnet de recettes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -92,6 +92,31 @@ td:first-child{font-weight:600}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
+/* ---- réglage des quantités ------------------------------------------------ */
+.echelle{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:2px 0 14px;
+  font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.echelle.ajustee{color:var(--accent-ink)}
+.ech-parts{display:inline-flex;align-items:center;gap:6px;text-transform:uppercase;letter-spacing:.05em}
+.ech-parts button{font-family:var(--mono);font-size:15px;line-height:1;width:24px;height:24px;
+  background:transparent;color:var(--accent-ink);border:1px solid var(--rule);border-radius:2px;cursor:pointer}
+.ech-parts button:hover{background:var(--accent-ink);color:var(--card);border-color:var(--accent-ink)}
+.ech-n{font-family:var(--mono);font-size:13px;width:3.4em;text-align:center;padding:3px 2px;
+  background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:2px}
+.ech-facteur{font-weight:500;color:var(--accent-ink)}
+.ech-aide{font-size:11px;opacity:.75}
+.echelle.ajustee .ech-aide{display:none}
+.ech-garde{flex-basis:100%;margin:2px 0 0;font-family:var(--body);font-size:13px;
+  color:var(--accent-ink);border-left:2px solid var(--accent);padding-left:10px}
+
+/* une quantité de la liste est un point d'entrée : on tape ce qu'on a */
+.q-pivot{cursor:pointer;border-bottom:1px dotted var(--rule)}
+.q-pivot:hover{border-bottom-color:var(--accent);color:var(--accent-ink)}
+.q-ajustee{color:var(--accent-ink)}
+.q-saisie{font-family:var(--mono);font-size:inherit;width:4.5em;padding:0 3px;
+  background:var(--card);color:var(--ink);border:1px solid var(--accent);border-radius:2px}
+
+@media print{.echelle{display:none}}
+
 @media print{
   @page{size:A4;margin:16mm 16mm 18mm}
   body{background:#fff;color:#1E160F;font-size:11.5pt}

@@ -35,6 +35,13 @@ les MD5 recopiés à la main.
 - Dans le maître, toujours écrire le numéro ; l'affichage montre le nom court,
   résolu par le dictionnaire `COURT` de `build.py`.
 - Macros recalculées (Ciqual), jamais recopiées d'une fiche voisine.
+- Le recalcul des quantités dans la page repose sur le gabarit : une quantité
+  en gras en tête d'item (`**250 g**`, `**2** œufs`) est balisée par
+  `quantites.py` et devient ajustable. Écrire une quantité autrement la laisse
+  figée — sans danger, mais elle ne suivra pas le facteur.
+- Un rappel de poids dans la méthode ne suit le facteur que s'il correspond à
+  un ingrédient de la fiche. « garder 50 g de levain au froid » relève de
+  l'entretien : ce 50 g doit rester étranger à la liste, sinon il sera ajusté.
 - Ne pas republier automatiquement. Enregistrer les corrections dans les
   fichiers ; ne relancer le pipeline complet que sur demande explicite
   (« mets à jour », « republie »).

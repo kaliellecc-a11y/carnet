@@ -14,6 +14,21 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Recalcul des quantités (2026-09-16)
+
+Chaque fiche porte un bandeau de réglage : compteur de parts, ou clic sur une quantité de la liste pour partir de ce qu'on a sous la main. Éphémère, rien n'est enregistré.
+
+`quantites.py` balise les quantités au build — l'analyse se fait sur le markdown, pas dans le navigateur : une quantité que le build ne comprend pas reste figée, ce qui se voit, plutôt que d'être recalculée à tort, ce qui ne se voit pas. `echelle.js` n'a plus qu'à multiplier des valeurs déjà propres.
+
+Suivent le facteur : la liste, les rappels de poids de la méthode, le rendement. Restent figés : durées, températures, dimensions de moule, cuillerées, et les macros (les kcal par part sont invariantes, la part gardant sa taille).
+
+Trois pièges traités :
+- **Édition.** Passer en édition rétablit d'abord les quantités d'origine, sinon un enregistrement fait pendant un recalcul figerait les quantités ajustées dans la recette elle-même. L'interception est en phase de capture, donc avant qu'`app.js` ne relève le contenu.
+- **Rappels étrangers à la recette.** Un poids de la méthode n'est balisé que s'il correspond à un ingrédient de la fiche ; « garder 50 g de levain au froid » ne bouge pas.
+- **Meta en liste blanche.** Seules une unité de portion connue et un poids en grammes sont balisés. Une liste d'exclusions laissait passer « 24 lip » (des lipides) et « 2 semaines » (une conservation).
+
+QA : `node test-echelle.cjs` (après `npm install playwright`) — 16 contrôles dans Chromium, rendu mobile vérifié sans débordement.
+
 ## Lien du carnet (source de vérité vivante)
 
 **https://carnet-de-recettes-celine.netlify.app** — site Netlify (projet `carnet-de-recettes-celine`, siteId `667569cd-4577-48ba-978f-2cb5bf1e48a4`, forfait gratuit). C'est l'adresse à ouvrir sur tous les appareils depuis le 2026-09-11.

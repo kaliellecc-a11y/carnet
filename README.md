@@ -13,6 +13,9 @@ de fruits. 68 fiches, rangées par appareil.
 | `carnet-kefir-levain.md` | Le markdown maître — source de vérité du carnet, éditer ici |
 | `build.py` | Génère les deux HTML à partir du maître, du CSS et du JS |
 | `verifie.py` | Contrôle les fiches avant construction ; arrête le build sur erreur |
+| `quantites.py` | Balise les quantités pour que la page sache les recalculer |
+| `echelle.js` | Recalcul d'une recette dans la page : compteur de parts, pivot |
+| `test-echelle.cjs` | QA du recalcul dans un vrai navigateur (optionnel) |
 | `style.css` | Design system : palette crème/brun, Fraunces, Literata, IBM Plex Mono |
 | `app.js` | Édition des fiches, notes, journal des fournées, « mes recettes » |
 | `firebase-init.js` | Accès Firestore quand la page tourne hors Artifact Claude |
@@ -36,6 +39,26 @@ Prévisualiser :
 ```bash
 python3 -m http.server 8000
 # puis ouvrir http://localhost:8000/carnet-de-fournil.standalone.html
+```
+
+## Recalculer une recette
+
+Chaque fiche porte un bandeau de réglage. Deux entrées : le compteur de parts,
+ou une quantité de la liste — tu tapes ce que tu as vraiment (« je n'ai que
+200 g de farine ») et la fiche s'aligne. Le réglage est éphémère : rien n'est
+enregistré, la fiche rouvre toujours à ses quantités d'origine.
+
+Suivent le facteur : les quantités de la liste, les rappels de poids dans la
+méthode, le rendement. Ne bougent jamais : durées, températures, dimensions de
+moule, cuillerées (épices, non linéaires), et les macros — les kcal par part
+sont invariantes, puisque le nombre de parts suit le facteur et que la part
+garde sa taille.
+
+Vérifier ce comportement dans un navigateur :
+
+```bash
+npm install playwright
+node test-echelle.cjs
 ```
 
 ## Source de vérité

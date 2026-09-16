@@ -7,6 +7,11 @@ carnet-de-fournil.md
 site/
 dist/
 
+# Outils de QA (test-echelle.cjs a besoin de : npm install playwright)
+node_modules/
+package-lock.json
+*.png
+
 # Python
 __pycache__/
 *.py[cod]
