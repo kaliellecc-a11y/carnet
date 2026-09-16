@@ -14,6 +14,16 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Renvoi vers le skyr maison (T1) dans toutes les fiches au skyr (2026-09-16)
+
+T1 existait déjà et était renvoyé depuis trois endroits seulement : R25, R27 et la prose de R28. Les quinze autres fiches qui emploient du skyr le laissaient croire réservé au commerce.
+
+Chaque ligne d'ingrédient au skyr porte maintenant le renvoi : R1, R12, R23, R24, R25, R29, R30, R31, R16, B5, T2, T3, T6, W3, W4. La forme est `, ou T1` en fin de ligne — R29, qui écrivait déjà « skyr maison », prend `(T1)`. R27 et R28 gardent leur renvoi existant.
+
+Deux raisons de placer le renvoi après une virgule : `courses.js` coupe le libellé à la première virgule, donc « skyr nature » reste une seule ligne de courses ; et le renvoi s'affiche en clair (« Skyr maison ») sans alourdir la lecture de l'ingrédient.
+
+Aucune quantité, aucune macro touchée. `verifie.py` vert sur 68 fiches, `macros.py` inchangé (écart médian −10,3 %), build reproduit. `test-hors-ligne.cjs` non lancé : son module Node manque dans l'environnement de session — le changement ne touche ni `sw.js` ni les JS.
+
 ## Fruits pesés dans R3, R4, R20, R21 (2026-09-16)
 
 Les pommes et bananes de ces quatre fiches étaient dénombrées, pas pesées : hors des totaux, hors des macros, et figées au recalcul de la page. Elles portent maintenant un poids, le dénombrement passant entre parenthèses.

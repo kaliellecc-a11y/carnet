@@ -249,7 +249,7 @@ Version fermentée du gâteau au yaourt : mie humide, goût de citron et de lait
 **Ingrédients.**
 
 - **200 g** · farine T80
-- **250 g** · skyr ou fromage blanc 3 %
+- **250 g** · skyr ou fromage blanc 3 %, ou T1
 - **100 g** · kéfir
 - **3** œufs
 - **60 g** · miel — ou 40 g miel + 80 g compote (retirer alors 20 g de kéfir)
@@ -415,7 +415,7 @@ Le plus protéiné des trois : autant qu'un mug de lait demi-écrémé, avec un 
 **Ingrédients.**
 
 - **190 g** · eau d'avoine, variante noisette (R22)
-- **60 g** · skyr nature
+- **60 g** · skyr nature, ou T1
 - **15 g** · chocolat noir 80 %
 - miel, selon goût (non compté)
 
@@ -436,7 +436,7 @@ Le bol du matin en version légère. La chicorée masque bien l'avoine ; le skyr
 **Ingrédients.**
 
 - **210 g** · eau d'avoine nature (R22)
-- **40 g** · skyr nature
+- **40 g** · skyr nature, ou T1
 - **3 g** · Ricoré — une cuillère à café bombée, à ajuster
 - miel, selon goût (non compté)
 
@@ -457,7 +457,7 @@ La plus proche d'un lait d'avoine du commerce. Exception au miel assumée : l'é
 **Ingrédients.**
 
 - **200 g** · eau d'avoine, variante cannelle (R22)
-- **50 g** · skyr nature
+- **50 g** · skyr nature, ou T1
 - **10 g** · sirop d'érable
 
 **Méthode.** Chauffer l'eau d'avoine (200 g) à 60 °C. Hors du feu, détendre le skyr (50 g) avec deux cuillères de liquide, réunir, sucrer au sirop d'érable (10 g). Une pincée de cannelle moulue en surface si l'infusion a été courte.
@@ -594,7 +594,7 @@ Le gonflement vient de la vapeur à 250 °C sur une pâte fine ; le levain-mère
 
 - **300 g** · farine T65
 - **120 g** · kéfir
-- **100 g** · skyr ou yaourt
+- **100 g** · skyr ou yaourt, ou T1
 - **15 g** · huile
 - **5 g** · sel
 - beurre fondu, ail, coriandre pour finir
@@ -666,7 +666,7 @@ La plus protéinée des tartinables. La texture rillettes vient de la fibre effi
 **Ingrédients.**
 
 - **400 g** · blancs de poulet crus — ≈ 300 g une fois cuits
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **30 g** · échalote, une grosse
 - **15 g** · moutarde forte
 - **15 g** · jus de citron
@@ -692,7 +692,7 @@ La version placard, prête en cinq minutes.
 **Ingrédients.**
 
 - **250 g** · thon au naturel, poids égoutté
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **30 g** · échalote
 - **15 g** · câpres
 - **15 g** · jus de citron
@@ -804,7 +804,7 @@ La version levée des crackers fins (R28) : fermentée avant congélation, mie p
 - **50 g** · flocons d'avoine mixés en poudre grossière
 - **5 g** · sel fin
 - **25 g** · huile de colza
-- **60 g** · skyr maison
+- **60 g** · skyr maison (T1)
 - **90 g** · kéfir
 
 **Méthode.** Mixer les flocons (50 g) en poudre grossière. Dans le saladier, dans l'ordre : la farine (200 g), les flocons mixés, le sel (5 g) mélangé à la farine, l'huile (25 g), le skyr (60 g), puis le kéfir (90 g) peu à peu. Pétrir 5 min jusqu'à pâte souple et lisse qui ne colle pas. Couvrir, 6 à 8 h à 22-24 °C : +30 à 50 % de volume, sans doubler, quelques bulles en coupe. Dégazer, diviser en 3 pâtons de ≈ 143 g, aplatir en disques de 1,5 cm, filmer séparément, sachet daté : 3 mois. Pour une fournée : décongeler une nuit au réfrigérateur ou 1 h 30 à température ambiante, puis 30 min de détente couverte. Woodfire en Bake à 170 °C, plaque grill en place, sans granulés. Étaler à 4-5 mm entre deux feuilles de papier cuisson, carré d'environ 18 cm ; retirer la feuille du dessus, piquer serré (tous les centimètres), prédécouper en carrés de 4,5 cm. Glisser la feuille sur la plaque, 15 min. Séparer et retourner les carrés, 6 à 8 min, dorés des deux côtés. Passer en Déshydrater à 90 °C, 15 min, pour sécher le cœur sans brunir. Refroidir complètement sur grille. Boîte hermétique, 2 semaines.
@@ -902,7 +902,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 
 - **450 g** · potimarron en cubes de 3 cm — ≈ 400 g de purée égouttée
 - **4** œufs
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **40 g** · parmesan râpé
 - muscade, thym, sel, poivre · un peu d'huile pour le plat
 
@@ -921,7 +921,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 **Ingrédients.**
 
 - **5** œufs
-- **520 g** · skyr nature
+- **520 g** · skyr nature, ou T1
 - **300 g** · pommes tranchées finement (2 pommes), précuites avec cannelle et miel, refroidies avant intégration
 - **25 g** · mélange maïzena / farine de riz
 - sucre ou miel, selon le sucrant
@@ -938,7 +938,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 **Ingrédients.**
 
 - **5** œufs
-- **520 g** · skyr nature
+- **520 g** · skyr nature, ou T1
 - **100 g** · banane écrasée (1 banane)
 - **100 g** · banane en morceaux (1 banane)
 - **50-60 g** · pépites de chocolat, ajoutées à froid en dernier
@@ -997,7 +997,7 @@ Les lentilles corail se délitent seules : pas besoin de mixer. Soupe légère e
 - **280 g** · carottes en rondelles, 4
 - **150 g** · oignon émincé
 - **1 c. à café** · cumin
-- **60 g** · skyr nature, au service
+- **60 g** · skyr nature, ou T1, au service
 
 **Méthode.** Rincer les lentilles (150 g). Dans la cuve, dans cet ordre : l'eau (1 000 g), le cube émietté, les lentilles, les carottes (280 g), l'oignon (150 g), le cumin. Couvercle fermé et verrouillé, valve fermée, programme Soupe 10 min. Décompression naturelle 10 min, puis valve ouverte. Saler. Une cuillère de skyr (60 g en tout) dans chaque assiette.
 
@@ -1027,7 +1027,7 @@ Une base de pois chiches secs, deux fins de plat : fraîche au skyr et au citron
     - **600 g** · eau
     - **400 g** · tomates concassées, 1 boîte
 - **Finition skyr-citron**
-    - **150 g** · skyr nature
+    - **150 g** · skyr nature, ou T1
     - **30 g** · jus de citron, ½ citron
     - persil ciselé
 - **Finition butternut-feta**
@@ -1114,7 +1114,7 @@ Deux fonds de sauce au choix : **poireaux**, plus végétal et doux, ou **oignon
 - **150 g** · bouillon de volaille
 - thym, laurier
 - **25 g** · moutarde à l'ancienne
-- **80 g** · crème épaisse — allégée : 100 g de skyr
+- **80 g** · crème épaisse — allégée : 100 g de skyr, ou T1
 - **Fond poireaux**
     - **150 g** · oignon jaune émincé
     - **500 g** · poireaux en tronçons de 2 cm, bien rincés
@@ -1240,7 +1240,7 @@ La version dessert du frozen yogurt : plus sucrée et parfumée que le frozen yo
 
 **Ingrédients.**
 
-- **400 g** · skyr ou fromage blanc 3 %
+- **400 g** · skyr ou fromage blanc 3 %, ou T1
 - **100 g** · kéfir
 - **60 g** · miel
 - vanille ou zeste de citron
@@ -1592,7 +1592,7 @@ Milkshake, Frappé et Frozen Drink : la base concentrée est congelée jusqu'à 
 
 **Ingrédients.**
 
-- **500 g** · skyr 0 % ou yaourt grec 0 %
+- **500 g** · skyr 0 % ou yaourt grec 0 %, ou T1
 - **20 g** · miel
 - **0,3 g** · sel
 
