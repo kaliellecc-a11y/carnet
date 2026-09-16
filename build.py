@@ -84,6 +84,7 @@ for lvl, hid, txt in toc:
 nav.append('<li class="sec"><a href="#index-types">Index par type de plat</a></li>')
 nav.append('<li class="sec"><a href="#index-ingredients">Index des ingrédients</a></li>')
 nav.append('<li class="sec"><a href="#index-techniques">Index des techniques</a></li>')
+nav.append('<li class="sec"><a href="#journal-des-fournees">Journal des fournées</a></li>')
 nav.append("</ol></nav>")
 nav = "\n".join(nav)
 
@@ -293,7 +294,8 @@ ech = pathlib.Path("echelle.js").read_text(encoding="utf-8")
 hl = pathlib.Path("hors-ligne.js").read_text(encoding="utf-8")
 rch = pathlib.Path("recherche.js").read_text(encoding="utf-8")
 cou = pathlib.Path("courses.js").read_text(encoding="utf-8")
-js = fb + "\n" + js + "\n" + ech + "\n" + hl + "\n" + rch + "\n" + cou
+jrn = pathlib.Path("journal.js").read_text(encoding="utf-8")
+js = fb + "\n" + js + "\n" + ech + "\n" + hl + "\n" + rch + "\n" + cou + "\n" + jrn
 
 page = f"""<title>Carnet de recettes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -314,6 +316,10 @@ page = f"""<title>Carnet de recettes</title>
 {index_html}
 </main>
 </div>
+<section class="jr" id="journal-des-fournees">
+  <h2>Journal des fournées</h2>
+  <div class="jr-corps"></div>
+</section>
 <section class="carnet-libre" id="carnet-de-notes">
   <h2>Carnet de notes</h2>
   <p class="etat-global"></p>

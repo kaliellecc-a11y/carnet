@@ -36,6 +36,16 @@ Seul le quatrième point est contrôlé automatiquement, parce qu'il est objecti
 
 **Ce qui manque pour calculer vraiment les macros :** la table Ciqual. `ciqual.anses.fr` est bloqué par le proxy réseau des sessions Claude Code, et remplir une table de composition nutritionnelle de mémoire n'est pas acceptable. Le jour où l'export officiel (XLSX ou XML) est déposé dans le dépôt, le calcul automatique devient possible.
 
+## Synthèse du journal (2026-09-16)
+
+Le journal des fournées était rempli fiche par fiche et jamais relu d'ensemble : savoir ce qui attendait une correction demandait d'ouvrir les 68 fiches. Une section en fin de page, avec son entrée de sommaire, en fait la synthèse.
+
+**« À reprendre »** est le bloc qui compte : les recettes dont la *dernière* fournée est ratée ou à corriger. Une recette ratée puis réussie en sort — c'est le dernier essai qui dit où en est la recette, pas l'historique. Suivent le décompte par verdict, les dix dernières fournées et les plus refaites.
+
+Les entrées sont lues **dans la page**, pas dans Firestore : la synthèse marche donc aussi quand les notes sont en localStorage, et ne duplique pas la logique d'app.js. Elle se recalcule sur `MutationObserver` posé sur les seules listes `.entries` — observer toute la page l'aurait relancée à chaque recalcul de quantité.
+
+QA (`node test-journal.cjs`) : 20 contrôles — journal vide, décomptes, période, tri par date, notes, liens vers les fiches, plus refaites, et le cas décisif : une fiche ratée puis validée ne figure pas dans « à reprendre », et valider la dernière en attente vide le bloc.
+
 ## Liste de courses (2026-09-16)
 
 Une case « courses » par fiche ; les ingrédients des fiches cochées s'additionnent aux quantités réglées, dans un panneau copiable d'un bouton.

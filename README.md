@@ -17,6 +17,7 @@ de fruits. 68 fiches, rangées par appareil.
 | `macros.py` | Recoupe les macros déclarées entre elles (diagnostic) |
 | `recherche.js` | Recherche instantanée dans les 68 fiches |
 | `courses.js` | Liste de courses cumulée depuis les fiches cochées |
+| `journal.js` | Synthèse du journal des fournées, en fin de page |
 | `sw.js` | Service worker : le carnet s'ouvre sans réseau |
 | `hors-ligne.js` | Enregistre le service worker et signale l'état du réseau |
 | `manifest.webmanifest`, `icones/` | Installation sur l'écran d'accueil |
@@ -66,6 +67,18 @@ Vérifier ce comportement dans un navigateur :
 npm install playwright
 node test-echelle.cjs
 ```
+
+## Journal des fournées
+
+Une synthèse en fin de page relit les journaux des 68 fiches : combien de
+fournées, sur quelle période, et surtout **ce qui est à reprendre** — les
+recettes dont la *dernière* fournée est ratée ou à corriger. Une recette ratée
+puis réussie n'y figure plus : c'est le dernier essai qui dit où en est la
+recette.
+
+Suivent les dix dernières fournées et les recettes les plus refaites. Les
+entrées sont lues dans la page, ce qui rend la synthèse indifférente au mode de
+stockage — Firestore ou `localStorage`.
 
 ## Liste de courses
 

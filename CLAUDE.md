@@ -46,6 +46,13 @@ les MD5 recopiés à la main.
   fichiers ; ne relancer le pipeline complet que sur demande explicite
   (« mets à jour », « republie »).
 
+## Journal des fournées
+
+`journal.js` synthétise les journaux en fin de page. Il lit les entrées dans
+le DOM, pas dans Firestore : la synthèse reste valable quel que soit le mode
+de stockage. « À reprendre » se fonde sur la **dernière** fournée de chaque
+recette, jamais sur l'historique entier.
+
 ## Liste de courses
 
 `courses.js` cumule les ingrédients des fiches cochées. Le regroupement se
