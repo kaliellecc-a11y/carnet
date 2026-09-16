@@ -18,7 +18,19 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **https://carnet-de-recettes-celine.netlify.app** — site Netlify (projet `carnet-de-recettes-celine`, siteId `667569cd-4577-48ba-978f-2cb5bf1e48a4`, forfait gratuit). C'est l'adresse à ouvrir sur tous les appareils depuis le 2026-09-11.
 
-Redéploiement (aucune manipulation pour Céline) : copier le HTML buildé en `site/index.html`, puis, via le connecteur Netlify, `deploy-site` avec ce siteId — la commande renvoyée s'exécute depuis le dossier `site/`. Le déploiement remplace le contenu ; les notes vivent dans Firestore et ne sont jamais touchées.
+**Déploiement continu depuis git (2026-09-16).** Le site est relié au dépôt : un push sur `main` déclenche la construction et la mise en ligne. Plus de `deploy-site` à la main, plus de dossier `site/`. La configuration vit dans `netlify.toml` :
+
+```
+pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carnet-de-fournil.standalone.html dist/index.html
+```
+
+Publié : `dist/`. Pas de `PYTHON_VERSION` épinglée — `build.py` tourne dès Python 3.8 et toutes les images Netlify en fournissent une plus récente.
+
+Réglages à faire une seule fois dans l'interface Netlify (Site configuration → Build & deploy) : lier le dépôt `kaliellecc-a11y/carnet` et fixer la branche de production sur `main`.
+
+Le déploiement remplace le contenu du site ; les notes vivent dans Firestore et ne sont jamais touchées. Un build qui échoue ne déploie rien : la version en ligne reste celle du dernier build vert.
+
+Repli manuel si besoin : `deploy-site` via le connecteur Netlify avec ce siteId, depuis un dossier contenant le HTML buildé en `index.html`.
 
 Notes, journal des fournées et modifications de recettes : base Firestore du projet Firebase `carnet-recettes-3f0e0`, partagée entre le site Netlify et tout fichier HTML téléchargé. Accès ouvert sur le seul dossier `carnet`, sans authentification (choix de Céline). Le site Netlify est public pour qui connaît l'adresse — mot de passe possible via `update-visitor-access-controls` si elle le demande.
 

@@ -2,19 +2,17 @@
 # Projet : carnet-de-recettes-celine (667569cd-4577-48ba-978f-2cb5bf1e48a4)
 # https://carnet-de-recettes-celine.netlify.app
 #
-# build.py écrit carnet-de-fournil.standalone.html à la racine ; Netlify
-# sert index.html, d'où la copie vers dist/.
+# Le dépôt est la source : un push sur main déclenche la construction.
+# build.py écrit carnet-de-fournil.standalone.html à la racine ; Netlify sert
+# index.html, d'où la copie vers dist/.
 #
-# Cette configuration ne prend effet que si le dépôt est relié à Netlify.
-# Le déploiement actuel se fait à la main (voir PASSATION.md) : relier git
-# remplacerait ce mode-là.
+# Pas de PYTHON_VERSION épinglée : build.py tourne dès Python 3.8, et toutes
+# les images de build Netlify en fournissent une plus récente. Épingler une
+# version absente de l'image ferait échouer le build sans rien apporter.
 
 [build]
   command = "pip install -r requirements.txt && python3 build.py && mkdir -p dist && cp carnet-de-fournil.standalone.html dist/index.html"
   publish = "dist"
-
-[build.environment]
-  PYTHON_VERSION = "3.11"
 
 [[headers]]
   for = "/*"

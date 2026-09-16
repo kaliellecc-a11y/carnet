@@ -55,6 +55,8 @@ protection vient des règles Firestore, ouvertes sur le seul dossier `carnet`.
 
 ## Déploiement
 
-Aujourd'hui manuel, via le connecteur Netlify (voir `PASSATION.md`).
-`netlify.toml` décrit la construction automatique si le dépôt est un jour
-relié à Netlify.
+Continu : un push sur `main` déclenche la construction Netlify et la mise en
+ligne. Tout est dans `netlify.toml` — rien à lancer à la main.
+
+Un build qui échoue ne déploie rien ; la version en ligne reste celle du
+dernier build vert.
