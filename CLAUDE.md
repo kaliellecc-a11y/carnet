@@ -13,6 +13,13 @@ checklist de vérification, workflow « intègre au carnet » → « valide » �
 
 `PASSATION.md` porte l'historique et l'état publié.
 
+## Pour proposer une recette
+
+La skill `.claude/skills/nouvelle-recette/` porte le profil de goût de Céline :
+temps de travail acceptable, placard permanent, ce qui fait le goût, interdits
+fermes. Elle propose trois pistes avant de rédiger quoi que ce soit. L'invoquer
+dès qu'il s'agit de trouver quoi cuisiner ou d'ajouter une fiche.
+
 ## La source de vérité
 
 Le maître est `carnet-kefir-levain.md`, dans ce dépôt. Toute session commence
