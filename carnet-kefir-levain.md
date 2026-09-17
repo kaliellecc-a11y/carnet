@@ -249,7 +249,7 @@ Version fermentée du gâteau au yaourt : mie humide, goût de citron et de lait
 **Ingrédients.**
 
 - **200 g** · farine T80
-- **250 g** · skyr ou fromage blanc 3 %
+- **250 g** · skyr ou fromage blanc 3 %, ou T1
 - **100 g** · kéfir
 - **3** œufs
 - **60 g** · miel — ou 40 g miel + 80 g compote (retirer alors 20 g de kéfir)
@@ -312,7 +312,7 @@ La nuit de fermentation attendrit l'avoine, enlève le goût de la farine de poi
 
 **Méthode.** Le soir : l'avoine (150 g), le pois chiche (50 g), le kéfir (250 g), couvert, 8-12 h à température ambiante. Le matin : ajouter le fromage blanc (250 g), les jaunes, le miel (40 g), l'huile (40 g), le fruit (150 g), la cannelle, le sel (4 g). Monter les blancs, incorporer. Moule chemisé, 175 °C 45-50 min. Refroidir avant de trancher.
 
-**Variantes.** Noix, graines de courge · carotte râpée + gingembre · 30 g de poudre d'amande pour plus de tenue.
+**Variantes.** Noix, graines de courge · carotte râpée + cumin · 30 g de poudre d'amande pour plus de tenue.
 
 **Pièges.** Ne pas mixer l'avoine trop fin (compact). Trancher chaud = s'effrite.
 </article>
@@ -415,7 +415,7 @@ Le plus protéiné des trois : autant qu'un mug de lait demi-écrémé, avec un 
 **Ingrédients.**
 
 - **190 g** · eau d'avoine, variante noisette (R22)
-- **60 g** · skyr nature
+- **60 g** · skyr nature, ou T1
 - **15 g** · chocolat noir 80 %
 - miel, selon goût (non compté)
 
@@ -436,7 +436,7 @@ Le bol du matin en version légère. La chicorée masque bien l'avoine ; le skyr
 **Ingrédients.**
 
 - **210 g** · eau d'avoine nature (R22)
-- **40 g** · skyr nature
+- **40 g** · skyr nature, ou T1
 - **3 g** · Ricoré — une cuillère à café bombée, à ajuster
 - miel, selon goût (non compté)
 
@@ -457,7 +457,7 @@ La plus proche d'un lait d'avoine du commerce. Exception au miel assumée : l'é
 **Ingrédients.**
 
 - **200 g** · eau d'avoine, variante cannelle (R22)
-- **50 g** · skyr nature
+- **50 g** · skyr nature, ou T1
 - **10 g** · sirop d'érable
 
 **Méthode.** Chauffer l'eau d'avoine (200 g) à 60 °C. Hors du feu, détendre le skyr (50 g) avec deux cuillères de liquide, réunir, sucrer au sirop d'érable (10 g). Une pincée de cannelle moulue en surface si l'infusion a été courte.
@@ -594,10 +594,10 @@ Le gonflement vient de la vapeur à 250 °C sur une pâte fine ; le levain-mère
 
 - **300 g** · farine T65
 - **120 g** · kéfir
-- **100 g** · skyr ou yaourt
+- **100 g** · skyr ou yaourt, ou T1
 - **15 g** · huile
 - **5 g** · sel
-- beurre fondu, ail, coriandre pour finir
+- beurre fondu, ail pour finir
 
 **Méthode.** Pétrir tout 6 min — farine (300 g), kéfir (120 g), skyr (100 g), huile (15 g), sel (5 g) —, 3-4 h à 26 °C jusqu'à +75 %. 6 boules de 90 g, étaler en ovale de 4 mm. Poêle en fonte à sec très chaude : 1 min, bulles, retourner, 1 min. Badigeonner beurre-ail à la sortie.
 
@@ -666,7 +666,7 @@ La plus protéinée des tartinables. La texture rillettes vient de la fibre effi
 **Ingrédients.**
 
 - **400 g** · blancs de poulet crus — ≈ 300 g une fois cuits
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **30 g** · échalote, une grosse
 - **15 g** · moutarde forte
 - **15 g** · jus de citron
@@ -685,22 +685,21 @@ La plus protéinée des tartinables. La texture rillettes vient de la fibre effi
 <article class="fiche" markdown="1">
 #### R31 · Rillettes de thon express <span class="niveau b">B</span>
 
-<p class="meta">Sans cuisson · travail 5 min · total 35 min dont 30 min au frais · ≈ 475 g · 6 parts de 80 g · ≈ 87 kcal et 17 g de protéines pour 100 g · ≈ 70 kcal et 13,5 g de protéines par part</p>
+<p class="meta">Sans cuisson · travail 5 min · total 35 min dont 30 min au frais · ≈ 460 g · 6 parts de 77 g · ≈ 89 kcal et 17,5 g de protéines pour 100 g · ≈ 69 kcal et 13,5 g de protéines par part</p>
 
 La version placard, prête en cinq minutes.
 
 **Ingrédients.**
 
 - **250 g** · thon au naturel, poids égoutté
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **30 g** · échalote
-- **15 g** · câpres
 - **15 g** · jus de citron
 - **10 g** · moutarde
 - **5 g** · ciboulette
 - paprika fumé, poivre
 
-**Méthode.** Égoutter le thon (250 g) en le pressant bien. L'écraser à la fourchette avec le skyr (150 g), la moutarde (10 g) et le citron (15 g). Incorporer l'échalote ciselée (30 g), les câpres hachées (15 g) et la ciboulette (5 g). Poivrer, paprika, goûter avant de saler : les câpres salent déjà. 30 min au frais.
+**Méthode.** Égoutter le thon (250 g) en le pressant bien. L'écraser à la fourchette avec le skyr (150 g), la moutarde (10 g) et le citron (15 g). Incorporer l'échalote ciselée (30 g) et la ciboulette (5 g). Poivrer, paprika, goûter avant de saler : la moutarde sale déjà. 30 min au frais.
 
 **Pièges.** Thon mal pressé : l'eau restante rend la préparation liquide.
 </article>
@@ -804,7 +803,7 @@ La version levée des crackers fins (R28) : fermentée avant congélation, mie p
 - **50 g** · flocons d'avoine mixés en poudre grossière
 - **5 g** · sel fin
 - **25 g** · huile de colza
-- **60 g** · skyr maison
+- **60 g** · skyr maison (T1)
 - **90 g** · kéfir
 
 **Méthode.** Mixer les flocons (50 g) en poudre grossière. Dans le saladier, dans l'ordre : la farine (200 g), les flocons mixés, le sel (5 g) mélangé à la farine, l'huile (25 g), le skyr (60 g), puis le kéfir (90 g) peu à peu. Pétrir 5 min jusqu'à pâte souple et lisse qui ne colle pas. Couvrir, 6 à 8 h à 22-24 °C : +30 à 50 % de volume, sans doubler, quelques bulles en coupe. Dégazer, diviser en 3 pâtons de ≈ 143 g, aplatir en disques de 1,5 cm, filmer séparément, sachet daté : 3 mois. Pour une fournée : décongeler une nuit au réfrigérateur ou 1 h 30 à température ambiante, puis 30 min de détente couverte. Woodfire en Bake à 170 °C, plaque grill en place, sans granulés. Étaler à 4-5 mm entre deux feuilles de papier cuisson, carré d'environ 18 cm ; retirer la feuille du dessus, piquer serré (tous les centimètres), prédécouper en carrés de 4,5 cm. Glisser la feuille sur la plaque, 15 min. Séparer et retourner les carrés, 6 à 8 min, dorés des deux côtés. Passer en Déshydrater à 90 °C, 15 min, pour sécher le cœur sans brunir. Refroidir complètement sur grille. Boîte hermétique, 2 semaines.
@@ -902,7 +901,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 
 - **450 g** · potimarron en cubes de 3 cm — ≈ 400 g de purée égouttée
 - **4** œufs
-- **150 g** · skyr nature
+- **150 g** · skyr nature, ou T1
 - **40 g** · parmesan râpé
 - muscade, thym, sel, poivre · un peu d'huile pour le plat
 
@@ -921,7 +920,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 **Ingrédients.**
 
 - **5** œufs
-- **520 g** · skyr nature
+- **520 g** · skyr nature, ou T1
 - **300 g** · pommes tranchées finement (2 pommes), précuites avec cannelle et miel, refroidies avant intégration
 - **25 g** · mélange maïzena / farine de riz
 - sucre ou miel, selon le sucrant
@@ -938,7 +937,7 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 **Ingrédients.**
 
 - **5** œufs
-- **520 g** · skyr nature
+- **520 g** · skyr nature, ou T1
 - **100 g** · banane écrasée (1 banane)
 - **100 g** · banane en morceaux (1 banane)
 - **50-60 g** · pépites de chocolat, ajoutées à froid en dernier
@@ -997,7 +996,7 @@ Les lentilles corail se délitent seules : pas besoin de mixer. Soupe légère e
 - **280 g** · carottes en rondelles, 4
 - **150 g** · oignon émincé
 - **1 c. à café** · cumin
-- **60 g** · skyr nature, au service
+- **60 g** · skyr nature, ou T1, au service
 
 **Méthode.** Rincer les lentilles (150 g). Dans la cuve, dans cet ordre : l'eau (1 000 g), le cube émietté, les lentilles, les carottes (280 g), l'oignon (150 g), le cumin. Couvercle fermé et verrouillé, valve fermée, programme Soupe 10 min. Décompression naturelle 10 min, puis valve ouverte. Saler. Une cuillère de skyr (60 g en tout) dans chaque assiette.
 
@@ -1027,7 +1026,7 @@ Une base de pois chiches secs, deux fins de plat : fraîche au skyr et au citron
     - **600 g** · eau
     - **400 g** · tomates concassées, 1 boîte
 - **Finition skyr-citron**
-    - **150 g** · skyr nature
+    - **150 g** · skyr nature, ou T1
     - **30 g** · jus de citron, ½ citron
     - persil ciselé
 - **Finition butternut-feta**
@@ -1042,7 +1041,11 @@ Une base de pois chiches secs, deux fins de plat : fraîche au skyr et au citron
 
 **Finition butternut-feta.** Ajouter la butternut (600 g), valve fermée, Mijoté 3 min, valve ouverte aussitôt ; saler légèrement, citron (30 g), feta émiettée (100 g) et persil au service. Un œuf mollet par assiette : +6 g de protéines.
 
-**Pièges.** Butternut cuite avec les pois chiches : purée. Skyr ajouté sur la chauffe : il graine. Saler en fin de cuisson, la tomate et la feta salent déjà.
+**Variantes — pois chiches en conserve, le soir.** 250 g secs donnent ≈ 600 g cuits : remplacer par **600 g de pois chiches en conserve, égouttés et rincés** — deux boîtes de 400 g brut, plus un fond de troisième. Ils sont déjà cuits, donc ils n'absorbent plus : descendre l'eau de 600 à **150 g**, sinon c'est une soupe. Mijoté **10 min** au lieu de 30, décompression naturelle 10 min. Aucun trempage : le plat passe de 1 h 15 hors trempage à **35 min, le soir même**.
+
+Ce qu'on perd : les pois chiches secs passent 30 min sous pression dans le bouillon épicé et s'en imprègnent ; ceux de la boîte restent plus neutres et plus mous, ils se délitent si on remue fort. Compenser en montant le cumin à 3 c. à café et en rinçant bien — la saumure sale et couvre les épices. Les macros par part ne bougent pas, c'est la même quantité de pois chiches ; seule leur densité pour 100 g monte d'environ 5 %, le plat étant moins mouillé.
+
+**Pièges.** Butternut cuite avec les pois chiches : purée. Skyr ajouté sur la chauffe : il graine. Saler en fin de cuisson, la tomate et la feta salent déjà. Version conserve remuée pendant la cuisson : les pois chiches se défont.
 </article>
 
 <article class="fiche" markdown="1">
@@ -1069,7 +1072,7 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** Trier et rincer les lentilles (300 g). Dans la cuve, l'huile (15 g) ; couvercle ouvert, Rissolé, l'oignon (150 g) 3 min, puis l'ail (5 g) et le concentré (20 g) 1 min. Puis, dans cet ordre : les carottes (150 g), le panais (200 g), les lentilles, le laurier et le thym, l'eau (750 g). Couvercle fermé et verrouillé, valve fermée, Soupe 12 min. Décompression naturelle 10 min, puis valve ouverte ; lentilles encore fermes : 3 min de plus. Retirer le laurier, saler, vinaigre (15 g). Creuser 4 puits, un œuf dans chacun, parmesan (30 g) par-dessus. Couvercle Extra Crisp, 180 °C, 6 à 8 min : blanc pris, jaune coulant.
 
-**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé.
+**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette.
 
 **Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant.
 </article>
@@ -1093,7 +1096,11 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** La veille : rincer les haricots (200 g), retirer cailloux et grains abîmés, couvrir de trois fois leur volume d'eau froide, 8 à 12 h à couvert (au frais au-dessus de 25 °C). Jeter l'eau, rincer, égoutter. Dans la cuve, la dinde (300 g) émiettée à la main, à sec. Couvercle ouvert, Rissolé, attendre le préchauffage, saisir 5 à 6 min sans remuer jusqu'à coloration ; pousser sur le côté. Ajouter l'oignon (150 g), le poivron (150 g), le cumin et le paprika, 4 à 5 min en remuant jusqu'à oignon translucide. Déglacer à l'eau (100 g) en grattant le fond. Puis, dans cet ordre, sans remuer : les haricots égouttés, l'eau (400 g), les tomates (400 g) posées dessus. Couvercle fermé et verrouillé, valve fermée, Mijoté 30 min. Décompression naturelle complète, flotteur redescendu seul (20 à 25 min). Remuer, saler.
 
-**Pièges.** Haricots rouges : jamais sans trempage ni sans montée en pression complète — crus ou mal cuits, ils sont toxiques. Vérifier que le flotteur est monté pendant la cuisson.
+**Variantes — haricots en conserve, le soir.** 200 g secs donnent ≈ 480 g cuits : remplacer par **480 g de haricots rouges en conserve, égouttés et rincés** — deux boîtes de 400 g brut. Descendre l'eau de cuisson de 400 à **100 g** — le déglaçage reste à 100 g — et passer le Mijoté à **10 min**, décompression naturelle 10 min. Le plat tombe à **40 min le soir même**, sans la nuit de trempage.
+
+C'est aussi la version sûre : la conserve est stérilisée, donc la toxine du haricot rouge cru n'est plus un sujet. Ce qu'on perd : la tenue. Les haricots en boîte se défont dans un chili remué, et ils prennent moins le goût de la dinde saisie — monter le paprika à 2 c. à café et rincer soigneusement. Macros par part inchangées.
+
+**Pièges.** Haricots rouges **secs** : jamais sans trempage ni sans montée en pression complète — crus ou mal cuits, ils sont toxiques. Vérifier que le flotteur est monté pendant la cuisson. En conserve, ce risque n'existe pas.
 </article>
 
 ### Salé · Mijotés et potées
@@ -1114,7 +1121,7 @@ Deux fonds de sauce au choix : **poireaux**, plus végétal et doux, ou **oignon
 - **150 g** · bouillon de volaille
 - thym, laurier
 - **25 g** · moutarde à l'ancienne
-- **80 g** · crème épaisse — allégée : 100 g de skyr
+- **80 g** · crème épaisse — allégée : 100 g de skyr, ou T1
 - **Fond poireaux**
     - **150 g** · oignon jaune émincé
     - **500 g** · poireaux en tronçons de 2 cm, bien rincés
@@ -1226,7 +1233,7 @@ Le kéfir remplace le sirop d'un sorbet classique : acidité, pointe pétillante
 
 **Méthode.** Mixer les fruits (400 g) en purée lisse avec le kéfir (200 g), le miel (30-50 g) et le citron. Verser sans dépasser la ligne Max, congeler 24 h à plat, programme Sorbet. Re-spin avec un trait de kéfir si la texture est friable. Sortir 2-3 min avant de servir.
 
-**Variantes.** Banane + 15 g de cacao · kéfir de seconde fermentation au gingembre pour un sorbet plus piquant · moitié pêche moitié abricot.
+**Variantes.** Banane + 15 g de cacao · moitié pêche moitié abricot.
 
 **Pièges.** Moins de 30 g de miel pour 400 g de fruits : bloc dur et friable, Re-spin obligatoire. Fruit peu sucré (rhubarbe, groseille) : monter le miel à 50 g.
 </article>
@@ -1240,7 +1247,7 @@ La version dessert du frozen yogurt : plus sucrée et parfumée que le frozen yo
 
 **Ingrédients.**
 
-- **400 g** · skyr ou fromage blanc 3 %
+- **400 g** · skyr ou fromage blanc 3 %, ou T1
 - **100 g** · kéfir
 - **60 g** · miel
 - vanille ou zeste de citron
@@ -1592,7 +1599,7 @@ Milkshake, Frappé et Frozen Drink : la base concentrée est congelée jusqu'à 
 
 **Ingrédients.**
 
-- **500 g** · skyr 0 % ou yaourt grec 0 %
+- **500 g** · skyr 0 % ou yaourt grec 0 %, ou T1
 - **20 g** · miel
 - **0,3 g** · sel
 

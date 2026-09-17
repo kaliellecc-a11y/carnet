@@ -14,6 +14,49 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Légumineuses : la conserve entre au carnet (2026-09-17)
+
+La règle disait « légumineuses sèches, pas de conserve ». Elle tombe : la conserve est la version de semaine, le sec reste la référence du goût, et **toute fiche à légumineuses porte désormais les deux voies**. Le choix se fait le soir devant le placard, pas au moment d'écrire la fiche.
+
+Nouveau **§2 bis** de REGLES-RECETTES.md. Une variante conserve doit préciser quatre choses, aucune facultative : l'équivalence en grammes (sec × 2,4 = cuit ; une boîte de 400 g brut ≈ 240 g égouttés), le liquide à retirer (≈ 250 g d'eau pour 250 g de sec remplacés — la conserve n'absorbe plus), le temps gagné en distinguant trempage et cuisson, et **ce qu'on perd**.
+
+Ce dernier point est celui qui manque partout ailleurs : une légumineuse sèche cuit *dans* le bouillon et s'en imprègne ; la conserve arrive neutre et molle, et se délite si on remue. La variante dit comment compenser — épices montées d'un cran, rinçage de la saumure qui sale et masque.
+
+Trois fiches touchées :
+
+- **T3**, pois chiches : variante 600 g en conserve, eau de 600 à 150 g, Mijoté 10 min au lieu de 30. Le plat passe de 1 h 15 hors trempage à 35 min le soir même.
+- **T5**, chili : variante 480 g de haricots en conserve, eau de 400 à 100 g, Mijoté 10 min. 40 min le soir. C'est aussi la version sûre — la conserve est stérilisée, la toxicité du haricot rouge cru ne se pose plus.
+- **T4**, lentilles vertes : pas de variante, et la fiche dit pourquoi. Les lentilles ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes contre une texture molle.
+
+Les macros par part ne changent pas d'une voie à l'autre — même quantité de légumineuse dans l'assiette. Seule la densité pour 100 g monte d'environ 5 % en conserve, le plat étant moins mouillé : c'est dit dans les fiches plutôt que recalculé en double.
+
+Détail d'écriture repéré au rendu : les poids cités dans une variante ne doivent jamais être entre parenthèses. `quantites.py` balise tout poids entre parenthèses qui correspond à un ingrédient de la fiche, et « 2 boîtes de 400 g » serait devenu « 2 boîtes de 800 g » en doublant la recette. Les substitutions s'écrivent après un tiret cadratin, hors parenthèses, pour rester figées.
+
+`verifie.py` vert sur 68 fiches, écart médian inchangé à −10,3 %, build reproduit.
+
+## Câpres, gingembre et coriandre retirés des fiches (2026-09-17)
+
+La liste d'aversions du §5.4 de REGLES-RECETTES.md interdisait déjà gingembre, coriandre et anis ; câpres et curry l'ont rejointe le 2026-09-16. Quatre fiches la contredisaient encore.
+
+- **R31**, rillettes de thon : les 15 g de câpres retirés. Le total passe de 475 à 460 g, les parts de 80 à 77 g. Macros recalculées sur le nouveau total — 89 kcal et 17,5 g de protéines pour 100 g, 69 kcal et 13,5 g par part : les câpres pesaient 3 % du poids pour ~4 kcal, d'où la densité qui monte légèrement. La méthode disait « les câpres salent déjà » ; c'est la moutarde qui tient ce rôle maintenant.
+- **R3**, cake protéiné : la variante « carotte râpée + gingembre » devient « carotte râpée + cumin ».
+- **R12**, naans : la coriandre disparaît de la finition, le beurre à l'ail reste.
+- **R15**, sorbet kéfir : la variante au kéfir F2 gingembre supprimée.
+
+R31 perd son point acidulé sans compensation : moutarde et citron restent seuls à porter le pointu. Si la prochaine fournée la trouve plate, monter la moutarde à 15 g est le geste à tenter — un changement de goût, donc à décider en cuisine, pas ici.
+
+`verifie.py` vert sur 68 fiches, écart médian de `macros.py` inchangé à −10,3 %, build reproduit.
+
+## Renvoi vers le skyr maison (T1) dans toutes les fiches au skyr (2026-09-16)
+
+T1 existait déjà et était renvoyé depuis trois endroits seulement : R25, R27 et la prose de R28. Les quinze autres fiches qui emploient du skyr le laissaient croire réservé au commerce.
+
+Chaque ligne d'ingrédient au skyr porte maintenant le renvoi : R1, R12, R23, R24, R25, R29, R30, R31, R16, B5, T2, T3, T6, W3, W4. La forme est `, ou T1` en fin de ligne — R29, qui écrivait déjà « skyr maison », prend `(T1)`. R27 et R28 gardent leur renvoi existant.
+
+Deux raisons de placer le renvoi après une virgule : `courses.js` coupe le libellé à la première virgule, donc « skyr nature » reste une seule ligne de courses ; et le renvoi s'affiche en clair (« Skyr maison ») sans alourdir la lecture de l'ingrédient.
+
+Aucune quantité, aucune macro touchée. `verifie.py` vert sur 68 fiches, `macros.py` inchangé (écart médian −10,3 %), build reproduit. `test-hors-ligne.cjs` non lancé : son module Node manque dans l'environnement de session — le changement ne touche ni `sw.js` ni les JS.
+
 ## Fruits pesés dans R3, R4, R20, R21 (2026-09-16)
 
 Les pommes et bananes de ces quatre fiches étaient dénombrées, pas pesées : hors des totaux, hors des macros, et figées au recalcul de la page. Elles portent maintenant un poids, le dénombrement passant entre parenthèses.
