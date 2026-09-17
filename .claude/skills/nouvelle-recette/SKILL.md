@@ -11,9 +11,20 @@ Cette skill fait deux choses, dans cet ordre : **proposer trois pistes**, puis *
 
 ## Avant de proposer
 
-1. `git pull`, puis lire `carnet-kefir-levain.md`. C'est la source de vérité, jamais une copie.
-2. `python3 verifie.py` donne les prochains numéros libres.
-3. Chercher le doublon **avant** d'imaginer : une piste qui recoupe une fiche existante est écartée ou assumée comme variante explicite de cette fiche.
+`git pull` d'abord : le dépôt fait foi, jamais une copie.
+
+Ensuite, **ne pas lire le maître en entier**. `carnet-kefir-levain.md` pèse ≈ 27 000 tokens ; ses 68 titres en pèsent 1 250, et ils suffisent à repérer un doublon. Lire tout le fichier pour proposer trois idées coûte vingt fois le nécessaire et noie ce qui compte.
+
+L'ordre qui marche :
+
+1. `grep "^#### " carnet-kefir-levain.md` — les 68 titres, avec leur numéro et leur famille. C'est la carte du carnet.
+2. `grep -n -i "<ingrédient>" carnet-kefir-levain.md` pour l'ingrédient de départ : où il apparaît déjà, et dans quel rôle.
+3. Lire **seulement** les deux ou trois fiches que ces greps désignent comme proches, avec `sed -n 'X,Yp'`. Une piste qui recoupe l'une d'elles est écartée, ou assumée comme variante explicite de cette fiche.
+4. `python3 verifie.py` donne les prochains numéros libres — utile à l'étape 2, inutile pour proposer.
+
+Le maître ne se lit en entier que si Céline demande une revue d'ensemble : un audit des doublons, un inventaire par appareil. Pour trois pistes, jamais.
+
+`REGLES-RECETTES.md` (≈ 3 900 tokens) ne se lit pas non plus pour proposer. Il sert à **rédiger** la fiche, donc à l'étape 2, une fois la piste choisie.
 
 ## Le profil de Céline
 
@@ -118,6 +129,17 @@ Puis s'arrêter. Ne pas rédiger de fiche tant que Céline n'a pas choisi.
 Une fois la piste choisie, appliquer `REGLES-RECETTES.md` sans raccourci : gabarit exact, ligne meta complète, macros recalculées (Ciqual, jamais recopiées d'une fiche voisine), numéro libre, chapitre et sous-catégorie, checklist §5, niveau **B** par défaut.
 
 Montrer la fiche. **N'écrire dans `carnet-kefir-levain.md` qu'après « valide »**, et ne republier que sur « republie ».
+
+## Le coût en contexte, en un coup d'œil
+
+| À lire | Quand | ≈ tokens |
+|---|---|---|
+| les 68 titres (`grep "^#### "`) | toujours, pour proposer | 1 250 |
+| 2-3 fiches voisines (`sed -n`) | quand un doublon est plausible | 300 à 900 |
+| `REGLES-RECETTES.md` | pour rédiger la fiche, pas avant | 3 900 |
+| `carnet-kefir-levain.md` entier | audit d'ensemble seulement | 27 100 |
+
+Trois pistes tiennent en moins de 3 000 tokens de lecture. Si une session en dépense dix fois plus, c'est qu'elle a lu le maître sans raison.
 
 ## Ce que cette skill ne fait pas
 
