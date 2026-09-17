@@ -312,7 +312,7 @@ La nuit de fermentation attendrit l'avoine, enlève le goût de la farine de poi
 
 **Méthode.** Le soir : l'avoine (150 g), le pois chiche (50 g), le kéfir (250 g), couvert, 8-12 h à température ambiante. Le matin : ajouter le fromage blanc (250 g), les jaunes, le miel (40 g), l'huile (40 g), le fruit (150 g), la cannelle, le sel (4 g). Monter les blancs, incorporer. Moule chemisé, 175 °C 45-50 min. Refroidir avant de trancher.
 
-**Variantes.** Noix, graines de courge · carotte râpée + gingembre · 30 g de poudre d'amande pour plus de tenue.
+**Variantes.** Noix, graines de courge · carotte râpée + cumin · 30 g de poudre d'amande pour plus de tenue.
 
 **Pièges.** Ne pas mixer l'avoine trop fin (compact). Trancher chaud = s'effrite.
 </article>
@@ -597,7 +597,7 @@ Le gonflement vient de la vapeur à 250 °C sur une pâte fine ; le levain-mère
 - **100 g** · skyr ou yaourt, ou T1
 - **15 g** · huile
 - **5 g** · sel
-- beurre fondu, ail, coriandre pour finir
+- beurre fondu, ail pour finir
 
 **Méthode.** Pétrir tout 6 min — farine (300 g), kéfir (120 g), skyr (100 g), huile (15 g), sel (5 g) —, 3-4 h à 26 °C jusqu'à +75 %. 6 boules de 90 g, étaler en ovale de 4 mm. Poêle en fonte à sec très chaude : 1 min, bulles, retourner, 1 min. Badigeonner beurre-ail à la sortie.
 
@@ -685,7 +685,7 @@ La plus protéinée des tartinables. La texture rillettes vient de la fibre effi
 <article class="fiche" markdown="1">
 #### R31 · Rillettes de thon express <span class="niveau b">B</span>
 
-<p class="meta">Sans cuisson · travail 5 min · total 35 min dont 30 min au frais · ≈ 475 g · 6 parts de 80 g · ≈ 87 kcal et 17 g de protéines pour 100 g · ≈ 70 kcal et 13,5 g de protéines par part</p>
+<p class="meta">Sans cuisson · travail 5 min · total 35 min dont 30 min au frais · ≈ 460 g · 6 parts de 77 g · ≈ 89 kcal et 17,5 g de protéines pour 100 g · ≈ 69 kcal et 13,5 g de protéines par part</p>
 
 La version placard, prête en cinq minutes.
 
@@ -694,13 +694,12 @@ La version placard, prête en cinq minutes.
 - **250 g** · thon au naturel, poids égoutté
 - **150 g** · skyr nature, ou T1
 - **30 g** · échalote
-- **15 g** · câpres
 - **15 g** · jus de citron
 - **10 g** · moutarde
 - **5 g** · ciboulette
 - paprika fumé, poivre
 
-**Méthode.** Égoutter le thon (250 g) en le pressant bien. L'écraser à la fourchette avec le skyr (150 g), la moutarde (10 g) et le citron (15 g). Incorporer l'échalote ciselée (30 g), les câpres hachées (15 g) et la ciboulette (5 g). Poivrer, paprika, goûter avant de saler : les câpres salent déjà. 30 min au frais.
+**Méthode.** Égoutter le thon (250 g) en le pressant bien. L'écraser à la fourchette avec le skyr (150 g), la moutarde (10 g) et le citron (15 g). Incorporer l'échalote ciselée (30 g) et la ciboulette (5 g). Poivrer, paprika, goûter avant de saler : la moutarde sale déjà. 30 min au frais.
 
 **Pièges.** Thon mal pressé : l'eau restante rend la préparation liquide.
 </article>
@@ -1226,7 +1225,7 @@ Le kéfir remplace le sirop d'un sorbet classique : acidité, pointe pétillante
 
 **Méthode.** Mixer les fruits (400 g) en purée lisse avec le kéfir (200 g), le miel (30-50 g) et le citron. Verser sans dépasser la ligne Max, congeler 24 h à plat, programme Sorbet. Re-spin avec un trait de kéfir si la texture est friable. Sortir 2-3 min avant de servir.
 
-**Variantes.** Banane + 15 g de cacao · kéfir de seconde fermentation au gingembre pour un sorbet plus piquant · moitié pêche moitié abricot.
+**Variantes.** Banane + 15 g de cacao · moitié pêche moitié abricot.
 
 **Pièges.** Moins de 30 g de miel pour 400 g de fruits : bloc dur et friable, Re-spin obligatoire. Fruit peu sucré (rhubarbe, groseille) : monter le miel à 50 g.
 </article>

@@ -14,6 +14,19 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Câpres, gingembre et coriandre retirés des fiches (2026-09-17)
+
+La liste d'aversions du §5.4 de REGLES-RECETTES.md interdisait déjà gingembre, coriandre et anis ; câpres et curry l'ont rejointe le 2026-09-16. Quatre fiches la contredisaient encore.
+
+- **R31**, rillettes de thon : les 15 g de câpres retirés. Le total passe de 475 à 460 g, les parts de 80 à 77 g. Macros recalculées sur le nouveau total — 89 kcal et 17,5 g de protéines pour 100 g, 69 kcal et 13,5 g par part : les câpres pesaient 3 % du poids pour ~4 kcal, d'où la densité qui monte légèrement. La méthode disait « les câpres salent déjà » ; c'est la moutarde qui tient ce rôle maintenant.
+- **R3**, cake protéiné : la variante « carotte râpée + gingembre » devient « carotte râpée + cumin ».
+- **R12**, naans : la coriandre disparaît de la finition, le beurre à l'ail reste.
+- **R15**, sorbet kéfir : la variante au kéfir F2 gingembre supprimée.
+
+R31 perd son point acidulé sans compensation : moutarde et citron restent seuls à porter le pointu. Si la prochaine fournée la trouve plate, monter la moutarde à 15 g est le geste à tenter — un changement de goût, donc à décider en cuisine, pas ici.
+
+`verifie.py` vert sur 68 fiches, écart médian de `macros.py` inchangé à −10,3 %, build reproduit.
+
 ## Renvoi vers le skyr maison (T1) dans toutes les fiches au skyr (2026-09-16)
 
 T1 existait déjà et était renvoyé depuis trois endroits seulement : R25, R27 et la prose de R28. Les quinze autres fiches qui emploient du skyr le laissaient croire réservé au commerce.
