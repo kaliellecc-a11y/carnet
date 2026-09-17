@@ -14,6 +14,26 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Légumineuses : la conserve entre au carnet (2026-09-17)
+
+La règle disait « légumineuses sèches, pas de conserve ». Elle tombe : la conserve est la version de semaine, le sec reste la référence du goût, et **toute fiche à légumineuses porte désormais les deux voies**. Le choix se fait le soir devant le placard, pas au moment d'écrire la fiche.
+
+Nouveau **§2 bis** de REGLES-RECETTES.md. Une variante conserve doit préciser quatre choses, aucune facultative : l'équivalence en grammes (sec × 2,4 = cuit ; une boîte de 400 g brut ≈ 240 g égouttés), le liquide à retirer (≈ 250 g d'eau pour 250 g de sec remplacés — la conserve n'absorbe plus), le temps gagné en distinguant trempage et cuisson, et **ce qu'on perd**.
+
+Ce dernier point est celui qui manque partout ailleurs : une légumineuse sèche cuit *dans* le bouillon et s'en imprègne ; la conserve arrive neutre et molle, et se délite si on remue. La variante dit comment compenser — épices montées d'un cran, rinçage de la saumure qui sale et masque.
+
+Trois fiches touchées :
+
+- **T3**, pois chiches : variante 600 g en conserve, eau de 600 à 150 g, Mijoté 10 min au lieu de 30. Le plat passe de 1 h 15 hors trempage à 35 min le soir même.
+- **T5**, chili : variante 480 g de haricots en conserve, eau de 400 à 100 g, Mijoté 10 min. 40 min le soir. C'est aussi la version sûre — la conserve est stérilisée, la toxicité du haricot rouge cru ne se pose plus.
+- **T4**, lentilles vertes : pas de variante, et la fiche dit pourquoi. Les lentilles ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes contre une texture molle.
+
+Les macros par part ne changent pas d'une voie à l'autre — même quantité de légumineuse dans l'assiette. Seule la densité pour 100 g monte d'environ 5 % en conserve, le plat étant moins mouillé : c'est dit dans les fiches plutôt que recalculé en double.
+
+Détail d'écriture repéré au rendu : les poids cités dans une variante ne doivent jamais être entre parenthèses. `quantites.py` balise tout poids entre parenthèses qui correspond à un ingrédient de la fiche, et « 2 boîtes de 400 g » serait devenu « 2 boîtes de 800 g » en doublant la recette. Les substitutions s'écrivent après un tiret cadratin, hors parenthèses, pour rester figées.
+
+`verifie.py` vert sur 68 fiches, écart médian inchangé à −10,3 %, build reproduit.
+
 ## Câpres, gingembre et coriandre retirés des fiches (2026-09-17)
 
 La liste d'aversions du §5.4 de REGLES-RECETTES.md interdisait déjà gingembre, coriandre et anis ; câpres et curry l'ont rejointe le 2026-09-16. Quatre fiches la contredisaient encore.

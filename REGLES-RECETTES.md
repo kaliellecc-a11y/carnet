@@ -41,13 +41,28 @@ Recette en deux temps ou deux préparations : groupes imbriqués dans la liste �
 
 Groupes canoniques : `Le soir / Le matin`, `Levain-mère, X h / Pâte`, `Pâte / Appareil`, `Base à congeler, jusqu'à Freeze Fill / Ajout au service, jusqu'à Pour-In`, `Base / Finition X` (une base, plusieurs fins de plat).
 
-Fiche Turbo Cuisine : la meta commence par le programme et la position de valve (« Rissolé puis Mijoté, valve fermée · 30 min ») ; la méthode suit l'ordre de cuve de Céline — viande seule en Rissolé, aromates dans les sucs, déglacer, légumes et liquides sans remuer, programme. Légumineuses sèches : méthode et durée de trempage dans la fiche. Oignons toujours pesés. Unités : grammes uniquement, jamais de ml.
+Fiche Turbo Cuisine : la meta commence par le programme et la position de valve (« Rissolé puis Mijoté, valve fermée · 30 min ») ; la méthode suit l'ordre de cuve de Céline — viande seule en Rissolé, aromates dans les sucs, déglacer, légumes et liquides sans remuer, programme. Légumineuses : méthode et durée de trempage dans la fiche, et variante conserve obligatoire dès qu'il y a trempage (§2 bis). Oignons toujours pesés. Unités : grammes uniquement, jamais de ml.
 
 ## 2. La ligne meta
 
 Dans l'ordre : levant ou machine (ou programme Creami) · temps de travail réel · temps total · rendement · macros. Séparateur : ` · `.
 
 **Macros obligatoires pour toute nouvelle fiche** : ≈ kcal pour 100 g, protéines pour 100 g quand c'est un argument de la recette, et kcal par part (ou par pièce, ou par pot pour la Creami). Calcul : valeurs Ciqual ou étiquettes standard, sur le poids cru total moins ~10 % de perte à la cuisson pour les fournées au four ; arrondir à l'unité (kcal) et au demi-gramme (protéines). La somme des poids d'ingrédients doit égaler le poids annoncé du rendement — c'est vérifié.
+
+## 2 bis. Légumineuses : les deux voies, toujours
+
+La conserve est acceptée, et c'est même la version de semaine. Le sec reste la référence du goût. **Toute fiche à légumineuses doit porter les deux**, parce que le choix se fait le soir devant le placard, pas au moment d'écrire la fiche.
+
+La fiche donne le sec en base, et la conserve en variante — ou l'inverse si la recette est pensée pour le soir. Dans les deux cas, la variante précise **quatre choses**, sans en sauter une :
+
+1. **L'équivalence en grammes.** Une légumineuse sèche pèse 2,4 fois plus une fois trempée et cuite. 250 g de pois chiches secs → 600 g cuits ; 200 g de haricots rouges secs → 480 g. Une boîte de 400 g brut rend environ 240 g égouttés. Écrire le poids égoutté, pas le nombre de boîtes — le carnet pèse tout.
+2. **Le liquide à retirer.** Une légumineuse en conserve n'absorbe plus rien : l'eau prévue pour la cuisson du sec fait une soupe. Compter environ 250 g d'eau en moins pour 250 g de sec remplacés.
+3. **Le temps gagné, et lequel.** Distinguer le trempage (une nuit, 8 à 12 h, qui décide de la veille) de la cuisson (qui décide du soir). Le pois chiche et le haricot rouge secs imposent les deux ; lentilles vertes, corail et du Puy ne trempent pas et cuisent en 10 à 15 min sous pression — pour elles, la conserve ne fait gagner que quelques minutes contre une texture molle, et la fiche doit le dire plutôt que de proposer une variante inutile.
+4. **Ce qu'on perd.** C'est le point qui manque partout ailleurs. Une légumineuse sèche cuit *dans* le bouillon et s'en imprègne ; la conserve arrive déjà cuite et neutre, plus molle, et se délite si on remue. La variante doit dire comment compenser — épices montées d'un cran, rinçage soigneux de la saumure qui sale et masque.
+
+Cas particulier du **haricot rouge** : cru ou mal cuit, il est toxique (phytohémagglutinine). Le sec exige trempage *et* montée en pression complète. La conserve est stérilisée : ce risque n'existe pas, et c'est un argument en sa faveur un soir de semaine.
+
+Les macros par part ne changent pas d'une voie à l'autre — c'est la même quantité de légumineuse dans l'assiette. Seule la densité pour 100 g monte un peu en conserve, le plat étant moins mouillé. Le dire plutôt que de recalculer deux jeux de macros.
 
 ## 3. Numérotation et placement
 
@@ -67,7 +82,7 @@ Sommaire 3 niveaux (noms seuls) · index par type de plat (depuis les titres `Sa
 1. **Arithmétique** : somme des poids = rendement annoncé ; hydratation plausible pour une pâte ; macros recalculées, pas recopiées.
 2. **Cohérence interne** : temps de la meta = somme des temps de la méthode ; chaque ingrédient de la liste apparaît dans la méthode avec son poids ; aucun ingrédient orphelin dans un sens ou dans l'autre.
 3. **Véracité** : température, durée, geste technique → recherche web croisée (plusieurs sources concordantes) avant d'affirmer ; sinon niveau B et piège signalé.
-4. **Contraintes du carnet** : zéro levure du commerce, zéro poudre chimique, sucrant = miel sauf exception argumentée, préférences alimentaires de Céline respectées (fichiers mémoire du projet : ni champignons, olives, pruneaux, raisins secs, gingembre, coriandre, anis, câpres, curry, matcha, tofu ; pas de lait de coco en salé ; épinards crus seulement ; pas de sucré-salé en salé ; légumineuses sèches, pas de conserve). Le profil complet — temps de travail acceptable, placard permanent, ce qui fait le goût — est porté par la skill `.claude/skills/nouvelle-recette/`, qui sert à proposer une recette avant de la rédiger.
+4. **Contraintes du carnet** : zéro levure du commerce, zéro poudre chimique, sucrant = miel sauf exception argumentée, préférences alimentaires de Céline respectées (fichiers mémoire du projet : ni champignons, olives, pruneaux, raisins secs, gingembre, coriandre, anis, câpres, curry, matcha, tofu ; pas de lait de coco en salé ; épinards crus seulement ; pas de sucré-salé en salé ; légumineuses : voir la règle des deux voies au §2 bis). Le profil complet — temps de travail acceptable, placard permanent, ce qui fait le goût — est porté par la skill `.claude/skills/nouvelle-recette/`, qui sert à proposer une recette avant de la rédiger.
 5. **Intégration** : pas de doublon (vérifier l'index et les fiches proches — le différencier ou fusionner) ; renvois vers les fiches liées cités en clair (« comme R8 ») pour que les liens se créent ; bon chapitre, bonne sous-catégorie.
 6. **Build et QA** : `python3 build.py` puis contrôles — nombre de fiches attendu, zéro ancre cassée, fiche présente dans le sommaire et l'index par type, aucun numéro visible dans le texte rendu, JS valide, contrôle visuel d'au moins une fiche nouvelle.
 

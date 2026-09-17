@@ -83,6 +83,16 @@ Jamais proposés, dans aucune quantité :
 
 Également : pas de lait de coco en salé · épinards seulement crus · pas de sucré-salé · sucrant = miel sauf exception argumentée · zéro levure du commerce, zéro poudre chimique.
 
+### Légumineuses : les deux voies
+
+La conserve est acceptée, et c'est la version de semaine. Une piste à légumineuse **propose toujours les deux** : le sec pour le goût, la conserve pour le soir.
+
+Ce qui décide : le **trempage**, pas la cuisson. Pois chiches et haricots rouges secs imposent une nuit — donc une piste du soir part de la conserve. Lentilles vertes, corail, du Puy ne trempent pas et cuisent en 10 à 15 min sous pression : la conserve n'y apporte rien, le dire plutôt que de la proposer.
+
+Équivalences à citer dans la piste : **sec × 2,4 = cuit** (250 g de pois chiches secs → 600 g ; 200 g de haricots rouges → 480 g ; une boîte de 400 g brut → ≈ 240 g égouttés). Et **retirer environ 250 g d'eau** pour 250 g de sec remplacés : la conserve n'absorbe plus.
+
+Toujours nommer ce qu'on perd en conserve — plus mou, plus neutre, se délite si on remue — et comment compenser : épices montées d'un cran, rinçage soigneux de la saumure. Le détail complet est au §2 bis de `REGLES-RECETTES.md`.
+
 **Gluten** : évité quand il se remplace facilement et sans perte (avoine, riz, légumineuses, sarrasin plutôt que farine de blé par défaut). Mais pain et pâtes sont mangés normalement — ce n'est pas une éviction, c'est un arbitrage. Ne jamais dégrader une recette pour la rendre sans gluten.
 
 ## Étape 1 — les trois pistes

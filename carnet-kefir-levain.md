@@ -1041,7 +1041,11 @@ Une base de pois chiches secs, deux fins de plat : fraîche au skyr et au citron
 
 **Finition butternut-feta.** Ajouter la butternut (600 g), valve fermée, Mijoté 3 min, valve ouverte aussitôt ; saler légèrement, citron (30 g), feta émiettée (100 g) et persil au service. Un œuf mollet par assiette : +6 g de protéines.
 
-**Pièges.** Butternut cuite avec les pois chiches : purée. Skyr ajouté sur la chauffe : il graine. Saler en fin de cuisson, la tomate et la feta salent déjà.
+**Variantes — pois chiches en conserve, le soir.** 250 g secs donnent ≈ 600 g cuits : remplacer par **600 g de pois chiches en conserve, égouttés et rincés** — deux boîtes de 400 g brut, plus un fond de troisième. Ils sont déjà cuits, donc ils n'absorbent plus : descendre l'eau de 600 à **150 g**, sinon c'est une soupe. Mijoté **10 min** au lieu de 30, décompression naturelle 10 min. Aucun trempage : le plat passe de 1 h 15 hors trempage à **35 min, le soir même**.
+
+Ce qu'on perd : les pois chiches secs passent 30 min sous pression dans le bouillon épicé et s'en imprègnent ; ceux de la boîte restent plus neutres et plus mous, ils se délitent si on remue fort. Compenser en montant le cumin à 3 c. à café et en rinçant bien — la saumure sale et couvre les épices. Les macros par part ne bougent pas, c'est la même quantité de pois chiches ; seule leur densité pour 100 g monte d'environ 5 %, le plat étant moins mouillé.
+
+**Pièges.** Butternut cuite avec les pois chiches : purée. Skyr ajouté sur la chauffe : il graine. Saler en fin de cuisson, la tomate et la feta salent déjà. Version conserve remuée pendant la cuisson : les pois chiches se défont.
 </article>
 
 <article class="fiche" markdown="1">
@@ -1068,7 +1072,7 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** Trier et rincer les lentilles (300 g). Dans la cuve, l'huile (15 g) ; couvercle ouvert, Rissolé, l'oignon (150 g) 3 min, puis l'ail (5 g) et le concentré (20 g) 1 min. Puis, dans cet ordre : les carottes (150 g), le panais (200 g), les lentilles, le laurier et le thym, l'eau (750 g). Couvercle fermé et verrouillé, valve fermée, Soupe 12 min. Décompression naturelle 10 min, puis valve ouverte ; lentilles encore fermes : 3 min de plus. Retirer le laurier, saler, vinaigre (15 g). Creuser 4 puits, un œuf dans chacun, parmesan (30 g) par-dessus. Couvercle Extra Crisp, 180 °C, 6 à 8 min : blanc pris, jaune coulant.
 
-**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé.
+**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette.
 
 **Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant.
 </article>
@@ -1092,7 +1096,11 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** La veille : rincer les haricots (200 g), retirer cailloux et grains abîmés, couvrir de trois fois leur volume d'eau froide, 8 à 12 h à couvert (au frais au-dessus de 25 °C). Jeter l'eau, rincer, égoutter. Dans la cuve, la dinde (300 g) émiettée à la main, à sec. Couvercle ouvert, Rissolé, attendre le préchauffage, saisir 5 à 6 min sans remuer jusqu'à coloration ; pousser sur le côté. Ajouter l'oignon (150 g), le poivron (150 g), le cumin et le paprika, 4 à 5 min en remuant jusqu'à oignon translucide. Déglacer à l'eau (100 g) en grattant le fond. Puis, dans cet ordre, sans remuer : les haricots égouttés, l'eau (400 g), les tomates (400 g) posées dessus. Couvercle fermé et verrouillé, valve fermée, Mijoté 30 min. Décompression naturelle complète, flotteur redescendu seul (20 à 25 min). Remuer, saler.
 
-**Pièges.** Haricots rouges : jamais sans trempage ni sans montée en pression complète — crus ou mal cuits, ils sont toxiques. Vérifier que le flotteur est monté pendant la cuisson.
+**Variantes — haricots en conserve, le soir.** 200 g secs donnent ≈ 480 g cuits : remplacer par **480 g de haricots rouges en conserve, égouttés et rincés** — deux boîtes de 400 g brut. Descendre l'eau de cuisson de 400 à **100 g** — le déglaçage reste à 100 g — et passer le Mijoté à **10 min**, décompression naturelle 10 min. Le plat tombe à **40 min le soir même**, sans la nuit de trempage.
+
+C'est aussi la version sûre : la conserve est stérilisée, donc la toxine du haricot rouge cru n'est plus un sujet. Ce qu'on perd : la tenue. Les haricots en boîte se défont dans un chili remué, et ils prennent moins le goût de la dinde saisie — monter le paprika à 2 c. à café et rincer soigneusement. Macros par part inchangées.
+
+**Pièges.** Haricots rouges **secs** : jamais sans trempage ni sans montée en pression complète — crus ou mal cuits, ils sont toxiques. Vérifier que le flotteur est monté pendant la cuisson. En conserve, ce risque n'existe pas.
 </article>
 
 ### Salé · Mijotés et potées
