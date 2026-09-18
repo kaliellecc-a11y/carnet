@@ -3,7 +3,7 @@ import re, sys, markdown, pathlib, html
 import verifie
 import quantites
 
-VERSION = "v11.1"
+VERSION = "v11.2"
 DATE = "2026-09-16"
 
 # Une fiche incohérente ne doit pas atteindre la page : le contrôle passe avant
@@ -152,6 +152,10 @@ INGREDIENTS = [
     ("seigle", r"seigle"),
     ("skyr · fromage blanc", r"\bskyr\b|fromage blanc"),
     ("vanille", r"vanille"),
+    ("pois cassés", r"pois cassés"),
+    ("chorizo", r"chorizo"),
+    ("emmental", r"emmental"),
+    ("oignons confits", r"oignons? confits?"),
 ]
 TECHNIQUES = [
     ("Air Fry · friture à l'air", r"air fry|air crisp"),

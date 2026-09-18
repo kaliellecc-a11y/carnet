@@ -604,6 +604,33 @@ Le gonflement vient de la vapeur à 250 °C sur une pâte fine ; le levain-mère
 **Pièges.** Poêle pas assez chaude : naan sec et sans cloques.
 </article>
 
+<article class="fiche" markdown="1">
+#### R32 · Pains plats farcis à l'emmental <span class="niveau b">B</span>
+
+<p class="meta">Pâte de R12 × 1,5, kéfir en liquide · travail 25 min · total 12 h dont pousse au froid · 9 naans · ≈ 290 kcal et 13 g de protéines pour 100 g · ≈ 300 kcal et 14 g de protéines par naan</p>
+
+Le naan fourré du carnet, sans fromage industriel : le fromage frais à tartiner est déjà à 65 % d'eau liée par ses protéines, il ne relâche rien à la poêle. Le skyr du commerce, plus liquide que le T1, fait éclater le naan — c'est le seul vrai piège de la fiche.
+
+**Ingrédients.**
+
+- **Pâte, la veille**
+    - **450 g** · farine T65
+    - **180 g** · kéfir
+    - **150 g** · skyr ou T1
+    - **22 g** · huile
+    - **7 g** · sel
+- **Farce**
+    - **100 g** · fromage frais à tartiner
+    - **220 g** · emmental râpé
+    - **25 g** · moutarde
+
+**Méthode.** Pétrir 6 min — farine (450 g), kéfir (180 g), skyr (150 g), huile (22 g), sel (7 g) —, au froid toute la nuit ; sortir 1 h avant de façonner. Mélanger la farce : fromage frais (100 g), emmental (220 g), moutarde (25 g), poivre. 9 boules de 90 g, aplaties à la main, 40 g de farce au centre, refermées en bourse, soudure dessous, réétalées à 6 mm sans forcer. Poêle en fonte à sec très chaude, 1 min par face : cloques et taches brunes. Se congèlent cuits, 40 s à la poêle pour les réveiller.
+
+**Variantes.** Sans fromage frais : 250 g d'emmental et 100 g de skyr égoutté 4 h en étamine — le petit-lait rendu sert de liquide à la pizza (R9) ou à la pita (R11) · une cuillère d'oignons confits (T11) à côté de l'emmental.
+
+**Pièges.** Skyr non égoutté dans la farce : elle bout, le naan éclate et vide son fromage dans la poêle. Farce au bord : elle brûle avant que la pâte cuise. Réétalage au rouleau appuyé : la soudure lâche.
+</article>
+
 ### Salé · Apéritif
 
 <article class="fiche" markdown="1">
@@ -761,6 +788,35 @@ Dimanche soir : sortir le levain dur, rafraîchir 1:2:1, laisser sur le plan de 
 
 **Beignets qui boivent l'huile.** Huile pas assez chaude, ou pâte trop poussée. 170-175 °C, pas moins.
 
+### Fournées
+
+Une fournée est un week-end de production qui couvre les cinq jours suivants. Le
+principe tient en une phrase : trois appareils, trois files d'attente, et tout le
+travail des mains se glisse dans les temps de machine. Le Turbo enchaîne ses
+passages, le Woodfire descend ses modes du plus chaud au plus froid, la poêle
+prend ce qui reste. Une machine qui tourne à vide pendant qu'on regarde, c'est
+une fournée mal ordonnée.
+
+Deux règles de placement décident du reste. Ce qui demande une pousse ou une nuit
+part la veille — la pâte à naans (R32) pétrie le samedi sort du chemin critique
+du dimanche. Et tout ce qui fume passe le week-end : les granulés Woodfire ne se
+lancent pas un mardi soir.
+
+**Fournée muscade et fumoir.** Samedi : les oignons confits (T11), 2 kg au robot
+en rondelles fines, et la pâte à naans au froid pendant le compotage. Dimanche,
+dans l'ordre — le flan (R21) en premier, Bake 160 °C sur une cuve propre, parce
+qu'un flan cuit après le fumoir prend le résidu de fumée ; les noisettes
+torréfiées pendant la montée en température ; le riz au Turbo ; la session
+couteau d'une traite pendant la cuisson du flan ; les pois cassés de la tartinade
+(T10) au Turbo ; le Woodfire en Grill pour les légumes, le poulet et les cubes de
+courge ; puis Roast 175 °C avec les granulés Woodfire pour la courge farcie (W5),
+la tartinade et les naans montés pendant qu'elle cuit ; la glace (G17) fouettée
+en fin de séance, ses blancs réservés pour l'omelette du lundi. Deux heures
+d'horloge, une heure et demie de mains.
+
+Reste en semaine : réchauffer, une omelette, et le chili (T5) du mercredi qui se
+décide le soir même puisque la conserve ne trempe pas.
+
 ## 2. Ninja Woodfire
 
 **Conseils d'utilisation.** Ninja Woodfire barbecue-fumoir, modes employés au carnet : Grill, Roast, Bake, Air Fry, Déshydrater, et les granulés Woodfire pour fumer. Pas de sonde intégrée : thermomètre à piquer pour les viandes (74 °C minimum à cœur pour la volaille). Pour les crackers, plaque grill en place, sans granulés sauf version fumée voulue.
@@ -888,6 +944,41 @@ Le potimarron sert de plat. Léger en glucides : ajouter du pain au levain pour 
 **Pièges.** Cuisson des œufs à caler au premier essai : surveiller dès 10 min.
 </article>
 
+<article class="fiche" markdown="1">
+#### W5 · Courge muscade farcie au fumoir <span class="niveau b">B</span>
+
+<p class="meta">Roast 175 °C, granulés Woodfire · travail 25 min · total 1 h 10 · 6 parts · ≈ 85 kcal et 3 g de protéines pour 100 g · ≈ 320 kcal et 12 g de protéines par part, hors accompagnement</p>
+
+La chair d'une muscade est douce et humide : elle prend la fumée mieux qu'aucun autre légume, à condition d'être exposée nue pendant que les granulés brûlent. La farce arrive aux trois quarts de la cuisson, quand la fumée s'épuise — une crème fumée serait âcre. Plat de légume : la protéine vient du poulet grillé et d'une omelette servis à côté.
+
+**Ingrédients.**
+
+- **Courge**
+    - **3 000 g** · courge muscade entière, coupée en deux dans la longueur, graines et filaments retirés
+    - **600 g** · chair prélevée dans le sillon et le col, en cubes de 1 cm — servie froide aux repas de midi
+    - **20 g** · huile d'olive
+- **Farce, aux trois quarts de la cuisson**
+    - **200 g** · lardons fumés
+    - **150 g** · oignon émincé
+    - **80 g** · oignons confits (T11)
+    - **150 g** · crème 15 %
+    - **120 g** · feta émiettée
+    - **25 g** · moutarde
+    - paprika fumé, thym, poivre
+
+**Méthode.** Couper la courge (3 000 g) en deux dans la longueur, retirer graines et filaments. Creuser un sillon continu de la cavité jusque dans le col — le col est plein, c'est lui qui donne le volume à farcir — et en prélever la chair (600 g). **Laisser 2 cm de paroi** : en dessous, la courge s'affaisse en fin de cuisson. Huiler les faces creusées avec la moitié de l'huile (20 g au total), saler ; les cubes de chair huilés du reste, étalés sur une plaque à part.
+
+Granulés Woodfire, Roast 175 °C, préchauffage. Enfourner dès la fin du préchauffage : les granulés brûlent pendant la cuisson, purger reviendrait à perdre la fenêtre de fumée. Demi-courges face creusée vers le haut, cubes à côté — ils sortent à mi-parcours. **35 min.**
+
+À la poêle pendant ce temps : les lardons (200 g) à sec, 4 min jusqu'à coloration ; l'oignon (150 g) 4 min dans le gras rendu, paprika et thym la dernière minute. Hors du feu, mélanger la moutarde (25 g) à la crème (150 g), puis incorporer les lardons, l'oignon, les oignons confits (80 g) et la feta (120 g).
+
+Garnir les sillons. **15 à 20 min de plus, sans recharger les granulés** : la feta doit dorer et la pointe du couteau entrer sans résistance dans la paroi.
+
+**Variantes.** Troisième service, la courge rend son eau : gratter le contenu, mélanger, gratiner sous le couvercle Extra Crisp · sans oignons confits, monter la feta à 150 g.
+
+**Pièges.** Paroi sous 2 cm : elle s'affaisse et la farce se répand. Farce mise dès le départ : elle fait écran, la chair ne prend aucune fumée et les lardons cuisent à l'étouffée. Crème ajoutée seule : elle tranche à 175 °C, c'est l'émulsion de la moutarde qui la stabilise. Granulés rechargés après la farce : la crème devient âcre. Oignons confits au-delà de 80 g : le plat bascule en sucré-salé et la feta ne rattrape plus. Poids autre que 3 000 g : peser à la coupe et ajuster la farce, mais garder les 2 cm de paroi, qui sont une épaisseur et non une proportion.
+</article>
+
 ### Salé · Flans
 
 <article class="fiche" markdown="1">
@@ -946,6 +1037,8 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 - vanille
 
 **Méthode.** Fouetter les œufs, le skyr (520 g), la banane écrasée (100 g), le mélange maïzena-riz (25 g), le sucre (15-20 g, ou rien), la vanille. Incorporer les morceaux de banane (100 g), puis les pépites (50-60 g) à froid en dernier (elles ne fondent pas dans l'appareil). Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur. Refroidir puis réfrigérer.
+
+**Variantes.** Noisette : **40 g** de noisettes torréfiées 8 min à 160 °C puis mixées en poudre, ajoutées avec la banane écrasée, et **maïzena descendue de 25 à 15 g** — la poudre absorbe, sans quoi le flan devient pâteux ; compter **30 min** de cuisson, l'appareil est plus dense. ≈ 197 kcal et 13 g de protéines par part.
 </article>
 
 ## 3. Turbo Cuisine
@@ -1201,6 +1294,61 @@ Le plat le plus riche du chapitre : les lardons dorés d'abord donnent tout le g
 **Méthode.** Mariner 10 min le poulet (400 g) avec le curcuma, le paprika, le sel et l'huile (5 g). Rincer le riz (200 g) jusqu'à eau claire, égoutter. Dans la cuve, le poulet mariné, à sec. Couvercle ouvert, Rissolé, attendre le préchauffage, saisir 4 à 5 min jusqu'à coloration, sans chercher à cuire à cœur. Déglacer au bouillon (250 g) en grattant le fond. Puis, dans cet ordre, sans remuer : le riz étalé en couche uniforme, les petits pois (150 g) posés dessus. Couvercle fermé et verrouillé, valve fermée, Riz 8 min. Décompression naturelle 10 min, puis valve ouverte. Aérer à la spatule, saler.
 
 **Pièges.** Riz trop tendre : 6 min au prochain essai. Fond qui attache après le Rissolé : bien gratter au déglaçage, sinon alerte de surchauffe.
+</article>
+
+### Salé · Tartinables
+
+<article class="fiche" markdown="1">
+#### T10 · Tartinade de pois cassés au chorizo <span class="niveau b">B</span>
+
+<p class="meta">Mijoté, valve fermée · 15 min · travail 15 min · total 50 min · pot ≈ 800 g · ≈ 181 kcal et 9 g de protéines pour 100 g · ≈ 109 kcal la portion de 60 g</p>
+
+Les pois cassés donnent une purée dense et douce qui appelle du gras fumé. Le chorizo est poêlé à part et son huile rouge versée dessus : mélangé dans la masse, le gras se dilue et la tartinade devient grasse sans être fumée. Quatre jours au frais.
+
+**Ingrédients.**
+
+- **250 g** · pois cassés secs, rincés jusqu'à eau claire
+- **750 g** · eau
+- **30 g** · huile d'olive — un tiers dans la cuisson, le reste dans la purée
+- **60 g** · chorizo en tranches fines
+- **60 g** · échalote
+- **10 g** · ail
+- **25 g** · jus de citron
+- **30 g** · cébette ciselée
+- paprika fumé, sel, poivre
+
+**Méthode.** Les pois cassés (250 g), l'eau (750 g) et le tiers de l'huile (30 g au total) dans la cuve — l'huile empêche la mousse de monter dans la valve. Couvercle fermé et verrouillé, valve fermée, Mijoté 15 min, décompression naturelle complète. Égoutter en gardant l'eau de cuisson. Écraser grossièrement à la fourchette avec l'échalote (60 g) et l'ail (10 g) hachés fin, le citron (25 g), le reste de l'huile et le paprika ; détendre à l'eau de cuisson jusqu'à la texture voulue. Poêler le chorizo (60 g) à sec, 2 min par face jusqu'à ce qu'il croustille et rende son huile ; le poser sur la tartinade avec son huile, la cébette (30 g) crue par-dessus. Saler en dernier : le chorizo sale déjà.
+
+**Variantes.** Sauce pour crudités, même esprit : 150 g de skyr, 20 g de moutarde, 10 g de citron, une gousse d'ail râpée, cébette — ≈ 70 kcal et 8 g de protéines pour 100 g · sans chorizo : une tête d'ail rôtie écrasée dans la purée et des échalotes frites par-dessus.
+
+**Légumineuse sèche uniquement.** Comme les lentilles vertes, le pois cassé ne trempe pas : 15 min sous pression suffisent, décidés le soir même. La conserve de pois cassés n'existe quasiment pas, et une purée toute prête arriverait salée et délitée — il n'y a rien à gagner à la chercher.
+
+**Pièges.** Cuve remplie à plus de la moitié : les pois cassés moussent beaucoup sous pression et bouchent la valve. Valve ouverte tôt : la mousse gicle. Chorizo mélangé dans la masse : le gras se dilue et la tartinade devient grasse sans être fumée.
+</article>
+
+### Salé · Condiments
+
+<article class="fiche" markdown="1">
+#### T11 · Oignons confits, portions congelées <span class="niveau b">B</span>
+
+<p class="meta">Rissolé puis feu doux, couvercle ouvert · travail 15 min au robot · total 1 h 20 · ≈ 700 g, 18 portions de 40 g · ≈ 130 kcal et 1 g de protéines pour 100 g · ≈ 52 kcal la portion</p>
+
+Deux kilos d'oignons rendent 700 g de confit : c'est une fournée de condiment, pas une recette de repas. Le miel sur du salé est l'exception argumentée du carnet — il sert la caramélisation, l'acidité du vinaigre l'équilibre, et le résultat reste un condiment, pas un plat sucré-salé.
+
+**Ingrédients.**
+
+- **2 000 g** · oignons en rondelles fines, au robot
+- **40 g** · huile
+- **60 g** · miel
+- **80 g** · vinaigre de cidre
+- **10 g** · sel
+- thym
+
+**Méthode.** Les oignons (2 000 g) au robot en rondelles fines : cinq minutes contre vingt-cinq au couteau. Dans la cuve avec l'huile (40 g), couvercle ouvert, Rissolé 15 min en remuant — ils doivent suer sans colorer. Puis feu doux couvercle ouvert, 35 min, en remuant toutes les 7 à 8 min : des rondelles fines compotent plus vite et attachent plus facilement que des tranches au couteau. Le miel (60 g), le vinaigre (80 g), le sel (10 g) et le thym **en fin de course seulement**, 10 min de plus jusqu'à ce que ça nappe. Refroidir, couler en bac à glaçons, démouler en sachet.
+
+**Variantes.** Vinaigre balsamique à la place du cidre, plus rond et plus sombre · une portion fondue dans la farce de la courge (W5) ou à côté de l'emmental d'un pain plat farci (R32).
+
+**Pièges.** Miel mis avec les oignons : le sucre brûle avant que l'oignon ait fondu, le confit devient amer. Feu trop vif au départ : ils colorent avant de rendre leur eau et restent fermes. Sel en début de cuisson : ils rendent leur eau trop tôt et bouillent au lieu de compoter.
 </article>
 
 ## 4. Ninja Creami
@@ -1511,6 +1659,30 @@ Doser au filet ou à la cuillère, pas à la louche : c'est le topping, pas la b
 **Gourmand, à doser.** Chocolat noir fondu en filets · caramel beurre salé maison (technique : G14) · pâte de pistache ou de noisette en filet · chantilly légère non sucrée · copeaux de chocolat à l'économe.
 
 **Minimaliste.** Filet de miel · menthe ciselée · cacao non sucré au tamis · chia ou lin moulu (dose modérée) · coco râpée à peine toastée.
+</article>
+
+<article class="fiche" markdown="1">
+#### G17 · Vanille HiPro <span class="niveau b">B</span>
+
+<p class="meta">Note 4 : 672 g · Note 5 : 682 g · Note 6 : 616 g · Note 8 : 609 g · le pot : ≈ 615 · 727 · 766 · 1085 kcal (notes 4 · 5 · 6 · 8)</p>
+
+Un pot de HiPro vanille remplace 180 g du skyr de la vanille classique (G1) et apporte le parfum déjà dosé. Le gain en macros est marginal : il est dans le pot ouvert qu'on finit et le miel qu'on baisse, le HiPro étant déjà édulcoré. La note 5 est propre à cette fiche — le socle de la note 4, ses trois jaunes, plus la crème légère.
+
+| | Note 4 · Lite | Note 5 · Lite | Note 6 · Ice Cream | Note 8 · Ice Cream |
+|---|---|---|---|---|
+| Socle | 320 skyr · 180 HiPro · 3 jaunes · 35 miel · 1 sel | 250 skyr · 180 HiPro · 3 jaunes · 130 crème 15 % · 25 miel · 1 sel | 20 skyr · 180 HiPro · 250 crème 15 % · 1 jaune · 45 miel · 1 sel | 20 skyr · 180 HiPro · 240 crème 30 % · 2 jaunes · 30 miel · 1 sel |
+| Lait | 80 g écrémé | 40 g écrémé | 100 g entier | 100 g entier |
+| Parfum | 2 g extrait de vanille | 2 g | 2 g | 2 g |
+| Pour 100 g | 92 kcal · 2,2 lip · 9,7 prot | 107 kcal · 5,0 lip · 8,7 prot | 124 kcal · 7,5 lip · 5,4 prot | 178 kcal · 14,0 lip · 5,8 prot |
+| Pot | 615 kcal · 15 lip · 65 prot | 727 kcal · 34 lip · 60 prot | 766 kcal · 46 lip · 33 prot | 1085 kcal · 85 lip · 35 prot |
+
+**Méthode.** Fouetter tous les ingrédients froids, le HiPro compris. Max, 24 h à plat, programme, Re-spin si sec.
+
+**Texture.** Note 4 ferme et franche, 2-3 min à l'air avant de servir · note 5 le meilleur compromis de la fiche, la crème casse la fermeté du skyr sans effacer les protéines · notes 6 et 8 identiques à la vanille du carnet (G1), le HiPro n'y pèse plus grand-chose.
+
+**Les blancs.** Les notes 4 et 5 libèrent 3 blancs, la note 8 en libère 2. Quatre jours au frais : une omelette moitié blancs, moitié œufs entiers, ou les pancakes du lendemain (R4).
+
+**Pièges.** Macros calculées sur une étiquette à 55 kcal et 10,5 g de protéines pour 100 g : vérifier le pot, tout le tableau en dépend. HiPro tiédi avant le fouettage : la prise devient granuleuse. Miel monté au niveau de G1 sur les notes 4 et 5 : écœurant, le HiPro est déjà sucré.
 </article>
 
 ### Sucré · Boissons glacées

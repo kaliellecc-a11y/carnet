@@ -27,7 +27,7 @@ await page.reload({ waitUntil: 'domcontentloaded' });
 await page.waitForTimeout(1200);
 
 const fiches = await page.evaluate(() => document.querySelectorAll('.fiche').length);
-v('fiches affichées hors ligne', 68, fiches);
+v('fiches affichées hors ligne', 73, fiches);
 v('titre présent', true, (await page.title()).length > 0);
 v('styles appliqués', true, await page.evaluate(() =>
   getComputedStyle(document.body).backgroundColor !== 'rgba(0, 0, 0, 0)'));

@@ -14,6 +14,50 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Cinq fiches et la rubrique Fournées (2026-09-18) — v11.2
+
+Le carnet passe de 68 à **73 fiches**. Cinq entrées, une variante et une rubrique
+neuve, toutes nées d'une semaine réelle : une grosse courge muscade à écouler,
+un apéro tous les soirs et deux profils de macros à tenir.
+
+- **W5**, courge muscade farcie au fumoir. La chair nue prend la fumée pendant que
+  les granulés brûlent ; la farce crème-feta-lardons n'arrive qu'aux trois quarts
+  de la cuisson, quand la fumée s'épuise. Vérifié en ligne : les granulés brûlent
+  *pendant* la cuisson, 30-45 min au-dessus de 190 °C et 60-90 min en dessous —
+  une purge de 10-15 min avant d'enfourner, pratique courante pour les grosses
+  pièces de viande, mangerait ici un quart de la fenêtre de fumée.
+- **T10**, tartinade de pois cassés au chorizo. Le chorizo est poêlé à part et son
+  huile versée dessus ; mélangé dans la masse, le gras se dilue. Pas de variante
+  conserve, et la fiche dit pourquoi (§2 bis) : le pois cassé ne trempe pas et la
+  conserve n'existe quasiment pas.
+- **T11**, oignons confits, 2 kg au robot, 18 portions congelées. Miel et vinaigre
+  en fin de course seulement — mis tôt, le sucre brûle avant que l'oignon fonde.
+- **R32**, pains plats farcis à l'emmental, sur la pâte de R12 × 1,5. Fromage frais
+  à tartiner plutôt que skyr : le skyr du commerce fait éclater le naan à la poêle.
+- **G17**, vanille HiPro, avec une **note 5** propre à cette fiche — socle de la
+  note 4, ses trois jaunes, plus la crème légère. Macros calculées sur une étiquette
+  supposée à 55 kcal et 10,5 g de protéines pour 100 g : c'est dit dans les pièges,
+  tout le tableau en dépend.
+- **R21** gagne une variante noisette : 40 g de poudre torréfiée, maïzena descendue
+  de 25 à 15 g parce que la poudre absorbe, et 30 min fermes au lieu de 25-30.
+
+**Rubrique « Fournées »**, en fin de chapitre 1, à côté de « Semaine type kéfir +
+levain ». Elle décrit un week-end de production qui couvre cinq jours : trois
+appareils, trois files d'attente, le travail des mains glissé dans les temps de
+machine. Deux règles de placement en sortent — ce qui pousse part la veille, et
+tout ce qui fume passe le week-end. Première entrée : la fournée muscade et fumoir.
+Rubrique à l'essai : à garder si le format tient sur une deuxième fournée.
+
+Ordre du dimanche trouvé en cherchant le chemin critique : le flan cuit **en
+premier**, sur une cuve propre, parce qu'un flan passé après le fumoir prend le
+résidu de fumée.
+
+`build.py` apprend quatre entrées d'index : pois cassés, chorizo, emmental,
+oignons confits. Les comptes codés en dur des tests (`test-courses`,
+`test-recherche`, `test-hors-ligne`) passent de 68 à 73 — ils échouaient sur le
+nombre, pas sur le comportement. `verifie.py` vert, écart médian inchangé à
+−10,3 %, les cinq suites JS passent, le carnet s'ouvre réseau coupé.
+
 ## Légumineuses : la conserve entre au carnet (2026-09-17)
 
 La règle disait « légumineuses sèches, pas de conserve ». Elle tombe : la conserve est la version de semaine, le sec reste la référence du goût, et **toute fiche à légumineuses porte désormais les deux voies**. Le choix se fait le soir devant le placard, pas au moment d'écrire la fiche.
