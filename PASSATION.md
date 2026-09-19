@@ -14,6 +14,37 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Le poids qui cuit n'est pas celui de la liste (2026-09-19) — v11.5
+
+**R34 recalée sur une pesée réelle.** Céline a pesé l'appareil : **1 600 g** une fois
+les pommes de terre essorées et le reste incorporé. Les 1 450 g râpés perdent donc
+**345 g d'eau**, soit 24 % — le « un quart » du chapeau était juste, et l'estimation
+initiale (1 655 g) tombait à 3 % près. La densité passe de 130 à **134 kcal pour
+100 g** ; les 330 kcal par part ne bougent pas. Les galettes se forment en tas de
+**65 à 70 g** et non de 70 g pile, pour que les 24 pièces tombent juste.
+
+**Nouveau bloc dans deux fiches : l'écart entre le poids annoncé et le poids qui
+cuit, avec son effet sur la cuisson.** C'est ce que le recoupement des macros a mis
+en évidence une fois `macros.py` réparé (v11.4), et ce que ni le gabarit ni les
+pièges ne disaient nulle part.
+
+- **R34** : le nombre de galettes et de fournées se calcule sur les 1 600 g
+  d'appareil, jamais sur le poids du sac. Une galette formée sur le poids d'avant
+  essorage est trop épaisse, et les 3 min par face ne suffisent plus.
+- **W5** : sur 3 000 g bruts il reste environ la moitié dans l'assiette, entre les
+  graines, la chair prélevée pour les midis et la peau. Surtout, **la cuisson suit
+  l'épaisseur de paroi, pas le poids** — une demi-courge plus large cuit dans le
+  même temps, une paroi de 3 cm au lieu de 2 demande 15 min de plus. Doubler une
+  quantité ne double jamais un temps de cuisson : le carnet ne le disait nulle part.
+
+Reste ouvert, non fait faute d'accord : étendre le même bloc à W2, T6 et W3, qui
+portent le même écart (os de volaille, peau et graines de potimarron), et en faire
+une règle du §5 de REGLES-RECETTES.md pour que le réflexe soit systématique.
+
+R34 ressort à −26 % au recoupement : c'est l'eau essorée qui quitte le plat, la
+cause 1 que `macros.py` documente. `verifie.py` vert sur 75 fiches, les cinq suites
+JS passent, le carnet s'ouvre réseau coupé.
+
 ## macros.py réparé : de 1 à 34 fiches recoupables (2026-09-19) — v11.4
 
 Le recoupement des macros ne portait que sur une poignée de fiches, pour deux

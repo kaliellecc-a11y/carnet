@@ -796,9 +796,9 @@ Tes réglages, validés à la table. La sauce soja maison (R19) est calibrée po
 <article class="fiche" markdown="1">
 #### R34 · Galettes de pommes de terre et oignon, à l'œuf <span class="niveau b">B</span>
 
-<p class="meta">Poêle · travail 40 min · total 1 h 10 · 6 parts de 4 galettes · ≈ 130 kcal et 4 g de protéines pour 100 g · ≈ 330 kcal et 10 g de protéines par part</p>
+<p class="meta">Poêle · travail 40 min · total 1 h 10 · 6 parts de 4 galettes · ≈ 134 kcal et 4 g de protéines pour 100 g · ≈ 330 kcal et 10 g de protéines par part</p>
 
-Un kilo et demi de pommes de terre donne environ 24 galettes, de quoi tenir la semaine. Tout se joue sur l'eau : une pomme de terre crue râpée en rend un quart de son poids, et c'est elle qui empêche la croûte. On l'essore, mais on garde l'amidon qu'elle emporte — c'est lui qui lie les galettes, à la place de la farine. L'oignon reste cru dans l'appareil et fond à la cuisson.
+Un kilo et demi de pommes de terre donne **1 600 g d'appareil** une fois essoré et mélangé, soit environ 24 galettes — de quoi tenir la semaine. Tout se joue sur l'eau : une pomme de terre crue râpée en rend un quart de son poids, et c'est elle qui empêche la croûte. On l'essore, mais on garde l'amidon qu'elle emporte — c'est lui qui lie les galettes, à la place de la farine. L'oignon reste cru dans l'appareil et fond à la cuisson.
 
 **Ingrédients.**
 
@@ -816,9 +816,11 @@ Essorer par poignées dans un torchon, en serrant fort, au-dessus d'un bol. Lais
 
 Mélanger le râpé essoré, l'oignon (270 g), l'amidon récupéré, les œufs, la moutarde (25 g), le paprika fumé et le poivre. Goûter : le sel du dégorgeage suffit le plus souvent, une partie étant partie avec l'eau.
 
-Poêle à feu moyen-vif, un filet de l'huile (40 g) renouvelé à chaque fournée. Déposer des tas de 70 g, aplatir à **1 cm** — pas plus, le centre resterait cru. Quatre ou cinq galettes à la fois au maximum. 3 min par face, jusqu'à brun franc. Égoutter sur une grille, jamais sur papier absorbant : le dessous ramollit.
+Poêle à feu moyen-vif, un filet de l'huile (40 g) renouvelé à chaque fournée. Déposer des tas de 65 à 70 g, aplatir à **1 cm** — pas plus, le centre resterait cru. Quatre ou cinq galettes à la fois au maximum. 3 min par face, jusqu'à brun franc. Égoutter sur une grille, jamais sur papier absorbant : le dessous ramollit.
 
 **Variantes.** Cébette ciselée dans l'appareil · 100 g de lardons fumés poêlés, incorporés au mélange · au Woodfire en Air Fry 200 °C, 20 min retournées à mi-cuisson, avec 15 g d'huile au lieu de 40 : plus légères, moins croustillantes · un œuf au plat par assiette pour en faire un repas, +6,5 g de protéines.
+
+**Le poids de la liste n'est pas celui de la poêle.** Les 1 450 g râpés perdent **345 g d'eau à l'essorage**, un bon quart : l'appareil pesé fait 1 600 g, et c'est lui qui décide du nombre de galettes et de fournées. Une galette formée sur le poids d'avant essorage est trop épaisse, et les 3 min par face ne suffisent plus — brun dehors, cru dedans.
 
 **Pièges.** Râpe fine : purée. Essorage timide : les galettes se délitent et ne dorent pas. Amidon jeté avec l'eau : il faut rattraper à la farine, et la galette devient pâteuse. Poêle surchargée : elle refroidit, les galettes bouillent au lieu de frire. Feu trop vif : brun dehors, cru dedans.
 
@@ -1031,6 +1033,8 @@ Granulés Woodfire, Roast 175 °C, préchauffage. Enfourner dès la fin du préc
 Garnir les sillons. **15 à 20 min de plus, sans recharger les granulés** : la feta doit dorer et la pointe du couteau entrer sans résistance dans la paroi.
 
 **Variantes.** Troisième service, la courge rend son eau : gratter le contenu, mélanger, gratiner sous le couvercle Extra Crisp · sans oignons confits, monter la feta à 150 g.
+
+**Le poids de la liste n'est pas celui de l'assiette.** Sur 3 000 g bruts, environ 300 g de graines et de filaments partent, 600 g de chair rejoignent les repas de midi, et la peau ne se mange pas : il reste à peu près la moitié. Surtout, **la cuisson ne suit pas ce poids, elle suit l'épaisseur de paroi**. Une demi-courge plus lourde parce que plus large cuit dans le même temps ; une paroi de 3 cm au lieu de 2, non — compter 15 min de plus et vérifier à la pointe du couteau.
 
 **Pièges.** Paroi sous 2 cm : elle s'affaisse et la farce se répand. Farce mise dès le départ : elle fait écran, la chair ne prend aucune fumée et les lardons cuisent à l'étouffée. Crème ajoutée seule : elle tranche à 175 °C, c'est l'émulsion de la moutarde qui la stabilise. Granulés rechargés après la farce : la crème devient âcre. Oignons confits au-delà de 80 g : le plat bascule en sucré-salé et la feta ne rattrape plus. Poids autre que 3 000 g : peser à la coupe et ajuster la farce, mais garder les 2 cm de paroi, qui sont une épaisseur et non une proportion.
 </article>
