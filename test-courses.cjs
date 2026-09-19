@@ -22,7 +22,7 @@ const liste = async () => {
     .map(li => li.textContent.replace(/\s+/g, ' ').trim()));
 };
 
-v('une case par fiche', 68, await page.evaluate(() => document.querySelectorAll('.co-case').length));
+v('une case par fiche', 75, await page.evaluate(() => document.querySelectorAll('.co-case').length));
 v('bouton caché au départ', true, await page.evaluate(() => document.querySelector('.co-ouvre').hidden));
 
 // R8 : farine T65 deux fois (100 + 350), miel deux fois (10 + 40)

@@ -23,12 +23,12 @@ const chercher = async (q) => {
 };
 
 v('champ présent', true, await page.evaluate(() => !!document.querySelector('.rech-champ')));
-v('68 fiches au départ', 68, await page.evaluate(() =>
+v('75 fiches au départ', 75, await page.evaluate(() =>
   [...document.querySelectorAll('article.fiche')].filter(a => !a.classList.contains('masque')).length));
 
 let r = await chercher('potimarron');
 console.log('« potimarron » →', r.compteur, '| sommaire :', r.toc, '| titres :', r.titres, '| index :', r.index);
-v('potimarron trouve des fiches', true, r.fiches > 0 && r.fiches < 68);
+v('potimarron trouve des fiches', true, r.fiches > 0 && r.fiches < 75);
 v('sommaire filtré à l’identique', r.fiches, r.toc);
 v('index masqués pendant la recherche', 0, r.index);
 v('titres de section conservés', true, r.titres > 0);
@@ -61,9 +61,9 @@ const remis = await page.evaluate(() => ({
   index: [...document.querySelectorAll('.content section.index')].filter(s => !s.classList.contains('masque')).length,
   toc: [...document.querySelectorAll('.toc li.rec')].filter(l => !l.classList.contains('masque')).length,
 }));
-v('tout revient en vidant', 68, remis.fiches);
+v('tout revient en vidant', 75, remis.fiches);
 v('index revenus', 3, remis.index);
-v('sommaire revenu', 68, remis.toc);
+v('sommaire revenu', 75, remis.toc);
 
 // une recette personnelle ajoutée après le chargement doit être trouvable
 await page.evaluate(() => {

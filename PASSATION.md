@@ -14,6 +14,157 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Le poids qui cuit n'est pas celui de la liste (2026-09-19) — v11.5
+
+**R34 recalée sur une pesée réelle.** Céline a pesé l'appareil : **1 600 g** une fois
+les pommes de terre essorées et le reste incorporé. Les 1 450 g râpés perdent donc
+**345 g d'eau**, soit 24 % — le « un quart » du chapeau était juste, et l'estimation
+initiale (1 655 g) tombait à 3 % près. La densité passe de 130 à **134 kcal pour
+100 g** ; les 330 kcal par part ne bougent pas. Les galettes se forment en tas de
+**65 à 70 g** et non de 70 g pile, pour que les 24 pièces tombent juste.
+
+**Nouveau bloc dans deux fiches : l'écart entre le poids annoncé et le poids qui
+cuit, avec son effet sur la cuisson.** C'est ce que le recoupement des macros a mis
+en évidence une fois `macros.py` réparé (v11.4), et ce que ni le gabarit ni les
+pièges ne disaient nulle part.
+
+- **R34** : le nombre de galettes et de fournées se calcule sur les 1 600 g
+  d'appareil, jamais sur le poids du sac. Une galette formée sur le poids d'avant
+  essorage est trop épaisse, et les 3 min par face ne suffisent plus.
+- **W5** : sur 3 000 g bruts il reste environ la moitié dans l'assiette, entre les
+  graines, la chair prélevée pour les midis et la peau. Surtout, **la cuisson suit
+  l'épaisseur de paroi, pas le poids** — une demi-courge plus large cuit dans le
+  même temps, une paroi de 3 cm au lieu de 2 demande 15 min de plus. Doubler une
+  quantité ne double jamais un temps de cuisson : le carnet ne le disait nulle part.
+
+Reste ouvert, non fait faute d'accord : étendre le même bloc à W2, T6 et W3, qui
+portent le même écart (os de volaille, peau et graines de potimarron), et en faire
+une règle du §5 de REGLES-RECETTES.md pour que le réflexe soit systématique.
+
+R34 ressort à −26 % au recoupement : c'est l'eau essorée qui quitte le plat, la
+cause 1 que `macros.py` documente. `verifie.py` vert sur 75 fiches, les cinq suites
+JS passent, le carnet s'ouvre réseau coupé.
+
+## macros.py réparé : de 1 à 34 fiches recoupables (2026-09-19) — v11.4
+
+Le recoupement des macros ne portait que sur une poignée de fiches, pour deux
+raisons distinctes, toutes deux corrigées.
+
+**Les poids à quatre chiffres n'étaient pas lus.** La racine était dans
+`verifie.py` : `POIDS_G` n'acceptait pas l'espace des milliers, si bien que
+`1 450 g` ne comptait pour rien dans le total cru, et que `POIDS_DANS_TEXTE`
+n'y voyait que `450 g`. Un motif `MILLIERS` accepte désormais l'espace normale,
+l'insécable et la fine insécable, mais **seulement en groupement strict** (1 à
+3 chiffres, puis des tranches de 3) : sans cette rigueur, « 8 boules de 100 g »
+serait devenu 8 100 g. Une fonction `nombre()` normalise les deux lectures, celle
+de la liste et celle des rappels, pour qu'elles ne puissent plus diverger.
+
+**Une meta annonçant les protéines par part n'était pas recoupable.** `KPART`
+exigeait `kcal par <mot>` sans rien entre les deux, ce qui excluait la forme
+« ≈ 330 kcal et 10 g de protéines par part » que le gabarit autorise pourtant.
+Le motif accepte maintenant les deux écritures.
+
+**Résultat : 34 fiches recoupables au lieu d'une, et l'écart médian reste à
+−10,3 %.** C'est le meilleur signe que la correction est bonne — la référence du
+carnet n'a pas bougé, l'échantillon a simplement cessé d'être minuscule.
+
+Deux défauts que le bug masquait, corrigés dans la foulée :
+
+- **W3** ne rappelait jamais ses 1 400 g de potimarrons dans la méthode. Les deux
+  côtés lisant « 400 g » par accident, le contrôle passait. Erreur avérée, donc
+  corrigée sans demander (§7).
+- **W5** comptait deux fois : les 600 g de chair prélevée sortent des 3 000 g de
+  courge, ce n'est pas un ingrédient supplémentaire. La ligne quitte la liste, le
+  poids reste dans la méthode.
+
+Ce que le recoupement montre maintenant, et qui est **légitime** : W5 (−40 %),
+W2 (−30 %) et T6 (−26 %) portent de grosses parties non comestibles — peau et
+graines de courge, os de volaille ; R28 et R29 (−80 %) ont un rendement composé.
+Ce sont les causes 2 et 3 que le fichier documente lui-même. Diagnostic, pas
+verdict.
+
+`verifie.py` vert sur 75 fiches, les cinq suites JS passent, le carnet s'ouvre
+réseau coupé.
+
+## Deux pâtes sans levant (2026-09-19) — v11.3
+
+Le carnet passe à **75 fiches**. Les deux entrées comblent le même trou : que faire
+quand il n'y a ni kéfir, ni levain, ni envie d'attendre.
+
+- **R33**, naans au yaourt, sans levain. C'est la première pâte du carnet qui ne
+  suppose aucun levant. Le raisonnement tient au tableau « Quel levant pour quoi » :
+  une pita ou un naan gonfle **à la vapeur**, le levant ne sert qu'à la souplesse —
+  et le yaourt la donne aussi bien. Sans fermentation pour détendre le réseau, ce
+  sont le pétrissage (8-10 min, non négociable) et les 6 h de repos qui font tout.
+  La levure chimique est écartée pour une raison technique et pas seulement par
+  principe : son gaz part avant la cuisson et ne laisse qu'une mie friable, à
+  l'opposé de la souplesse que le pétrissage vient de construire.
+- **R34**, galettes de pommes de terre et oignon, à l'œuf. Nouvelle sous-catégorie
+  **Salé · Galettes** : les pommes de terre n'existaient au carnet qu'en quartiers
+  ou en cubes rôtis, jamais râpées. Le geste qui décide de tout est l'essorage, et
+  la récupération de l'amidon décanté dans l'eau rendue — c'est lui qui lie, à la
+  place de la farine.
+
+`build.py` apprend trois entrées d'index : **yaourt** rejoint « skyr · fromage
+blanc », plus **oignon** et la technique **dégorger et essorer**. Les comptes des
+tests passent de 73 à 75.
+
+**Deux limites de `macros.py` repérées à cette occasion, non corrigées.** Un poids
+à quatre chiffres écrit avec une espace (`1 450 g`, `1 400 g` de W3, `2 000 g` de
+T11) n'est pas compté dans le total cru. Et une meta qui annonce les protéines par
+part n'est pas recoupable, le motif attendant `kcal par <mot>` sans rien entre les
+deux — W4, T3 et W5 sont dans ce cas. R34 cumule les deux et ressort « non
+recoupable ». Ce sont des limites de l'outil de diagnostic, pas des erreurs de
+fiche, mais elles rendent les macros des grosses fournées invérifiables : à traiter
+séparément.
+
+`verifie.py` vert sur 75 fiches, R33 recoupée à −8,4 % (la perte à la cuisson en
+explique −10 %), les cinq suites JS passent, le carnet s'ouvre réseau coupé.
+
+## Cinq fiches et la rubrique Fournées (2026-09-18) — v11.2
+
+Le carnet passe de 68 à **73 fiches**. Cinq entrées, une variante et une rubrique
+neuve, toutes nées d'une semaine réelle : une grosse courge muscade à écouler,
+un apéro tous les soirs et deux profils de macros à tenir.
+
+- **W5**, courge muscade farcie au fumoir. La chair nue prend la fumée pendant que
+  les granulés brûlent ; la farce crème-feta-lardons n'arrive qu'aux trois quarts
+  de la cuisson, quand la fumée s'épuise. Vérifié en ligne : les granulés brûlent
+  *pendant* la cuisson, 30-45 min au-dessus de 190 °C et 60-90 min en dessous —
+  une purge de 10-15 min avant d'enfourner, pratique courante pour les grosses
+  pièces de viande, mangerait ici un quart de la fenêtre de fumée.
+- **T10**, tartinade de pois cassés au chorizo. Le chorizo est poêlé à part et son
+  huile versée dessus ; mélangé dans la masse, le gras se dilue. Pas de variante
+  conserve, et la fiche dit pourquoi (§2 bis) : le pois cassé ne trempe pas et la
+  conserve n'existe quasiment pas.
+- **T11**, oignons confits, 2 kg au robot, 18 portions congelées. Miel et vinaigre
+  en fin de course seulement — mis tôt, le sucre brûle avant que l'oignon fonde.
+- **R32**, pains plats farcis à l'emmental, sur la pâte de R12 × 1,5. Fromage frais
+  à tartiner plutôt que skyr : le skyr du commerce fait éclater le naan à la poêle.
+- **G17**, vanille HiPro, avec une **note 5** propre à cette fiche — socle de la
+  note 4, ses trois jaunes, plus la crème légère. Macros calculées sur une étiquette
+  supposée à 55 kcal et 10,5 g de protéines pour 100 g : c'est dit dans les pièges,
+  tout le tableau en dépend.
+- **R21** gagne une variante noisette : 40 g de poudre torréfiée, maïzena descendue
+  de 25 à 15 g parce que la poudre absorbe, et 30 min fermes au lieu de 25-30.
+
+**Rubrique « Fournées »**, en fin de chapitre 1, à côté de « Semaine type kéfir +
+levain ». Elle décrit un week-end de production qui couvre cinq jours : trois
+appareils, trois files d'attente, le travail des mains glissé dans les temps de
+machine. Deux règles de placement en sortent — ce qui pousse part la veille, et
+tout ce qui fume passe le week-end. Première entrée : la fournée muscade et fumoir.
+Rubrique à l'essai : à garder si le format tient sur une deuxième fournée.
+
+Ordre du dimanche trouvé en cherchant le chemin critique : le flan cuit **en
+premier**, sur une cuve propre, parce qu'un flan passé après le fumoir prend le
+résidu de fumée.
+
+`build.py` apprend quatre entrées d'index : pois cassés, chorizo, emmental,
+oignons confits. Les comptes codés en dur des tests (`test-courses`,
+`test-recherche`, `test-hors-ligne`) passent de 68 à 73 — ils échouaient sur le
+nombre, pas sur le comportement. `verifie.py` vert, écart médian inchangé à
+−10,3 %, les cinq suites JS passent, le carnet s'ouvre réseau coupé.
+
 ## Légumineuses : la conserve entre au carnet (2026-09-17)
 
 La règle disait « légumineuses sèches, pas de conserve ». Elle tombe : la conserve est la version de semaine, le sec reste la référence du goût, et **toute fiche à légumineuses porte désormais les deux voies**. Le choix se fait le soir devant le placard, pas au moment d'écrire la fiche.
