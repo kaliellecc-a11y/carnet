@@ -996,7 +996,7 @@ Le potimarron sert de plat. Léger en glucides : ajouter du pain au levain pour 
 - **30 g** · noix concassées
 - sauge, sel, piment d'Espelette
 
-**Méthode.** Préchauffer en Bake à 200 °C. Demi-potimarrons face coupée vers le haut, huilés (15 g) et salés, 30 à 35 min : la pointe du couteau entre sans résistance. Casser 1 à 2 œufs par cavité, parsemer le parmesan (40 g), les noix (30 g) et la sauge. Bake à 180 °C, 10 à 14 min : blanc pris, jaune coulant. À côté : salade d'épinards frais.
+**Méthode.** Préchauffer en Bake à 200 °C. Les demi-potimarrons (1 400 g) face coupée vers le haut, huilés (15 g) et salés, 30 à 35 min : la pointe du couteau entre sans résistance. Casser 1 à 2 œufs par cavité, parsemer le parmesan (40 g), les noix (30 g) et la sauge. Bake à 180 °C, 10 à 14 min : blanc pris, jaune coulant. À côté : salade d'épinards frais.
 
 **Pièges.** Cuisson des œufs à caler au premier essai : surveiller dès 10 min.
 </article>
@@ -1012,7 +1012,6 @@ La chair d'une muscade est douce et humide : elle prend la fumée mieux qu'aucun
 
 - **Courge**
     - **3 000 g** · courge muscade entière, coupée en deux dans la longueur, graines et filaments retirés
-    - **600 g** · chair prélevée dans le sillon et le col, en cubes de 1 cm — servie froide aux repas de midi
     - **20 g** · huile d'olive
 - **Farce, aux trois quarts de la cuisson**
     - **200 g** · lardons fumés
@@ -1023,7 +1022,7 @@ La chair d'une muscade est douce et humide : elle prend la fumée mieux qu'aucun
     - **25 g** · moutarde
     - paprika fumé, thym, poivre
 
-**Méthode.** Couper la courge (3 000 g) en deux dans la longueur, retirer graines et filaments. Creuser un sillon continu de la cavité jusque dans le col — le col est plein, c'est lui qui donne le volume à farcir — et en prélever la chair (600 g). **Laisser 2 cm de paroi** : en dessous, la courge s'affaisse en fin de cuisson. Huiler les faces creusées avec la moitié de l'huile (20 g au total), saler ; les cubes de chair huilés du reste, étalés sur une plaque à part.
+**Méthode.** Couper la courge (3 000 g) en deux dans la longueur, retirer graines et filaments. Creuser un sillon continu de la cavité jusque dans le col — le col est plein, c'est lui qui donne le volume à farcir — et en prélever la chair (600 g) — elle sort des 3 000 g, ce n'est pas un ingrédient de plus : en cubes de 1 cm, elle rôtit à côté et se sert froide aux repas de midi. **Laisser 2 cm de paroi** : en dessous, la courge s'affaisse en fin de cuisson. Huiler les faces creusées avec la moitié de l'huile (20 g au total), saler ; les cubes de chair huilés du reste, étalés sur une plaque à part.
 
 Granulés Woodfire, Roast 175 °C, préchauffage. Enfourner dès la fin du préchauffage : les granulés brûlent pendant la cuisson, purger reviendrait à perdre la fenêtre de fumée. Demi-courges face creusée vers le haut, cubes à côté — ils sortent à mi-parcours. **35 min.**
 

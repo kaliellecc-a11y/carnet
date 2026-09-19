@@ -14,6 +14,47 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## macros.py réparé : de 1 à 34 fiches recoupables (2026-09-19) — v11.4
+
+Le recoupement des macros ne portait que sur une poignée de fiches, pour deux
+raisons distinctes, toutes deux corrigées.
+
+**Les poids à quatre chiffres n'étaient pas lus.** La racine était dans
+`verifie.py` : `POIDS_G` n'acceptait pas l'espace des milliers, si bien que
+`1 450 g` ne comptait pour rien dans le total cru, et que `POIDS_DANS_TEXTE`
+n'y voyait que `450 g`. Un motif `MILLIERS` accepte désormais l'espace normale,
+l'insécable et la fine insécable, mais **seulement en groupement strict** (1 à
+3 chiffres, puis des tranches de 3) : sans cette rigueur, « 8 boules de 100 g »
+serait devenu 8 100 g. Une fonction `nombre()` normalise les deux lectures, celle
+de la liste et celle des rappels, pour qu'elles ne puissent plus diverger.
+
+**Une meta annonçant les protéines par part n'était pas recoupable.** `KPART`
+exigeait `kcal par <mot>` sans rien entre les deux, ce qui excluait la forme
+« ≈ 330 kcal et 10 g de protéines par part » que le gabarit autorise pourtant.
+Le motif accepte maintenant les deux écritures.
+
+**Résultat : 34 fiches recoupables au lieu d'une, et l'écart médian reste à
+−10,3 %.** C'est le meilleur signe que la correction est bonne — la référence du
+carnet n'a pas bougé, l'échantillon a simplement cessé d'être minuscule.
+
+Deux défauts que le bug masquait, corrigés dans la foulée :
+
+- **W3** ne rappelait jamais ses 1 400 g de potimarrons dans la méthode. Les deux
+  côtés lisant « 400 g » par accident, le contrôle passait. Erreur avérée, donc
+  corrigée sans demander (§7).
+- **W5** comptait deux fois : les 600 g de chair prélevée sortent des 3 000 g de
+  courge, ce n'est pas un ingrédient supplémentaire. La ligne quitte la liste, le
+  poids reste dans la méthode.
+
+Ce que le recoupement montre maintenant, et qui est **légitime** : W5 (−40 %),
+W2 (−30 %) et T6 (−26 %) portent de grosses parties non comestibles — peau et
+graines de courge, os de volaille ; R28 et R29 (−80 %) ont un rendement composé.
+Ce sont les causes 2 et 3 que le fichier documente lui-même. Diagnostic, pas
+verdict.
+
+`verifie.py` vert sur 75 fiches, les cinq suites JS passent, le carnet s'ouvre
+réseau coupé.
+
 ## Deux pâtes sans levant (2026-09-19) — v11.3
 
 Le carnet passe à **75 fiches**. Les deux entrées comblent le même trou : que faire

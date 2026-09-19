@@ -55,9 +55,10 @@ FARINES = {"T45", "T55", "T65", "T80", "T110", "T130", "T150"}
 
 TITRE = re.compile(r'^([A-Z]\d+) · (.+?) <span class="niveau ([ab])">([AB])</span>$')
 QUANTITE = re.compile(r"^\*\*(.+?)\*\*")
-POIDS_G = re.compile(r"^([\d.,]+)\s*g$")
+MILLIERS = r"\d{1,3}(?:[ \u00a0\u202f]\d{3})*(?:[.,]\d+)?|[\d.,]+"
+POIDS_G = re.compile(r"^(" + MILLIERS + r")\s*g$")
 PARENTHESE = re.compile(r"\(([^()]*)\)")
-POIDS_DANS_TEXTE = re.compile(r"([\d.,]+)\s*g\b")
+POIDS_DANS_TEXTE = re.compile(r"(" + MILLIERS + r")\s*g\b")
 RENVOI = re.compile(r"(?<![\w#/-])([" + FAMILLES + r"]\d{1,2})(?![\dA-Za-z])")
 
 
@@ -93,6 +94,11 @@ def bloc_methode(corps: str) -> str:
     return m.group(1) if m else ""
 
 
+def nombre(txt: str) -> float:
+    """« 1 450 » et « 1,5 » deviennent des flottants. L'espace sépare les milliers."""
+    return float(txt.replace(" ", "").replace("\u00a0", "").replace("\u202f", "").replace(",", "."))
+
+
 def poids_attendus(bloc: str) -> list[tuple[float, float | None]]:
     """Les poids de la liste, chacun avec la somme de son groupe s'il en a un.
 
@@ -116,13 +122,13 @@ def poids_attendus(bloc: str) -> list[tuple[float, float | None]]:
         if indente == 0:
             if valeur:
                 groupe = None
-                entrees.append((float(valeur.group(1).replace(",", ".")), None))
+                entrees.append((nombre(valeur.group(1)), None))
             else:
                 # intitulé de groupe : « Le soir », « Pâte », « Levain-mère, 6 h »
                 groupe = len(totaux)
                 totaux[groupe] = 0.0
         elif valeur and groupe is not None:
-            p = float(valeur.group(1).replace(",", "."))
+            p = nombre(valeur.group(1))
             totaux[groupe] += p
             entrees.append((p, groupe))
 
@@ -138,7 +144,7 @@ def poids_rappeles(methode: str) -> set[float]:
     trouves = set()
     for contenu in PARENTHESE.findall(methode):
         for v in POIDS_DANS_TEXTE.findall(contenu):
-            trouves.add(float(v.replace(",", ".")))
+            trouves.add(nombre(v))
     return trouves
 
 
