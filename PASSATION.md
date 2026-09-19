@@ -14,6 +14,41 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Deux pâtes sans levant (2026-09-19) — v11.3
+
+Le carnet passe à **75 fiches**. Les deux entrées comblent le même trou : que faire
+quand il n'y a ni kéfir, ni levain, ni envie d'attendre.
+
+- **R33**, naans au yaourt, sans levain. C'est la première pâte du carnet qui ne
+  suppose aucun levant. Le raisonnement tient au tableau « Quel levant pour quoi » :
+  une pita ou un naan gonfle **à la vapeur**, le levant ne sert qu'à la souplesse —
+  et le yaourt la donne aussi bien. Sans fermentation pour détendre le réseau, ce
+  sont le pétrissage (8-10 min, non négociable) et les 6 h de repos qui font tout.
+  La levure chimique est écartée pour une raison technique et pas seulement par
+  principe : son gaz part avant la cuisson et ne laisse qu'une mie friable, à
+  l'opposé de la souplesse que le pétrissage vient de construire.
+- **R34**, galettes de pommes de terre et oignon, à l'œuf. Nouvelle sous-catégorie
+  **Salé · Galettes** : les pommes de terre n'existaient au carnet qu'en quartiers
+  ou en cubes rôtis, jamais râpées. Le geste qui décide de tout est l'essorage, et
+  la récupération de l'amidon décanté dans l'eau rendue — c'est lui qui lie, à la
+  place de la farine.
+
+`build.py` apprend trois entrées d'index : **yaourt** rejoint « skyr · fromage
+blanc », plus **oignon** et la technique **dégorger et essorer**. Les comptes des
+tests passent de 73 à 75.
+
+**Deux limites de `macros.py` repérées à cette occasion, non corrigées.** Un poids
+à quatre chiffres écrit avec une espace (`1 450 g`, `1 400 g` de W3, `2 000 g` de
+T11) n'est pas compté dans le total cru. Et une meta qui annonce les protéines par
+part n'est pas recoupable, le motif attendant `kcal par <mot>` sans rien entre les
+deux — W4, T3 et W5 sont dans ce cas. R34 cumule les deux et ressort « non
+recoupable ». Ce sont des limites de l'outil de diagnostic, pas des erreurs de
+fiche, mais elles rendent les macros des grosses fournées invérifiables : à traiter
+séparément.
+
+`verifie.py` vert sur 75 fiches, R33 recoupée à −8,4 % (la perte à la cuisson en
+explique −10 %), les cinq suites JS passent, le carnet s'ouvre réseau coupé.
+
 ## Cinq fiches et la rubrique Fournées (2026-09-18) — v11.2
 
 Le carnet passe de 68 à **73 fiches**. Cinq entrées, une variante et une rubrique

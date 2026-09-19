@@ -631,6 +631,29 @@ Le naan fourré du carnet, sans fromage industriel : le fromage frais à tartine
 **Pièges.** Skyr non égoutté dans la farce : elle bout, le naan éclate et vide son fromage dans la poêle. Farce au bord : elle brûle avant que la pâte cuise. Réétalage au rouleau appuyé : la soudure lâche.
 </article>
 
+<article class="fiche" markdown="1">
+#### R33 · Naans au yaourt, sans levain <span class="niveau b">B</span>
+
+<p class="meta">Sans levant · poêle en fonte · travail 15 min · total 6 h 30 · 6 naans · ≈ 252 kcal et 9,5 g de protéines pour 100 g · ≈ 280 kcal par naan, hors beurre de finition</p>
+
+Le dépannage du carnet : ni kéfir, ni levain, ni poudre chimique. Un pain plat ne lève pas, il gonfle à la vapeur — le levant ne sert qu'à la souplesse, et le yaourt la donne aussi bien. Sans fermentation pour détendre le réseau, ce sont le pétrissage et les six heures de repos qui font tout le travail.
+
+**Ingrédients.**
+
+- **400 g** · farine T65
+- **200 g** · skyr ou yaourt, ou T1
+- **100 g** · eau
+- **20 g** · huile
+- **8 g** · sel
+- beurre fondu, ail pour finir
+
+**Méthode.** Mélanger la farine (400 g) et le sel (8 g) à sec. Ajouter le skyr (200 g), l'eau (100 g) et l'huile (20 g), rassembler à la main. Pétrir 8 à 10 min jusqu'à ce que la pâte soit lisse et rebondisse sous le doigt : c'est le seul geste décisif de la fiche. Bouler, couvrir, 6 h à température ambiante — la pâte ne gonflera pas, elle se détend, et c'est ce qu'on cherche. 6 boules de 120 g, détente 20 min couvertes. Étaler en ovale de 4 mm, sans fariner plus que nécessaire. Poêle en fonte à sec, très chaude : une goutte d'eau doit crépiter et disparaître aussitôt. 1 min première face jusqu'aux cloques, retourner, 1 min. Beurre-ail à la sortie, empilés dans un torchon.
+
+**Variantes.** Repos de 15 h au réfrigérateur à la place des 6 h ambiantes : pâte encore plus docile au rouleau · farcis, sur le modèle des pains plats farcis (R32) : 40 g de farce au centre, refermés en bourse, réétalés à 6 mm · cébette ciselée ou ail râpé dans la pâte · en pita, étalés à 3-4 mm bien régulier, sur pierre préchauffée 45 min à 250-270 °C, mais la poche est moins fiable que celle de la pita au levain-mère (R11) — une seule zone épaisse et elle reste plate.
+
+**Pièges.** Poêle tiède : naan pâle, sec, sans cloques. Pâte insuffisamment pétrie : elle se rétracte au rouleau et le naan cuit épais et cassant. Repos écourté sous une heure : même symptôme. Levure chimique ajoutée « pour aider » : son gaz part avant la cuisson et ne laisse qu'une mie friable, à l'opposé de la souplesse que le pétrissage vient de construire.
+</article>
+
 ### Salé · Apéritif
 
 <article class="fiche" markdown="1">
@@ -766,6 +789,40 @@ Tes réglages, validés à la table. La sauce soja maison (R19) est calibrée po
 - pointe de piment togarashi, selon goût
 
 **Méthode.** Délayer le miso (9 g) dans l'eau (35 g), ajouter la sauce soja sucrée (60 g), la foncée (5 g), l'huile de sésame (4-5 g), fouetter. Se garde une semaine au réfrigérateur.
+</article>
+
+### Salé · Galettes
+
+<article class="fiche" markdown="1">
+#### R34 · Galettes de pommes de terre et oignon, à l'œuf <span class="niveau b">B</span>
+
+<p class="meta">Poêle · travail 40 min · total 1 h 10 · 6 parts de 4 galettes · ≈ 130 kcal et 4 g de protéines pour 100 g · ≈ 330 kcal et 10 g de protéines par part</p>
+
+Un kilo et demi de pommes de terre donne environ 24 galettes, de quoi tenir la semaine. Tout se joue sur l'eau : une pomme de terre crue râpée en rend un quart de son poids, et c'est elle qui empêche la croûte. On l'essore, mais on garde l'amidon qu'elle emporte — c'est lui qui lie les galettes, à la place de la farine. L'oignon reste cru dans l'appareil et fond à la cuisson.
+
+**Ingrédients.**
+
+- **1 450 g** · pommes de terre à chair ferme, râpées gros
+- **270 g** · oignon râpé (2 gros oignons)
+- **4** œufs
+- **25 g** · moutarde
+- **15 g** · sel, pour le dégorgeage
+- **40 g** · huile, pour la cuisson
+- paprika fumé, poivre
+
+**Méthode.** Râper les pommes de terre (1 450 g) sur la grille à **gros trous** — une râpe fine donne de la purée et aucune galette. Mélanger au sel (15 g), laisser dégorger 15 min dans une passoire. **Ne jamais rincer** : l'eau emporterait l'amidon.
+
+Essorer par poignées dans un torchon, en serrant fort, au-dessus d'un bol. Laisser l'eau recueillie décanter 5 min : une pâte blanche se dépose au fond. Jeter le liquide, garder cet amidon.
+
+Mélanger le râpé essoré, l'oignon (270 g), l'amidon récupéré, les œufs, la moutarde (25 g), le paprika fumé et le poivre. Goûter : le sel du dégorgeage suffit le plus souvent, une partie étant partie avec l'eau.
+
+Poêle à feu moyen-vif, un filet de l'huile (40 g) renouvelé à chaque fournée. Déposer des tas de 70 g, aplatir à **1 cm** — pas plus, le centre resterait cru. Quatre ou cinq galettes à la fois au maximum. 3 min par face, jusqu'à brun franc. Égoutter sur une grille, jamais sur papier absorbant : le dessous ramollit.
+
+**Variantes.** Cébette ciselée dans l'appareil · 100 g de lardons fumés poêlés, incorporés au mélange · au Woodfire en Air Fry 200 °C, 20 min retournées à mi-cuisson, avec 15 g d'huile au lieu de 40 : plus légères, moins croustillantes · un œuf au plat par assiette pour en faire un repas, +6,5 g de protéines.
+
+**Pièges.** Râpe fine : purée. Essorage timide : les galettes se délitent et ne dorent pas. Amidon jeté avec l'eau : il faut rattraper à la farine, et la galette devient pâteuse. Poêle surchargée : elle refroidit, les galettes bouillent au lieu de frire. Feu trop vif : brun dehors, cru dedans.
+
+**Conservation.** Quatre jours au frais, réchauffées 3 min à la poêle ou 6 min en Air Fry. Se congèlent cuites, à plat, séparées par du papier.
 </article>
 
 ### Semaine type kéfir + levain
