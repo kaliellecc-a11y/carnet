@@ -827,6 +827,43 @@ Poêle à feu moyen-vif, un filet de l'huile (40 g) renouvelé à chaque fourné
 **Conservation.** Quatre jours au frais, réchauffées 3 min à la poêle ou 6 min en Air Fry. Se congèlent cuites, à plat, séparées par du papier.
 </article>
 
+<article class="fiche" markdown="1">
+#### R35 · Gaufres de courgette et feta <span class="niveau b">B</span>
+
+<p class="meta">Gaufrier · travail 45 min · total 1 h 25 · 1 500 g de pâte, 10 gaufres de 150 g · ≈ 167 kcal et 7 g de protéines pour 100 g · ≈ 250 kcal et 10,5 g de protéines par gaufre</p>
+
+Des gaufres salées pour écouler les longues courgettes et remplir le congélateur. Ni levure ni poudre chimique : une gaufre gonfle à la vapeur entre deux plaques brûlantes, le même mécanisme que les naans de R33. Les blancs montés de R5 n'ajouteraient qu'une légèreté fragile, qui supporte mal la congélation.
+
+**Ingrédients.**
+
+- **300 g** · farine T65
+- **75 g** · maïzena
+- **5** œufs
+- **150 g** · skyr
+- **160 g** · lait — jusqu'à 250 g selon la courgette, voir plus bas
+- **35 g** · beurre fondu
+- **8 g** · sel
+- **375 g** · courgette en tranches fines au robot, ou râpée gros
+- **150 g** · feta égouttée, émiettée fin
+- poivre, ail en poudre
+
+**Méthode.** Mélanger au fouet la farine (300 g), la maïzena (75 g) et le sel (8 g). Ajouter les œufs, le skyr (150 g) et le lait (160 g), fouetter jusqu'à lisse, puis le beurre fondu (35 g), le poivre et l'ail en poudre. À ce stade la pâte tombe du fouet en **ruban épais qui se casse** — si elle coule, il y a trop de liquide.
+
+Trancher la courgette (375 g) très fin, sans la saler ni l'essorer. L'incorporer à la maryse avec la feta (150 g). Attendre **10 min, puis regarder** : la courgette relâche un peu d'eau et la pâte se détend. Trop ferme pour napper les alvéoles, ajouter du lait 20 g à la fois, jusqu'à 250 g en tout.
+
+Repos 30 min, le temps que la farine s'hydrate.
+
+Gaufrier **très chaud**, huilé à chaque fournée. Remplir sans tasser, fermer, **5 à 6 min sans ouvrir**. Égoutter sur une grille, jamais sur papier absorbant.
+
+**La courgette compte dans le liquide.** Une courgette est à 94 % d'eau : les 375 g en apportent 350. Les 375 g de farineux reçoivent donc près de 700 g de liquide, pas les 345 g de la liste — un rapport de 1,9 pour 1, déjà au-dessus de la norme d'une pâte à gaufre. C'est pourquoi le lait se règle à vue après la courgette, et non d'avance : la même recette calculée sur la liste seule donne une pâte liquide et des gaufres molles.
+
+**Variantes.** Sans courgette, pour la moitié de pâte qu'on garde nature : retirer 100 g de lait, la pâte n'a plus d'eau cachée à compenser · cébette ciselée · paprika fumé · pour 750 g de courgettes, doubler toute la pâte.
+
+**Pièges.** Fer pas assez chaud : la gaufre colle et se déchire en deux. Ouvrir avant 5 min : même résultat, la vapeur n'a pas fini de la structurer. Saler la courgette : elle rend son eau et la pâte se liquéfie. Tout le lait d'emblée : gaufre molle qui ne croustille jamais. Le nombre de fournées dépend du gaufrier — compter le temps de cuisson sur le sien avant d'annoncer l'heure du repas.
+
+**Conservation.** Congélation à plat, séparées par du papier, puis en sac. Réchauffées encore congelées : 4 min au gaufrier ou 8 min en Air Fry à 180 °C. Jamais au micro-ondes, elles ramollissent.
+</article>
+
 ### Semaine type kéfir + levain
 
 Dimanche soir : sortir le levain dur, rafraîchir 1:2:1, laisser sur le plan de travail. Lundi matin : levain au pic, remettre 50 g au froid, lancer la pizza ou la focaccia avec le reste (au froid pour mardi soir) et une fournée de gressins. Le kéfir, lui, tourne comme d'habitude : celui qu'on filtre le soir sert à la pâte à pancakes ou à gaufres du lendemain, celui du matin au levain-mère d'une pita ou d'une brioche. Le mois suivant, le levain dur n'a besoin que du rafraîchi mensuel s'il n'a pas servi.
@@ -1225,9 +1262,9 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** Trier et rincer les lentilles (300 g). Dans la cuve, l'huile (15 g) ; couvercle ouvert, Rissolé, l'oignon (150 g) 3 min, puis l'ail (5 g) et le concentré (20 g) 1 min. Puis, dans cet ordre : les carottes (150 g), le panais (200 g), les lentilles, le laurier et le thym, l'eau (750 g). Couvercle fermé et verrouillé, valve fermée, Soupe 12 min. Décompression naturelle 10 min, puis valve ouverte ; lentilles encore fermes : 3 min de plus. Retirer le laurier, saler, vinaigre (15 g). Creuser 4 puits, un œuf dans chacun, parmesan (30 g) par-dessus. Couvercle Extra Crisp, 180 °C, 6 à 8 min : blanc pris, jaune coulant.
 
-**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette.
+**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette. Fournée de semaine, 5 parts, œufs et parmesan au service : 350 g de lentilles, 18 g d'huile, 175 g d'oignon, 6 g d'ail, 25 g de concentré, 250 g de carottes, 320 g de panais, laurier et thym, 800 g d'eau. L'eau ne suit pas le facteur : 570 g de légumes racines rendent la leur et rien ne s'évapore valve fermée — à 900 g on obtient une soupe, dans laquelle aucun puits ne tient. Même Rissolé, même Soupe 12 min. À défaut de xérès, 12 g de vinaigre blanc et 6 g de balsamique après décompression : le blanc pour l'acidité franche, le balsamique pour la rondeur oxydative que le blanc n'a pas — tout en balsamique sucrerait un plat qui porte déjà 320 g de panais. Cuit, le plat pèse ≈ 1 900 g, soit ≈ 95 kcal et 4,8 g de protéines pour 100 g. Peser 5 portions de 380 g **à froid**, avant tout réchauffage. Au moment de manger : 2 à 3 cuillères d'eau chaude par portion, les lentilles ont épaissi une nuit au froid et l'œuf se poserait sur une purée sans s'y enfoncer ; petite poêle à couvert, feu doux, 4 à 5 min, blanc pris et jaune coulant, 15 g de parmesan hors du feu. Avec 150 g de pommes de terre vapeur, le repas fait ≈ 610 kcal et 33 g de protéines.
 
-**Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant.
+**Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant. Vinaigre ajouté avant la montée en pression : l'acide durcit la peau des lentilles, elles restent fermes sur un cœur farineux — il va après la décompression, avec le sel. Main lourde sur le vinaigre, au-delà de 2 % du poids de la cuve : relancer Dorer couvercle ouvert 5 min, l'acide acétique du vinaigre blanc est volatil et part à découvert, le balsamique reste ; remuer à la maryse en raclant le fond, des lentilles cuites attachent vite. Puis monter le parmesan et saler un cran au-dessus de l'habitude, le sel écrase la perception de l'acide. Jamais de bicarbonate : il mousse dans une cuve pleine et laisse un arrière-goût savonneux sur les légumineuses. Valve ouverte d'un coup au lieu des 10 min de décompression naturelle : le liquide bout violemment et les lentilles se délitent.
 </article>
 
 <article class="fiche" markdown="1">

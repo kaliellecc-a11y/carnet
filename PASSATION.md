@@ -14,6 +14,61 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Gaufres de courgette, et T4 en fournée de semaine (2026-10-18) — v11.6
+
+**R35 · Gaufres de courgette et feta.** 76 fiches. Née de trois longues courgettes à
+écouler et d'un congélateur à remplir. Sans levure ni poudre chimique, comme tout le
+carnet : une gaufre gonfle à la vapeur entre deux plaques brûlantes — le mécanisme des
+naans de R33. Les blancs montés de R5 sont écartés volontairement, Céline ne veut pas
+les monter et la légèreté qu'ils donnent supporte mal la congélation.
+
+**Le bloc d'écart de cette fiche porte sur l'hydratation, pas sur le rendement.** Une
+première version de la pâte a été rejetée par Céline (« ça me paraît beaucoup de liquide
+pour peu de farine ») : 310 g de farineux pour 750 g de liquide, soit 2,4 pour 1 contre
+une norme de 1,5 — et cela **avant** de compter les 375 g de courgette à 94 % d'eau. La
+leçon est écrite dans la fiche : *un ingrédient aqueux compte dans le liquide d'une pâte*.
+D'où la farine montée à 300 g, 75 g de maïzena pour l'amidon que la courgette n'apporte
+pas (contrairement à la pomme de terre de R34), et un lait **réglé à vue** — 160 g au
+départ, jusqu'à 250 g, avec dix minutes d'attente après la courgette avant de décider.
+
+**T4 complétée : fournée de semaine, 5 parts, œufs et parmesan au service.** Pesées
+réelles de Céline : 250 g de carottes et 320 g de panais au lieu de 150 et 200. Les
+lentilles montent à 350 g, mais **l'eau ne suit pas le facteur** — 800 g et non 950 :
+570 g de légumes racines rendent la leur et rien ne s'évapore valve fermée. Les œufs
+restent à 4 dans la base : il faut quatre puits espacés pour que les blancs prennent sans
+se rejoindre. En fournée, œufs et parmesan se posent au réchauffage, portion par portion :
+≈ 1 900 g cuits, 5 portions de 380 g pesées **à froid**, ≈ 610 kcal et 33 g de protéines
+le repas avec 150 g de pommes de terre vapeur.
+
+**Trois pièges ajoutés à T4**, tous rencontrés en cuisinant :
+
+- Vinaigre avant la montée en pression : l'acide durcit la peau des lentilles, fermes sur
+  un cœur farineux. Il va après la décompression, avec le sel.
+- Main lourde sur le vinaigre — Céline a versé 43 g pour 18 prévus, 2 % du poids de cuve.
+  Rattrapage : Dorer couvercle ouvert 5 min, l'acide acétique du vinaigre blanc est volatil
+  et part à découvert (le balsamique reste), puis monter le parmesan et saler un cran
+  au-dessus, le sel écrasant la perception de l'acide. Pas de bicarbonate : il mousse dans
+  une cuve pleine et laisse un arrière-goût savonneux sur les légumineuses.
+- Valve ouverte d'un coup : le liquide bout violemment, les lentilles se délitent.
+
+À défaut de xérès, la fiche donne désormais le dosage de substitution : 12 g de vinaigre
+blanc pour l'acidité franche et 6 g de balsamique pour la rondeur oxydative. Tout en
+balsamique sucrerait un plat qui porte déjà 320 g de panais.
+
+**Deux notes d'outillage.** `python3 build.py` échouait sur `ModuleNotFoundError: markdown` :
+le conteneur porte deux interprètes, `python3` est un 3.11 sous `/usr/local/bin` et le
+module n'était installé que pour le 3.13 du système. Réglé par
+`/usr/local/bin/python3 -m pip install markdown` — à refaire sur un conteneur neuf.
+Et `test-hors-ligne.cjs` code en dur le nombre de fiches attendu : passé de 75 à 76.
+**Toute nouvelle fiche impose de mettre cette valeur à jour**, sinon la QA hors ligne
+échoue à tort.
+
+**Un échec de QA préexistant, pas introduit ici** : `test-hors-ligne.cjs` rapporte
+`bandeau hors ligne : false`. Vérifié en reconstruisant le commit `8f73db9` dans un
+worktree séparé — il échouait déjà. Les huit autres contrôles passent. À diagnostiquer.
+
+Pas republié : Céline n'a pas dit « republie ».
+
 ## Le poids qui cuit n'est pas celui de la liste (2026-09-19) — v11.5
 
 **R34 recalée sur une pesée réelle.** Céline a pesé l'appareil : **1 600 g** une fois
