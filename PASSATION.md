@@ -14,6 +14,82 @@ Ce que git remplace : la page Notion « MAÎTRE », le cycle `create_file_upload
 
 **PDF abandonné (2026-09-15)** : le carnet se consulte en ligne. `pdf.js` n'est pas repris dans le dépôt et l'étape PDF sort du pipeline. Le `.standalone.html` reste produit — il sert la mise en ligne et la consultation d'un fichier hors réseau.
 
+## Trois fiches d'une semaine de cuisine en direct (2026-11-12) — v11.7
+
+**79 fiches.** R36, W6 et T12, montrées au gabarit le 2026-11-02 et validées par Céline
+le 2026-11-11. Les trois sortent de plats cuisinés en direct, avec les corrections
+qu'elle a imposées en cours de route.
+
+**R36 · Chou vert confit à la moutarde.** Sous-catégorie neuve `Salé · Légumes rôtis`
+dans le chapitre 1. **Ma première méthode était fausse et Céline l'a corrigée** : je
+proposais des lanières de 1 cm étalées en une seule couche à 220 °C, transposant la
+méthode du « steak de chou ». Elle a objecté que ça « cramerait » sans jamais confire,
+et elle avait raison. Une tranche épaisse confit parce qu'elle a un cœur ; une lanière
+n'en a pas et se déshydrate de partout. La fiche impose donc **deux phases** — en tas
+dans un plat creux, couvert 25-30 min à 200 °C, puis découvert 15-20 min — et son bloc
+d'écart porte ce raisonnement. J'avais même écrit que la désagrégation en lanières était
+« un gain, plus de bords caramélisés » : c'était faux, elle supprime la condition du
+confit.
+
+**W6 · Palette de porc effilochée au fumoir.** Son bloc d'écart dit que **la cuisson
+suit le thermomètre, pas l'horloge ni le poids** : l'effilochage est une affaire de temps
+passé au-dessus de 70 °C, le temps que le collagène se gélatinise, et non de température
+atteinte. Monter le four sur une petite pièce donne 95 °C au cœur sans attendrissement.
+C'est le même raisonnement que le bloc de W5 sur l'épaisseur de paroi, sous une autre
+forme — **argument de plus pour en faire une règle du §5** plutôt que de le recopier
+fiche par fiche. Les durées restent **estimées** : Céline n'avait pas encore cuit la
+pièce quand la fiche a été écrite. Niveau B, piège signalé, à caler au journal. Une
+variante y traite le cas opposé, le **carré sans os**, qui se mange tranché : Roast
+190 °C et sortie à 62 °C, pas 92.
+
+**T12 · Soupe de courge aux lentilles.** Trois cuissons en direct (04/10, 25/10, 09/11)
+ont convergé vers **deux ratios** qui sont le cœur de la fiche : les lentilles font
+**10 % du poids des légumes**, l'eau **60 %**. Un poids de courge ne se répète jamais,
+un ratio se transporte. Deux seuils l'encadrent : la courge à **50 % minimum** des
+légumes, sous peine de velouté de féculent parfumé à la courge, et le plafond de cuve.
+La version la mieux dosée est en variante — 984 g de courge, 280 g de poireau, 150 g de
+carottes, 110 g de navet, 300 g de pommes de terre, 220 g de lentilles : 13 g de
+protéines l'assiette. Deux observations de cuisine y sont consignées : **le navet est un
+assaisonnement, pas un légume de volume** (110 g, 7 % des légumes, apportent l'amertume
+poivrée qui contredit le sucre de la courge et de la carotte ; au-delà de 200 g il
+domine), et dans une cuve très chargée **les lentilles vont sur le dessus**, où elles
+n'attachent pas.
+
+**Le « plafond de cuve » corrigé, et ce qu'il est vraiment.** Je parlais depuis des
+semaines de « 3 L utiles » comme d'une donnée de la machine. C'en n'est pas une : la cuve
+fait **4,5 L** (Céline l'a précisé le 09/11), et 3 L est **le repère des deux tiers** que
+les autocuiseurs imposent aux aliments qui gonflent ou moussent. Le chiffre tombait juste
+par coïncidence. Sans légumineuse on charge aux trois quarts, 3,4 L. La fiche dit
+désormais cela, et dit aussi qu'on **retire de l'eau et jamais des légumes** quand la
+charge approche le repère, puis qu'on détend après le mixage.
+
+**Ce que je n'ai jamais pu vérifier**, et qui est écrit comme tel dans la fiche : le
+repère MAX gravé dans la cuve de Céline. Toutes les pages du fabricant m'ont été refusées
+à chaque recherche, sur plusieurs semaines. La règle des deux tiers est la règle générale
+des autocuiseurs, pas une lecture de sa notice.
+
+**Trois fichiers de test codaient en dur le nombre de fiches**, et non un seul comme la
+note de v11.6 le laissait croire : `test-hors-ligne.cjs`, `test-courses.cjs` et
+`test-recherche.cjs` — ce dernier à quatre endroits, dont un `fiches < 75` facile à
+manquer. Tous portés à **79**. **Toute nouvelle fiche impose de mettre les trois à
+jour**, pas seulement le test hors ligne.
+
+**Un écart de macros légitime, à ne pas corriger.** `macros.py` donne W6 à **−12,2 %**.
+C'est la perte à la cuisson d'une pièce de viande, qui perd environ un tiers de son poids
+en eau et en gras fondu — exactement l'une des quatre causes que le §5 déclare légitimes
+et illisibles depuis la fiche. R36 est à +0,3 % et T12 à −0,1 %.
+
+**Recettes pilotées en chat et toujours sans fiche** : la fondue de poireaux à la poêle
+inox (500 g de blanc, 17 g d'huile, 5 c. à soupe d'eau, 4 g de sel ; sel dès l'entrée du
+poireau, eau et couvercle à 3 min, 22 min à couvert à feu doux, 3 min à découvert ;
+rendement ≈ 310 g, perte de 35-40 %) ; les pancakes protéinés express sans levant ; les
+frites de patate douce à la farine de riz ; le fromage blanc à l'ail. **Les gaufres
+protéinées express sont écartées** : Céline les a trouvées trop épaisses, et l'erreur est
+à moi — j'avais compté 250 g de skyr comme du liquide, alors qu'un skyr est une masse.
+Correctif à retester avant d'en faire une fiche : le lait à 250 g au lieu de 150.
+
+Pas republié : Céline n'a pas dit « republie ».
+
 ## Gaufres de courgette, et T4 en fournée de semaine (2026-10-18) — v11.6
 
 **R35 · Gaufres de courgette et feta.** 76 fiches. Née de trois longues courgettes à

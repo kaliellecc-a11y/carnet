@@ -864,6 +864,39 @@ Gaufrier **très chaud**, huilé à chaque fournée. Remplir sans tasser, fermer
 **Conservation.** Congélation à plat, séparées par du papier, puis en sac. Réchauffées encore congelées : 4 min au gaufrier ou 8 min en Air Fry à 180 °C. Jamais au micro-ondes, elles ramollissent.
 </article>
 
+### Salé · Légumes rôtis
+
+<article class="fiche" markdown="1">
+#### R36 · Chou vert confit à la moutarde <span class="niveau b">B</span>
+
+<p class="meta">Four 200 °C, deux phases · travail 10 min · total 50 min · 409 g habillés, 2 parts · ≈ 59 kcal et 1,5 g de protéines pour 100 g · ≈ 121 kcal et 3 g de protéines par part</p>
+
+Un demi-chou qui finit fondant et doré au lieu de bouilli. Tout se joue sur les deux phases : couvert d'abord pour que le chou s'affaisse dans sa propre vapeur, découvert ensuite pour qu'il dore. Garniture, pas plat : la protéine vient d'à côté, par exemple de la palette effilochée de W6.
+
+**Ingrédients.**
+
+- **370 g** · chou vert en tranches de 1 cm
+- **15 g** · huile
+- **22 g** · moutarde
+- **2 g** · sel, à la sortie
+- **2** gousses d'ail entières, non épluchées
+- paprika fumé
+
+**Méthode.** Délayer la moutarde (22 g) dans l'huile (15 g) avec le paprika. Mettre le chou (370 g) dans un saladier, verser le mélange, **masser à la main une bonne minute** : avec 37 g de mélange pour 370 g de chou il n'y a aucune marge, et seules les mains enrobent toutes les faces. Les tranches se défont en lanières, c'est voulu. Racler le saladier avec une tranche.
+
+Tout **en tas dans un plat creux**, pas étalé sur une plaque. Les gousses d'ail posées à côté, en chemise. Aluminium bien serré, ou un couvercle.
+
+**Four 200 °C, 25 à 30 min couvert.** Remuer une fois sous l'aluminium à mi-phase. Puis retirer l'aluminium, remuer, réétaler grossièrement : **15 à 20 min découvert**, jusqu'aux bords bruns et à l'eau rendue disparue.
+
+Presser les gousses d'ail hors de leur peau, les écraser dans le chou. Saler (2 g) et goûter — pas de citron, les 22 g de moutarde apportent déjà 6 % d'acide.
+
+**Un légume rôti a besoin d'un cœur, une lanière n'en a pas.** C'est pourquoi la fiche impose le tas couvert et non la plaque. Une tranche épaisse de 2 ou 3 cm confit parce que ses faces grillent pendant que sa masse intérieure reste humide ; des lanières de 1 cm étalées en une seule couche sont exposées de partout et se déshydratent — on obtient des chips, pas du compoté. Le tas recrée la masse que la coupe a supprimée, et l'aluminium garde la vapeur qui fait le fondant. Les 45 minutes sont le prix du confit : la même quantité étalée à découvert serait « cuite » en 18 minutes, et ratée.
+
+**Variantes.** **Pour 800 g de chou** : 32 g d'huile, 45 g de moutarde, 4 g de sel, 2 gousses d'ail, **35 à 40 min couvert** puis 20 à 25 min découvert — le temps suit la masse à affaisser, et un brassage sous l'aluminium à 20 min devient obligatoire, le tas étant trop épais pour cuire d'un bloc · au Woodfire en Air Fry 200 °C, mêmes deux phases, 20 min en barquette aluminium fermée puis 12 min ouverte · ail en poudre dans l'émulsion si on veut qu'il soit réparti partout · moutarde descendue à 15 g pour 370 g si le pot s'épuise : l'émulsion tient encore, l'acidité baisse et un trait de citron redevient utile.
+
+**Pièges.** Lanières étalées en une couche à découvert : chips de chou. Gousse d'ail écrasée dans l'émulsion : elle noircit à 200 °C et son amertume contamine tout le plat — entière, en chemise, ou en poudre. Sel avant cuisson : il fait transpirer le chou et retarde la coloration, il va à la sortie. Four laissé ouvert pendant le brassage : 40 °C perdus, sortir le plat et refermer la porte. Badigeonnage au pinceau plutôt que massage : une face habillée, une face nue.
+</article>
+
 ### Semaine type kéfir + levain
 
 Dimanche soir : sortir le levain dur, rafraîchir 1:2:1, laisser sur le plan de travail. Lundi matin : levain au pic, remettre 50 g au froid, lancer la pizza ou la focaccia avec le reste (au froid pour mardi soir) et une fournée de gressins. Le kéfir, lui, tourne comme d'habitude : celui qu'on filtre le soir sert à la pâte à pancakes ou à gaufres du lendemain, celui du matin au levain-mère d'une pita ou d'une brioche. Le mois suivant, le levain dur n'a besoin que du rafraîchi mensuel s'il n'a pas servi.
@@ -1015,6 +1048,36 @@ Plat complet sur une plaque : les légumes cuisent dans le jus du poulet posé a
 **Méthode.** Préchauffer en Roast à 200 °C, granulés Woodfire si tu veux le fumé. Étaler dans la plaque le potimarron (500 g), les oignons (200 g) et le panais (300 g), huilés (15 g) et salés. Poser le poulet (900 g) par-dessus, peau vers le haut, salé, sans huile : la peau rend son propre gras. 20 min. Badigeonner la peau du mélange moutarde (20 g), huile (10 g) et ail. Encore 15 à 20 min, jusqu'à 80 °C à cœur au thermomètre (74 °C minimum). Repos 5 min.
 
 **Pièges.** La peau porte plus de la moitié des lipides du plat : la retirer à table fait passer de 30 g à 14 g de lipides par part.
+</article>
+
+<article class="fiche" markdown="1">
+#### W6 · Palette de porc effilochée au fumoir <span class="niveau b">B</span>
+
+<p class="meta">Roast 150 °C, granulés Woodfire, puis papillote · travail 15 min · total 2 h 30 à 3 h · 535 g, 2 parts de 150 g effilochés · ≈ 213 kcal et 15 g de protéines pour 100 g · ≈ 500 kcal et 40 g de protéines par part</p>
+
+Une palette nature, pas une pièce déjà cuisinée. Elle s'effiloche à la fourchette parce qu'on lui laisse le temps au-dessus de 70 °C, pas parce qu'on la cuit fort. La papillote arrive à mi-parcours, remplie d'un bouillon de potée ou d'eau, et c'est elle qui empêche la petite pièce de sécher.
+
+**Ingrédients.**
+
+- **450 g** · palette de porc nature
+- **18 g** · moutarde
+- **7 g** · sel
+- paprika fumé, cumin
+- **60 g** · bouillon ou eau, pour la papillote
+
+**Méthode.** Mélanger la moutarde (18 g), le sel (7 g), le paprika fumé et le cumin. En masser la palette (450 g) sur toutes ses faces.
+
+Granulés Woodfire, **Roast 150 °C**, préchauffage. Enfourner dès la fin du préchauffage, viande nue sur la grille : les granulés brûlent pendant la cuisson, purger reviendrait à perdre la fenêtre de fumée, comme dans W5. Compter **environ 1 h 15** pour atteindre 70 °C au cœur.
+
+**À 70 °C au cœur, emballer dans l'aluminium** avec le bouillon (60 g), serrer. Remettre en cuisson. **Sortir à 92-95 °C au cœur** : encore 45 min à 1 h 15.
+
+**Repos 15 à 20 min dans la papillote fermée.** Effilocher à la fourchette, dans le liquide de la papillote — c'est lui qui remet l'humidité dans la viande effilochée, il ne se jette pas.
+
+**La cuisson suit le thermomètre, pas l'horloge ni le poids.** Les 2 h 30 annoncées servent à savoir à quelle heure manger, rien d'autre. Deux raisons. L'épaisseur décide : une palette de 450 g aplatie cuit 30 min plus vite que la même ramassée en boule. Et surtout, **l'effilochage est une affaire de temps passé au-dessus de 70 °C**, le temps qu'il faut au collagène pour se gélatiniser — pas de température atteinte. Monter le four pour aller plus vite donne une pièce à 95 °C au cœur qui n'a pas eu le temps de s'attendrir : cuite, sèche, et qui ne s'effiloche pas. C'est contre-intuitif sur une petite pièce, où la tentation d'accélérer est la plus forte.
+
+**Variantes.** **Pour 750 g** : 30 g de moutarde, 11 g de sel, 100 g de bouillon, repos 25 min — compter 3 h, et le palier à 70-75 °C sera franchement marqué · pommes de terre en morceaux de 2 cm passées en Air Fry 200 °C, 18 à 20 min, pendant le repos obligatoire de la viande · servir avec le chou confit de R36 · **un carré de porc sans os ne se cuit pas ainsi** : il se mange tranché, donc Roast 190 °C et sortie à **62 °C** au cœur, repos 15 min, la température montant encore de 2 à 3 °C — poussé vers 90 °C il n'a ni collagène ni gras pour se rattraper et devient une semelle.
+
+**Pièges.** Température montée parce que la pièce est petite : pas d'effilochage. Papillote oubliée ou mal serrée : sur 450 g il n'y a pas de masse pour tamponner la perte d'eau, la pièce sèche. Sortie à 80 °C parce que « c'est cuit » : c'est cuit, mais le collagène n'a pas fini — il faut 92-95. Liquide de papillote jeté. Palier à 70-75 °C absent : normal sur une petite pièce, ce n'est pas un signe d'échec. Durées de cette fiche prises pour acquises : elles sont estimées, à caler à la première fournée et à noter au journal.
 </article>
 
 ### Salé · Légumes farcis
@@ -1191,6 +1254,41 @@ Les lentilles corail se délitent seules : pas besoin de mixer. Soupe légère e
 **Méthode.** Rincer les lentilles (150 g). Dans la cuve, dans cet ordre : l'eau (1 000 g), le cube émietté, les lentilles, les carottes (280 g), l'oignon (150 g), le cumin. Couvercle fermé et verrouillé, valve fermée, programme Soupe 10 min. Décompression naturelle 10 min, puis valve ouverte. Saler. Une cuillère de skyr (60 g en tout) dans chaque assiette.
 
 **Pièges.** Skyr versé dans la cuve chaude : il graine, le garder pour l'assiette.
+</article>
+
+<article class="fiche" markdown="1">
+#### T12 · Soupe de courge aux lentilles <span class="niveau b">B</span>
+
+<p class="meta">Programme Soupe, valve fermée · 14 min · travail 15 min · total 45 min · 2 635 g, 5 assiettes de 527 g · ≈ 45 kcal et 2,2 g de protéines pour 100 g · ≈ 237 kcal et 11,7 g de protéines par assiette</p>
+
+La soupe de courge qui tient au corps : les lentilles s'y délitent et l'épaississent sans crème. À la différence de T2, qui n'a pas de courge et qu'il faut compléter d'une protéine, celle-ci porte ses 11 g par assiette.
+
+**Ingrédients.**
+
+- **800 g** · courge muscade en cubes de 3 cm
+- **400 g** · carottes en rondelles
+- **250 g** · patate douce en cubes
+- **170 g** · blanc de poireau émincé
+- **67 g** · lentilles corail, rincées, sans trempage
+- **90 g** · lentilles vertes, rincées, sans trempage
+- **850 g** · eau
+- **2** gousses d'ail entières, non épluchées
+- 1 c. à café de ras-el-hanout
+- **8 g** · sel fumé
+
+**Méthode.** Rincer les deux lentilles ensemble (67 g et 90 g). Tout dans la cuve, sans Rissolé : la courge (800 g), les carottes (400 g), la patate douce (250 g), le poireau (170 g), les lentilles, l'ail, le ras-el-hanout, le sel fumé (8 g), l'eau (850 g) par-dessus. Couvercle fermé et verrouillé, valve fermée, **programme Soupe 14 min** — 14 et non 12 à cause des vertes.
+
+Décompression naturelle 10 min, puis valve ouverte. Sortir l'ail de sa peau, le remettre. Mixer, **puis** rectifier le sel. Un vrai trait de citron à l'assiette.
+
+**Les deux ratios décident, pas la pesée.** Un poids de courge ne se répète jamais d'une fois sur l'autre : ce qui se transporte, c'est que les **lentilles font 10 % du poids des légumes** et **l'eau 60 %**. Sur 1 620 g de légumes, cela donnerait 162 g de lentilles et 970 g d'eau — l'eau est ici descendue à 850 parce que la charge approche le plafond de cuve. Détendre à l'eau chaude après le mixage, jamais avant : c'est le sens qui marche. L'autre seuil est celui du goût — **la courge doit rester à 50 % au moins des légumes**, en dessous c'est un velouté de féculent parfumé à la courge.
+
+**Le plafond de cuve est un repère, pas une contenance.** La cuve fait 4,5 L, mais une légumineuse gonfle et mousse : les autocuiseurs imposent alors **le repère des deux tiers**, soit 3 L ici. Sans légumineuse on pourrait charger aux trois quarts, 3,4 L. Une cuve à 2,9 L ne laisse que 70 ml de marge, ce qui est trop peu : retirer de l'eau à la louche avant de verrouiller, jamais des légumes, et détendre après mixage. Et dans une cuve très chargée, **les lentilles vont sur le dessus et non au fond**, où elles attachent et peuvent faire couper la machine. Le repère MAX gravé dans la cuve reste à vérifier à l'œil avant de fermer.
+
+**Variantes.** Quatre assiettes de 480 g : 550 g de courge, 210 g de carottes, 200 g de pommes de terre, 170 g de poireau, 110 g de corail, 680 g d'eau, 5 g de sel fumé, Soupe 12 min · **six assiettes, la version la mieux dosée** : 984 g de courge, 280 g de poireau, 150 g de carottes, 110 g de navet, 300 g de pommes de terre, 220 g de lentilles, 780 g d'eau, puis 150 à 200 g d'eau chaude après le mixage — ≈ 245 kcal et 13 g de protéines l'assiette · **le navet est un assaisonnement, pas un légume de volume** : 110 g, soit 7 % des légumes, apportent l'amertume poivrée qui contredit le sucre de la courge et de la carotte, et au-delà de 200 g il domine tout · pommes de terre plutôt que patate douce quand on veut du corps sans sucre — avec courge, carottes et patate douce on cumule trois sources sucrées, et il faut alors monter le sel fumé et ne pas lésiner sur le citron · corail seul, sans vertes : couleur plus franche, 12 min suffisent, mais 7 g de protéines l'assiette au lieu de 11 · une cuillère de skyr à l'assiette comme dans T2, +3 g de protéines · potimarron à la place de la patate douce : il a du corps *et* du goût, il remplace du féculent et non de la courge. Lentilles en conserve : 157 g de sec valent **375 g égouttés**, et il faut retirer **environ 160 g d'eau** puisqu'une conserve n'absorbe plus rien. Ni le corail ni les vertes ne trempent, et les deux cuisent en 12 à 15 min sous pression : la boîte ne fait gagner que quelques minutes, pour des lentilles déjà cuites qui n'auront rien pris du bouillon. Sans intérêt ici.
+
+**Pièges.** Valve ouverte d'un coup au lieu des 10 min de décompression : le liquide bout violemment et le corail gicle jusqu'au joint. Sel rectifié avant le mixage : les lentilles absorbent et l'épaississement change la perception du salé, toujours après. Soupe plate à l'arrivée : c'est l'acide qui manque, un trait de citron à l'assiette et non du sel en plus. 12 min avec des lentilles vertes dedans : grains au mixage. Charge au-delà du repère des deux tiers : retirer de l'eau, pas des légumes.
+
+**Conservation.** Quatre jours au frais. Elle épaissit d'un jour sur l'autre, les lentilles continuant d'absorber : deux cuillères d'eau chaude par assiette au réchauffage.
 </article>
 
 ### Salé · Légumineuses
