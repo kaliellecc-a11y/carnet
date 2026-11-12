@@ -36,7 +36,12 @@ import verifie
 from verifie import DENOMBRE, NEGLIGEABLES, PIECES
 
 K100 = re.compile(r"≈\s*([\d ]+)\s*kcal\s+(?:et|pour)", re.I)
-KPART = re.compile(r"≈\s*([\d ]+)\s*kcal\s+par\s+([a-zà-ÿ]+)", re.I)
+# « ≈ 165 kcal par part », mais aussi « ≈ 330 kcal et 10 g de protéines par
+# part » : le gabarit autorise les deux, le recoupement doit suivre.
+KPART = re.compile(
+    r"≈\s*([\d ]+)\s*kcal"
+    r"(?:\s+et\s+[\d.,]+\s*g\s+de\s+protéines)?"
+    r"\s+par\s+([a-zà-ÿ]+)", re.I)
 # Perte de matière à la cuisson, valeur de référence du carnet (§2).
 PERTE_FOUR = 0.10
 
@@ -68,7 +73,7 @@ def poids_et_manques(corps: str) -> tuple[float, list[str]]:
 
 
 def _valeur(txt: str) -> float:
-    return float(txt.replace(" ", "").replace("\u00a0", ""))
+    return verifie.nombre(txt)
 
 
 def recoupe(corps: str):

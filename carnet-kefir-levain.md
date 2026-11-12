@@ -604,6 +604,56 @@ Le gonflement vient de la vapeur à 250 °C sur une pâte fine ; le levain-mère
 **Pièges.** Poêle pas assez chaude : naan sec et sans cloques.
 </article>
 
+<article class="fiche" markdown="1">
+#### R32 · Pains plats farcis à l'emmental <span class="niveau b">B</span>
+
+<p class="meta">Pâte de R12 × 1,5, kéfir en liquide · travail 25 min · total 12 h dont pousse au froid · 9 naans · ≈ 290 kcal et 13 g de protéines pour 100 g · ≈ 300 kcal et 14 g de protéines par naan</p>
+
+Le naan fourré du carnet, sans fromage industriel : le fromage frais à tartiner est déjà à 65 % d'eau liée par ses protéines, il ne relâche rien à la poêle. Le skyr du commerce, plus liquide que le T1, fait éclater le naan — c'est le seul vrai piège de la fiche.
+
+**Ingrédients.**
+
+- **Pâte, la veille**
+    - **450 g** · farine T65
+    - **180 g** · kéfir
+    - **150 g** · skyr ou T1
+    - **22 g** · huile
+    - **7 g** · sel
+- **Farce**
+    - **100 g** · fromage frais à tartiner
+    - **220 g** · emmental râpé
+    - **25 g** · moutarde
+
+**Méthode.** Pétrir 6 min — farine (450 g), kéfir (180 g), skyr (150 g), huile (22 g), sel (7 g) —, au froid toute la nuit ; sortir 1 h avant de façonner. Mélanger la farce : fromage frais (100 g), emmental (220 g), moutarde (25 g), poivre. 9 boules de 90 g, aplaties à la main, 40 g de farce au centre, refermées en bourse, soudure dessous, réétalées à 6 mm sans forcer. Poêle en fonte à sec très chaude, 1 min par face : cloques et taches brunes. Se congèlent cuits, 40 s à la poêle pour les réveiller.
+
+**Variantes.** Sans fromage frais : 250 g d'emmental et 100 g de skyr égoutté 4 h en étamine — le petit-lait rendu sert de liquide à la pizza (R9) ou à la pita (R11) · une cuillère d'oignons confits (T11) à côté de l'emmental.
+
+**Pièges.** Skyr non égoutté dans la farce : elle bout, le naan éclate et vide son fromage dans la poêle. Farce au bord : elle brûle avant que la pâte cuise. Réétalage au rouleau appuyé : la soudure lâche.
+</article>
+
+<article class="fiche" markdown="1">
+#### R33 · Naans au yaourt, sans levain <span class="niveau b">B</span>
+
+<p class="meta">Sans levant · poêle en fonte · travail 15 min · total 6 h 30 · 6 naans · ≈ 252 kcal et 9,5 g de protéines pour 100 g · ≈ 280 kcal par naan, hors beurre de finition</p>
+
+Le dépannage du carnet : ni kéfir, ni levain, ni poudre chimique. Un pain plat ne lève pas, il gonfle à la vapeur — le levant ne sert qu'à la souplesse, et le yaourt la donne aussi bien. Sans fermentation pour détendre le réseau, ce sont le pétrissage et les six heures de repos qui font tout le travail.
+
+**Ingrédients.**
+
+- **400 g** · farine T65
+- **200 g** · skyr ou yaourt, ou T1
+- **100 g** · eau
+- **20 g** · huile
+- **8 g** · sel
+- beurre fondu, ail pour finir
+
+**Méthode.** Mélanger la farine (400 g) et le sel (8 g) à sec. Ajouter le skyr (200 g), l'eau (100 g) et l'huile (20 g), rassembler à la main. Pétrir 8 à 10 min jusqu'à ce que la pâte soit lisse et rebondisse sous le doigt : c'est le seul geste décisif de la fiche. Bouler, couvrir, 6 h à température ambiante — la pâte ne gonflera pas, elle se détend, et c'est ce qu'on cherche. 6 boules de 120 g, détente 20 min couvertes. Étaler en ovale de 4 mm, sans fariner plus que nécessaire. Poêle en fonte à sec, très chaude : une goutte d'eau doit crépiter et disparaître aussitôt. 1 min première face jusqu'aux cloques, retourner, 1 min. Beurre-ail à la sortie, empilés dans un torchon.
+
+**Variantes.** Repos de 15 h au réfrigérateur à la place des 6 h ambiantes : pâte encore plus docile au rouleau · farcis, sur le modèle des pains plats farcis (R32) : 40 g de farce au centre, refermés en bourse, réétalés à 6 mm · cébette ciselée ou ail râpé dans la pâte · en pita, étalés à 3-4 mm bien régulier, sur pierre préchauffée 45 min à 250-270 °C, mais la poche est moins fiable que celle de la pita au levain-mère (R11) — une seule zone épaisse et elle reste plate.
+
+**Pièges.** Poêle tiède : naan pâle, sec, sans cloques. Pâte insuffisamment pétrie : elle se rétracte au rouleau et le naan cuit épais et cassant. Repos écourté sous une heure : même symptôme. Levure chimique ajoutée « pour aider » : son gaz part avant la cuisson et ne laisse qu'une mie friable, à l'opposé de la souplesse que le pétrissage vient de construire.
+</article>
+
 ### Salé · Apéritif
 
 <article class="fiche" markdown="1">
@@ -741,6 +791,112 @@ Tes réglages, validés à la table. La sauce soja maison (R19) est calibrée po
 **Méthode.** Délayer le miso (9 g) dans l'eau (35 g), ajouter la sauce soja sucrée (60 g), la foncée (5 g), l'huile de sésame (4-5 g), fouetter. Se garde une semaine au réfrigérateur.
 </article>
 
+### Salé · Galettes
+
+<article class="fiche" markdown="1">
+#### R34 · Galettes de pommes de terre et oignon, à l'œuf <span class="niveau b">B</span>
+
+<p class="meta">Poêle · travail 40 min · total 1 h 10 · 6 parts de 4 galettes · ≈ 134 kcal et 4 g de protéines pour 100 g · ≈ 330 kcal et 10 g de protéines par part</p>
+
+Un kilo et demi de pommes de terre donne **1 600 g d'appareil** une fois essoré et mélangé, soit environ 24 galettes — de quoi tenir la semaine. Tout se joue sur l'eau : une pomme de terre crue râpée en rend un quart de son poids, et c'est elle qui empêche la croûte. On l'essore, mais on garde l'amidon qu'elle emporte — c'est lui qui lie les galettes, à la place de la farine. L'oignon reste cru dans l'appareil et fond à la cuisson.
+
+**Ingrédients.**
+
+- **1 450 g** · pommes de terre à chair ferme, râpées gros
+- **270 g** · oignon râpé (2 gros oignons)
+- **4** œufs
+- **25 g** · moutarde
+- **15 g** · sel, pour le dégorgeage
+- **40 g** · huile, pour la cuisson
+- paprika fumé, poivre
+
+**Méthode.** Râper les pommes de terre (1 450 g) sur la grille à **gros trous** — une râpe fine donne de la purée et aucune galette. Mélanger au sel (15 g), laisser dégorger 15 min dans une passoire. **Ne jamais rincer** : l'eau emporterait l'amidon.
+
+Essorer par poignées dans un torchon, en serrant fort, au-dessus d'un bol. Laisser l'eau recueillie décanter 5 min : une pâte blanche se dépose au fond. Jeter le liquide, garder cet amidon.
+
+Mélanger le râpé essoré, l'oignon (270 g), l'amidon récupéré, les œufs, la moutarde (25 g), le paprika fumé et le poivre. Goûter : le sel du dégorgeage suffit le plus souvent, une partie étant partie avec l'eau.
+
+Poêle à feu moyen-vif, un filet de l'huile (40 g) renouvelé à chaque fournée. Déposer des tas de 65 à 70 g, aplatir à **1 cm** — pas plus, le centre resterait cru. Quatre ou cinq galettes à la fois au maximum. 3 min par face, jusqu'à brun franc. Égoutter sur une grille, jamais sur papier absorbant : le dessous ramollit.
+
+**Variantes.** Cébette ciselée dans l'appareil · 100 g de lardons fumés poêlés, incorporés au mélange · au Woodfire en Air Fry 200 °C, 20 min retournées à mi-cuisson, avec 15 g d'huile au lieu de 40 : plus légères, moins croustillantes · un œuf au plat par assiette pour en faire un repas, +6,5 g de protéines.
+
+**Le poids de la liste n'est pas celui de la poêle.** Les 1 450 g râpés perdent **345 g d'eau à l'essorage**, un bon quart : l'appareil pesé fait 1 600 g, et c'est lui qui décide du nombre de galettes et de fournées. Une galette formée sur le poids d'avant essorage est trop épaisse, et les 3 min par face ne suffisent plus — brun dehors, cru dedans.
+
+**Pièges.** Râpe fine : purée. Essorage timide : les galettes se délitent et ne dorent pas. Amidon jeté avec l'eau : il faut rattraper à la farine, et la galette devient pâteuse. Poêle surchargée : elle refroidit, les galettes bouillent au lieu de frire. Feu trop vif : brun dehors, cru dedans.
+
+**Conservation.** Quatre jours au frais, réchauffées 3 min à la poêle ou 6 min en Air Fry. Se congèlent cuites, à plat, séparées par du papier.
+</article>
+
+<article class="fiche" markdown="1">
+#### R35 · Gaufres de courgette et feta <span class="niveau b">B</span>
+
+<p class="meta">Gaufrier · travail 45 min · total 1 h 25 · 1 500 g de pâte, 10 gaufres de 150 g · ≈ 167 kcal et 7 g de protéines pour 100 g · ≈ 250 kcal et 10,5 g de protéines par gaufre</p>
+
+Des gaufres salées pour écouler les longues courgettes et remplir le congélateur. Ni levure ni poudre chimique : une gaufre gonfle à la vapeur entre deux plaques brûlantes, le même mécanisme que les naans de R33. Les blancs montés de R5 n'ajouteraient qu'une légèreté fragile, qui supporte mal la congélation.
+
+**Ingrédients.**
+
+- **300 g** · farine T65
+- **75 g** · maïzena
+- **5** œufs
+- **150 g** · skyr
+- **160 g** · lait — jusqu'à 250 g selon la courgette, voir plus bas
+- **35 g** · beurre fondu
+- **8 g** · sel
+- **375 g** · courgette en tranches fines au robot, ou râpée gros
+- **150 g** · feta égouttée, émiettée fin
+- poivre, ail en poudre
+
+**Méthode.** Mélanger au fouet la farine (300 g), la maïzena (75 g) et le sel (8 g). Ajouter les œufs, le skyr (150 g) et le lait (160 g), fouetter jusqu'à lisse, puis le beurre fondu (35 g), le poivre et l'ail en poudre. À ce stade la pâte tombe du fouet en **ruban épais qui se casse** — si elle coule, il y a trop de liquide.
+
+Trancher la courgette (375 g) très fin, sans la saler ni l'essorer. L'incorporer à la maryse avec la feta (150 g). Attendre **10 min, puis regarder** : la courgette relâche un peu d'eau et la pâte se détend. Trop ferme pour napper les alvéoles, ajouter du lait 20 g à la fois, jusqu'à 250 g en tout.
+
+Repos 30 min, le temps que la farine s'hydrate.
+
+Gaufrier **très chaud**, huilé à chaque fournée. Remplir sans tasser, fermer, **5 à 6 min sans ouvrir**. Égoutter sur une grille, jamais sur papier absorbant.
+
+**La courgette compte dans le liquide.** Une courgette est à 94 % d'eau : les 375 g en apportent 350. Les 375 g de farineux reçoivent donc près de 700 g de liquide, pas les 345 g de la liste — un rapport de 1,9 pour 1, déjà au-dessus de la norme d'une pâte à gaufre. C'est pourquoi le lait se règle à vue après la courgette, et non d'avance : la même recette calculée sur la liste seule donne une pâte liquide et des gaufres molles.
+
+**Variantes.** Sans courgette, pour la moitié de pâte qu'on garde nature : retirer 100 g de lait, la pâte n'a plus d'eau cachée à compenser · cébette ciselée · paprika fumé · pour 750 g de courgettes, doubler toute la pâte.
+
+**Pièges.** Fer pas assez chaud : la gaufre colle et se déchire en deux. Ouvrir avant 5 min : même résultat, la vapeur n'a pas fini de la structurer. Saler la courgette : elle rend son eau et la pâte se liquéfie. Tout le lait d'emblée : gaufre molle qui ne croustille jamais. Le nombre de fournées dépend du gaufrier — compter le temps de cuisson sur le sien avant d'annoncer l'heure du repas.
+
+**Conservation.** Congélation à plat, séparées par du papier, puis en sac. Réchauffées encore congelées : 4 min au gaufrier ou 8 min en Air Fry à 180 °C. Jamais au micro-ondes, elles ramollissent.
+</article>
+
+### Salé · Légumes rôtis
+
+<article class="fiche" markdown="1">
+#### R36 · Chou vert confit à la moutarde <span class="niveau b">B</span>
+
+<p class="meta">Four 200 °C, deux phases · travail 10 min · total 50 min · 409 g habillés, 2 parts · ≈ 59 kcal et 1,5 g de protéines pour 100 g · ≈ 121 kcal et 3 g de protéines par part</p>
+
+Un demi-chou qui finit fondant et doré au lieu de bouilli. Tout se joue sur les deux phases : couvert d'abord pour que le chou s'affaisse dans sa propre vapeur, découvert ensuite pour qu'il dore. Garniture, pas plat : la protéine vient d'à côté, par exemple de la palette effilochée de W6.
+
+**Ingrédients.**
+
+- **370 g** · chou vert en tranches de 1 cm
+- **15 g** · huile
+- **22 g** · moutarde
+- **2 g** · sel, à la sortie
+- **2** gousses d'ail entières, non épluchées
+- paprika fumé
+
+**Méthode.** Délayer la moutarde (22 g) dans l'huile (15 g) avec le paprika. Mettre le chou (370 g) dans un saladier, verser le mélange, **masser à la main une bonne minute** : avec 37 g de mélange pour 370 g de chou il n'y a aucune marge, et seules les mains enrobent toutes les faces. Les tranches se défont en lanières, c'est voulu. Racler le saladier avec une tranche.
+
+Tout **en tas dans un plat creux**, pas étalé sur une plaque. Les gousses d'ail posées à côté, en chemise. Aluminium bien serré, ou un couvercle.
+
+**Four 200 °C, 25 à 30 min couvert.** Remuer une fois sous l'aluminium à mi-phase. Puis retirer l'aluminium, remuer, réétaler grossièrement : **15 à 20 min découvert**, jusqu'aux bords bruns et à l'eau rendue disparue.
+
+Presser les gousses d'ail hors de leur peau, les écraser dans le chou. Saler (2 g) et goûter — pas de citron, les 22 g de moutarde apportent déjà 6 % d'acide.
+
+**Un légume rôti a besoin d'un cœur, une lanière n'en a pas.** C'est pourquoi la fiche impose le tas couvert et non la plaque. Une tranche épaisse de 2 ou 3 cm confit parce que ses faces grillent pendant que sa masse intérieure reste humide ; des lanières de 1 cm étalées en une seule couche sont exposées de partout et se déshydratent — on obtient des chips, pas du compoté. Le tas recrée la masse que la coupe a supprimée, et l'aluminium garde la vapeur qui fait le fondant. Les 45 minutes sont le prix du confit : la même quantité étalée à découvert serait « cuite » en 18 minutes, et ratée.
+
+**Variantes.** **Pour 800 g de chou** : 32 g d'huile, 45 g de moutarde, 4 g de sel, 2 gousses d'ail, **35 à 40 min couvert** puis 20 à 25 min découvert — le temps suit la masse à affaisser, et un brassage sous l'aluminium à 20 min devient obligatoire, le tas étant trop épais pour cuire d'un bloc · au Woodfire en Air Fry 200 °C, mêmes deux phases, 20 min en barquette aluminium fermée puis 12 min ouverte · ail en poudre dans l'émulsion si on veut qu'il soit réparti partout · moutarde descendue à 15 g pour 370 g si le pot s'épuise : l'émulsion tient encore, l'acidité baisse et un trait de citron redevient utile.
+
+**Pièges.** Lanières étalées en une couche à découvert : chips de chou. Gousse d'ail écrasée dans l'émulsion : elle noircit à 200 °C et son amertume contamine tout le plat — entière, en chemise, ou en poudre. Sel avant cuisson : il fait transpirer le chou et retarde la coloration, il va à la sortie. Four laissé ouvert pendant le brassage : 40 °C perdus, sortir le plat et refermer la porte. Badigeonnage au pinceau plutôt que massage : une face habillée, une face nue.
+</article>
+
 ### Semaine type kéfir + levain
 
 Dimanche soir : sortir le levain dur, rafraîchir 1:2:1, laisser sur le plan de travail. Lundi matin : levain au pic, remettre 50 g au froid, lancer la pizza ou la focaccia avec le reste (au froid pour mardi soir) et une fournée de gressins. Le kéfir, lui, tourne comme d'habitude : celui qu'on filtre le soir sert à la pâte à pancakes ou à gaufres du lendemain, celui du matin au levain-mère d'une pita ou d'une brioche. Le mois suivant, le levain dur n'a besoin que du rafraîchi mensuel s'il n'a pas servi.
@@ -760,6 +916,35 @@ Dimanche soir : sortir le levain dur, rafraîchir 1:2:1, laisser sur le plan de 
 **Levain dur qui sent l'alcool ou le vernis.** Il a faim : rafraîchi, tout va bien. S'il moisit : jeter, 3 jours pour en refaire un.
 
 **Beignets qui boivent l'huile.** Huile pas assez chaude, ou pâte trop poussée. 170-175 °C, pas moins.
+
+### Fournées
+
+Une fournée est un week-end de production qui couvre les cinq jours suivants. Le
+principe tient en une phrase : trois appareils, trois files d'attente, et tout le
+travail des mains se glisse dans les temps de machine. Le Turbo enchaîne ses
+passages, le Woodfire descend ses modes du plus chaud au plus froid, la poêle
+prend ce qui reste. Une machine qui tourne à vide pendant qu'on regarde, c'est
+une fournée mal ordonnée.
+
+Deux règles de placement décident du reste. Ce qui demande une pousse ou une nuit
+part la veille — la pâte à naans (R32) pétrie le samedi sort du chemin critique
+du dimanche. Et tout ce qui fume passe le week-end : les granulés Woodfire ne se
+lancent pas un mardi soir.
+
+**Fournée muscade et fumoir.** Samedi : les oignons confits (T11), 2 kg au robot
+en rondelles fines, et la pâte à naans au froid pendant le compotage. Dimanche,
+dans l'ordre — le flan (R21) en premier, Bake 160 °C sur une cuve propre, parce
+qu'un flan cuit après le fumoir prend le résidu de fumée ; les noisettes
+torréfiées pendant la montée en température ; le riz au Turbo ; la session
+couteau d'une traite pendant la cuisson du flan ; les pois cassés de la tartinade
+(T10) au Turbo ; le Woodfire en Grill pour les légumes, le poulet et les cubes de
+courge ; puis Roast 175 °C avec les granulés Woodfire pour la courge farcie (W5),
+la tartinade et les naans montés pendant qu'elle cuit ; la glace (G17) fouettée
+en fin de séance, ses blancs réservés pour l'omelette du lundi. Deux heures
+d'horloge, une heure et demie de mains.
+
+Reste en semaine : réchauffer, une omelette, et le chili (T5) du mercredi qui se
+décide le soir même puisque la conserve ne trempe pas.
 
 ## 2. Ninja Woodfire
 
@@ -865,6 +1050,36 @@ Plat complet sur une plaque : les légumes cuisent dans le jus du poulet posé a
 **Pièges.** La peau porte plus de la moitié des lipides du plat : la retirer à table fait passer de 30 g à 14 g de lipides par part.
 </article>
 
+<article class="fiche" markdown="1">
+#### W6 · Palette de porc effilochée au fumoir <span class="niveau b">B</span>
+
+<p class="meta">Roast 150 °C, granulés Woodfire, puis papillote · travail 15 min · total 2 h 30 à 3 h · 535 g, 2 parts de 150 g effilochés · ≈ 213 kcal et 15 g de protéines pour 100 g · ≈ 500 kcal et 40 g de protéines par part</p>
+
+Une palette nature, pas une pièce déjà cuisinée. Elle s'effiloche à la fourchette parce qu'on lui laisse le temps au-dessus de 70 °C, pas parce qu'on la cuit fort. La papillote arrive à mi-parcours, remplie d'un bouillon de potée ou d'eau, et c'est elle qui empêche la petite pièce de sécher.
+
+**Ingrédients.**
+
+- **450 g** · palette de porc nature
+- **18 g** · moutarde
+- **7 g** · sel
+- paprika fumé, cumin
+- **60 g** · bouillon ou eau, pour la papillote
+
+**Méthode.** Mélanger la moutarde (18 g), le sel (7 g), le paprika fumé et le cumin. En masser la palette (450 g) sur toutes ses faces.
+
+Granulés Woodfire, **Roast 150 °C**, préchauffage. Enfourner dès la fin du préchauffage, viande nue sur la grille : les granulés brûlent pendant la cuisson, purger reviendrait à perdre la fenêtre de fumée, comme dans W5. Compter **environ 1 h 15** pour atteindre 70 °C au cœur.
+
+**À 70 °C au cœur, emballer dans l'aluminium** avec le bouillon (60 g), serrer. Remettre en cuisson. **Sortir à 92-95 °C au cœur** : encore 45 min à 1 h 15.
+
+**Repos 15 à 20 min dans la papillote fermée.** Effilocher à la fourchette, dans le liquide de la papillote — c'est lui qui remet l'humidité dans la viande effilochée, il ne se jette pas.
+
+**La cuisson suit le thermomètre, pas l'horloge ni le poids.** Les 2 h 30 annoncées servent à savoir à quelle heure manger, rien d'autre. Deux raisons. L'épaisseur décide : une palette de 450 g aplatie cuit 30 min plus vite que la même ramassée en boule. Et surtout, **l'effilochage est une affaire de temps passé au-dessus de 70 °C**, le temps qu'il faut au collagène pour se gélatiniser — pas de température atteinte. Monter le four pour aller plus vite donne une pièce à 95 °C au cœur qui n'a pas eu le temps de s'attendrir : cuite, sèche, et qui ne s'effiloche pas. C'est contre-intuitif sur une petite pièce, où la tentation d'accélérer est la plus forte.
+
+**Variantes.** **Pour 750 g** : 30 g de moutarde, 11 g de sel, 100 g de bouillon, repos 25 min — compter 3 h, et le palier à 70-75 °C sera franchement marqué · pommes de terre en morceaux de 2 cm passées en Air Fry 200 °C, 18 à 20 min, pendant le repos obligatoire de la viande · servir avec le chou confit de R36 · **un carré de porc sans os ne se cuit pas ainsi** : il se mange tranché, donc Roast 190 °C et sortie à **62 °C** au cœur, repos 15 min, la température montant encore de 2 à 3 °C — poussé vers 90 °C il n'a ni collagène ni gras pour se rattraper et devient une semelle.
+
+**Pièges.** Température montée parce que la pièce est petite : pas d'effilochage. Papillote oubliée ou mal serrée : sur 450 g il n'y a pas de masse pour tamponner la perte d'eau, la pièce sèche. Sortie à 80 °C parce que « c'est cuit » : c'est cuit, mais le collagène n'a pas fini — il faut 92-95. Liquide de papillote jeté. Palier à 70-75 °C absent : normal sur une petite pièce, ce n'est pas un signe d'échec. Durées de cette fiche prises pour acquises : elles sont estimées, à caler à la première fournée et à noter au journal.
+</article>
+
 ### Salé · Légumes farcis
 
 <article class="fiche" markdown="1">
@@ -883,9 +1098,45 @@ Le potimarron sert de plat. Léger en glucides : ajouter du pain au levain pour 
 - **30 g** · noix concassées
 - sauge, sel, piment d'Espelette
 
-**Méthode.** Préchauffer en Bake à 200 °C. Demi-potimarrons face coupée vers le haut, huilés (15 g) et salés, 30 à 35 min : la pointe du couteau entre sans résistance. Casser 1 à 2 œufs par cavité, parsemer le parmesan (40 g), les noix (30 g) et la sauge. Bake à 180 °C, 10 à 14 min : blanc pris, jaune coulant. À côté : salade d'épinards frais.
+**Méthode.** Préchauffer en Bake à 200 °C. Les demi-potimarrons (1 400 g) face coupée vers le haut, huilés (15 g) et salés, 30 à 35 min : la pointe du couteau entre sans résistance. Casser 1 à 2 œufs par cavité, parsemer le parmesan (40 g), les noix (30 g) et la sauge. Bake à 180 °C, 10 à 14 min : blanc pris, jaune coulant. À côté : salade d'épinards frais.
 
 **Pièges.** Cuisson des œufs à caler au premier essai : surveiller dès 10 min.
+</article>
+
+<article class="fiche" markdown="1">
+#### W5 · Courge muscade farcie au fumoir <span class="niveau b">B</span>
+
+<p class="meta">Roast 175 °C, granulés Woodfire · travail 25 min · total 1 h 10 · 6 parts · ≈ 85 kcal et 3 g de protéines pour 100 g · ≈ 320 kcal et 12 g de protéines par part, hors accompagnement</p>
+
+La chair d'une muscade est douce et humide : elle prend la fumée mieux qu'aucun autre légume, à condition d'être exposée nue pendant que les granulés brûlent. La farce arrive aux trois quarts de la cuisson, quand la fumée s'épuise — une crème fumée serait âcre. Plat de légume : la protéine vient du poulet grillé et d'une omelette servis à côté.
+
+**Ingrédients.**
+
+- **Courge**
+    - **3 000 g** · courge muscade entière, coupée en deux dans la longueur, graines et filaments retirés
+    - **20 g** · huile d'olive
+- **Farce, aux trois quarts de la cuisson**
+    - **200 g** · lardons fumés
+    - **150 g** · oignon émincé
+    - **80 g** · oignons confits (T11)
+    - **150 g** · crème 15 %
+    - **120 g** · feta émiettée
+    - **25 g** · moutarde
+    - paprika fumé, thym, poivre
+
+**Méthode.** Couper la courge (3 000 g) en deux dans la longueur, retirer graines et filaments. Creuser un sillon continu de la cavité jusque dans le col — le col est plein, c'est lui qui donne le volume à farcir — et en prélever la chair (600 g) — elle sort des 3 000 g, ce n'est pas un ingrédient de plus : en cubes de 1 cm, elle rôtit à côté et se sert froide aux repas de midi. **Laisser 2 cm de paroi** : en dessous, la courge s'affaisse en fin de cuisson. Huiler les faces creusées avec la moitié de l'huile (20 g au total), saler ; les cubes de chair huilés du reste, étalés sur une plaque à part.
+
+Granulés Woodfire, Roast 175 °C, préchauffage. Enfourner dès la fin du préchauffage : les granulés brûlent pendant la cuisson, purger reviendrait à perdre la fenêtre de fumée. Demi-courges face creusée vers le haut, cubes à côté — ils sortent à mi-parcours. **35 min.**
+
+À la poêle pendant ce temps : les lardons (200 g) à sec, 4 min jusqu'à coloration ; l'oignon (150 g) 4 min dans le gras rendu, paprika et thym la dernière minute. Hors du feu, mélanger la moutarde (25 g) à la crème (150 g), puis incorporer les lardons, l'oignon, les oignons confits (80 g) et la feta (120 g).
+
+Garnir les sillons. **15 à 20 min de plus, sans recharger les granulés** : la feta doit dorer et la pointe du couteau entrer sans résistance dans la paroi.
+
+**Variantes.** Troisième service, la courge rend son eau : gratter le contenu, mélanger, gratiner sous le couvercle Extra Crisp · sans oignons confits, monter la feta à 150 g.
+
+**Le poids de la liste n'est pas celui de l'assiette.** Sur 3 000 g bruts, environ 300 g de graines et de filaments partent, 600 g de chair rejoignent les repas de midi, et la peau ne se mange pas : il reste à peu près la moitié. Surtout, **la cuisson ne suit pas ce poids, elle suit l'épaisseur de paroi**. Une demi-courge plus lourde parce que plus large cuit dans le même temps ; une paroi de 3 cm au lieu de 2, non — compter 15 min de plus et vérifier à la pointe du couteau.
+
+**Pièges.** Paroi sous 2 cm : elle s'affaisse et la farce se répand. Farce mise dès le départ : elle fait écran, la chair ne prend aucune fumée et les lardons cuisent à l'étouffée. Crème ajoutée seule : elle tranche à 175 °C, c'est l'émulsion de la moutarde qui la stabilise. Granulés rechargés après la farce : la crème devient âcre. Oignons confits au-delà de 80 g : le plat bascule en sucré-salé et la feta ne rattrape plus. Poids autre que 3 000 g : peser à la coupe et ajuster la farce, mais garder les 2 cm de paroi, qui sont une épaisseur et non une proportion.
 </article>
 
 ### Salé · Flans
@@ -946,6 +1197,8 @@ Le pendant salé des flans au skyr (R20, R21), même bain-marie. Plus dense qu'u
 - vanille
 
 **Méthode.** Fouetter les œufs, le skyr (520 g), la banane écrasée (100 g), le mélange maïzena-riz (25 g), le sucre (15-20 g, ou rien), la vanille. Incorporer les morceaux de banane (100 g), puis les pépites (50-60 g) à froid en dernier (elles ne fondent pas dans l'appareil). Bain-marie, 160 °C, 25-30 min ; vérifier la prise à cœur. Refroidir puis réfrigérer.
+
+**Variantes.** Noisette : **40 g** de noisettes torréfiées 8 min à 160 °C puis mixées en poudre, ajoutées avec la banane écrasée, et **maïzena descendue de 25 à 15 g** — la poudre absorbe, sans quoi le flan devient pâteux ; compter **30 min** de cuisson, l'appareil est plus dense. ≈ 197 kcal et 13 g de protéines par part.
 </article>
 
 ## 3. Turbo Cuisine
@@ -1001,6 +1254,41 @@ Les lentilles corail se délitent seules : pas besoin de mixer. Soupe légère e
 **Méthode.** Rincer les lentilles (150 g). Dans la cuve, dans cet ordre : l'eau (1 000 g), le cube émietté, les lentilles, les carottes (280 g), l'oignon (150 g), le cumin. Couvercle fermé et verrouillé, valve fermée, programme Soupe 10 min. Décompression naturelle 10 min, puis valve ouverte. Saler. Une cuillère de skyr (60 g en tout) dans chaque assiette.
 
 **Pièges.** Skyr versé dans la cuve chaude : il graine, le garder pour l'assiette.
+</article>
+
+<article class="fiche" markdown="1">
+#### T12 · Soupe de courge aux lentilles <span class="niveau b">B</span>
+
+<p class="meta">Programme Soupe, valve fermée · 14 min · travail 15 min · total 45 min · 2 635 g, 5 assiettes de 527 g · ≈ 45 kcal et 2,2 g de protéines pour 100 g · ≈ 237 kcal et 11,7 g de protéines par assiette</p>
+
+La soupe de courge qui tient au corps : les lentilles s'y délitent et l'épaississent sans crème. À la différence de T2, qui n'a pas de courge et qu'il faut compléter d'une protéine, celle-ci porte ses 11 g par assiette.
+
+**Ingrédients.**
+
+- **800 g** · courge muscade en cubes de 3 cm
+- **400 g** · carottes en rondelles
+- **250 g** · patate douce en cubes
+- **170 g** · blanc de poireau émincé
+- **67 g** · lentilles corail, rincées, sans trempage
+- **90 g** · lentilles vertes, rincées, sans trempage
+- **850 g** · eau
+- **2** gousses d'ail entières, non épluchées
+- 1 c. à café de ras-el-hanout
+- **8 g** · sel fumé
+
+**Méthode.** Rincer les deux lentilles ensemble (67 g et 90 g). Tout dans la cuve, sans Rissolé : la courge (800 g), les carottes (400 g), la patate douce (250 g), le poireau (170 g), les lentilles, l'ail, le ras-el-hanout, le sel fumé (8 g), l'eau (850 g) par-dessus. Couvercle fermé et verrouillé, valve fermée, **programme Soupe 14 min** — 14 et non 12 à cause des vertes.
+
+Décompression naturelle 10 min, puis valve ouverte. Sortir l'ail de sa peau, le remettre. Mixer, **puis** rectifier le sel. Un vrai trait de citron à l'assiette.
+
+**Les deux ratios décident, pas la pesée.** Un poids de courge ne se répète jamais d'une fois sur l'autre : ce qui se transporte, c'est que les **lentilles font 10 % du poids des légumes** et **l'eau 60 %**. Sur 1 620 g de légumes, cela donnerait 162 g de lentilles et 970 g d'eau — l'eau est ici descendue à 850 parce que la charge approche le plafond de cuve. Détendre à l'eau chaude après le mixage, jamais avant : c'est le sens qui marche. L'autre seuil est celui du goût — **la courge doit rester à 50 % au moins des légumes**, en dessous c'est un velouté de féculent parfumé à la courge.
+
+**Le plafond de cuve est un repère, pas une contenance.** La cuve fait 4,5 L, mais une légumineuse gonfle et mousse : les autocuiseurs imposent alors **le repère des deux tiers**, soit 3 L ici. Sans légumineuse on pourrait charger aux trois quarts, 3,4 L. Une cuve à 2,9 L ne laisse que 70 ml de marge, ce qui est trop peu : retirer de l'eau à la louche avant de verrouiller, jamais des légumes, et détendre après mixage. Et dans une cuve très chargée, **les lentilles vont sur le dessus et non au fond**, où elles attachent et peuvent faire couper la machine. Le repère MAX gravé dans la cuve reste à vérifier à l'œil avant de fermer.
+
+**Variantes.** Quatre assiettes de 480 g : 550 g de courge, 210 g de carottes, 200 g de pommes de terre, 170 g de poireau, 110 g de corail, 680 g d'eau, 5 g de sel fumé, Soupe 12 min · **six assiettes, la version la mieux dosée** : 984 g de courge, 280 g de poireau, 150 g de carottes, 110 g de navet, 300 g de pommes de terre, 220 g de lentilles, 780 g d'eau, puis 150 à 200 g d'eau chaude après le mixage — ≈ 245 kcal et 13 g de protéines l'assiette · **le navet est un assaisonnement, pas un légume de volume** : 110 g, soit 7 % des légumes, apportent l'amertume poivrée qui contredit le sucre de la courge et de la carotte, et au-delà de 200 g il domine tout · pommes de terre plutôt que patate douce quand on veut du corps sans sucre — avec courge, carottes et patate douce on cumule trois sources sucrées, et il faut alors monter le sel fumé et ne pas lésiner sur le citron · corail seul, sans vertes : couleur plus franche, 12 min suffisent, mais 7 g de protéines l'assiette au lieu de 11 · une cuillère de skyr à l'assiette comme dans T2, +3 g de protéines · potimarron à la place de la patate douce : il a du corps *et* du goût, il remplace du féculent et non de la courge. Lentilles en conserve : 157 g de sec valent **375 g égouttés**, et il faut retirer **environ 160 g d'eau** puisqu'une conserve n'absorbe plus rien. Ni le corail ni les vertes ne trempent, et les deux cuisent en 12 à 15 min sous pression : la boîte ne fait gagner que quelques minutes, pour des lentilles déjà cuites qui n'auront rien pris du bouillon. Sans intérêt ici.
+
+**Pièges.** Valve ouverte d'un coup au lieu des 10 min de décompression : le liquide bout violemment et le corail gicle jusqu'au joint. Sel rectifié avant le mixage : les lentilles absorbent et l'épaississement change la perception du salé, toujours après. Soupe plate à l'arrivée : c'est l'acide qui manque, un trait de citron à l'assiette et non du sel en plus. 12 min avec des lentilles vertes dedans : grains au mixage. Charge au-delà du repère des deux tiers : retirer de l'eau, pas des légumes.
+
+**Conservation.** Quatre jours au frais. Elle épaissit d'un jour sur l'autre, les lentilles continuant d'absorber : deux cuillères d'eau chaude par assiette au réchauffage.
 </article>
 
 ### Salé · Légumineuses
@@ -1072,9 +1360,9 @@ Lentilles du Puy, légumes racines, et les œufs qui gratinent directement dans 
 
 **Méthode.** Trier et rincer les lentilles (300 g). Dans la cuve, l'huile (15 g) ; couvercle ouvert, Rissolé, l'oignon (150 g) 3 min, puis l'ail (5 g) et le concentré (20 g) 1 min. Puis, dans cet ordre : les carottes (150 g), le panais (200 g), les lentilles, le laurier et le thym, l'eau (750 g). Couvercle fermé et verrouillé, valve fermée, Soupe 12 min. Décompression naturelle 10 min, puis valve ouverte ; lentilles encore fermes : 3 min de plus. Retirer le laurier, saler, vinaigre (15 g). Creuser 4 puits, un œuf dans chacun, parmesan (30 g) par-dessus. Couvercle Extra Crisp, 180 °C, 6 à 8 min : blanc pris, jaune coulant.
 
-**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette.
+**Variantes.** Express, 3 parts : 250 g de lentilles, 750 g d'eau, 2 carottes en rondelles, 150 g d'oignon, laurier et thym, tout dans la cuve sans Rissolé, Soupe 10 à 12 min ; ni panais ni œufs gratinés — compléter d'un œuf au plat ou de saumon poêlé. Lentilles en conserve : sans intérêt ici. Les vertes sèches ne trempent pas et cuisent en 12 min sous pression ; la boîte ferait gagner dix minutes pour des lentilles molles qui ne tiennent pas la fourchette. Fournée de semaine, 5 parts, œufs et parmesan au service : 350 g de lentilles, 18 g d'huile, 175 g d'oignon, 6 g d'ail, 25 g de concentré, 250 g de carottes, 320 g de panais, laurier et thym, 800 g d'eau. L'eau ne suit pas le facteur : 570 g de légumes racines rendent la leur et rien ne s'évapore valve fermée — à 900 g on obtient une soupe, dans laquelle aucun puits ne tient. Même Rissolé, même Soupe 12 min. À défaut de xérès, 12 g de vinaigre blanc et 6 g de balsamique après décompression : le blanc pour l'acidité franche, le balsamique pour la rondeur oxydative que le blanc n'a pas — tout en balsamique sucrerait un plat qui porte déjà 320 g de panais. Cuit, le plat pèse ≈ 1 900 g, soit ≈ 95 kcal et 4,8 g de protéines pour 100 g. Peser 5 portions de 380 g **à froid**, avant tout réchauffage. Au moment de manger : 2 à 3 cuillères d'eau chaude par portion, les lentilles ont épaissi une nuit au froid et l'œuf se poserait sur une purée sans s'y enfoncer ; petite poêle à couvert, feu doux, 4 à 5 min, blanc pris et jaune coulant, 15 g de parmesan hors du feu. Avec 150 g de pommes de terre vapeur, le repas fait ≈ 610 kcal et 33 g de protéines.
 
-**Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant.
+**Pièges.** Gratinage à caler au premier essai : surveiller dès 6 min. Le couvercle Extra Crisp est vendu pour les Cookeo 6 L ; il fonctionne sur la Turbo Cuisine mais hors indication du fabricant. Vinaigre ajouté avant la montée en pression : l'acide durcit la peau des lentilles, elles restent fermes sur un cœur farineux — il va après la décompression, avec le sel. Main lourde sur le vinaigre, au-delà de 2 % du poids de la cuve : relancer Dorer couvercle ouvert 5 min, l'acide acétique du vinaigre blanc est volatil et part à découvert, le balsamique reste ; remuer à la maryse en raclant le fond, des lentilles cuites attachent vite. Puis monter le parmesan et saler un cran au-dessus de l'habitude, le sel écrase la perception de l'acide. Jamais de bicarbonate : il mousse dans une cuve pleine et laisse un arrière-goût savonneux sur les légumineuses. Valve ouverte d'un coup au lieu des 10 min de décompression naturelle : le liquide bout violemment et les lentilles se délitent.
 </article>
 
 <article class="fiche" markdown="1">
@@ -1201,6 +1489,61 @@ Le plat le plus riche du chapitre : les lardons dorés d'abord donnent tout le g
 **Méthode.** Mariner 10 min le poulet (400 g) avec le curcuma, le paprika, le sel et l'huile (5 g). Rincer le riz (200 g) jusqu'à eau claire, égoutter. Dans la cuve, le poulet mariné, à sec. Couvercle ouvert, Rissolé, attendre le préchauffage, saisir 4 à 5 min jusqu'à coloration, sans chercher à cuire à cœur. Déglacer au bouillon (250 g) en grattant le fond. Puis, dans cet ordre, sans remuer : le riz étalé en couche uniforme, les petits pois (150 g) posés dessus. Couvercle fermé et verrouillé, valve fermée, Riz 8 min. Décompression naturelle 10 min, puis valve ouverte. Aérer à la spatule, saler.
 
 **Pièges.** Riz trop tendre : 6 min au prochain essai. Fond qui attache après le Rissolé : bien gratter au déglaçage, sinon alerte de surchauffe.
+</article>
+
+### Salé · Tartinables
+
+<article class="fiche" markdown="1">
+#### T10 · Tartinade de pois cassés au chorizo <span class="niveau b">B</span>
+
+<p class="meta">Mijoté, valve fermée · 15 min · travail 15 min · total 50 min · pot ≈ 800 g · ≈ 181 kcal et 9 g de protéines pour 100 g · ≈ 109 kcal la portion de 60 g</p>
+
+Les pois cassés donnent une purée dense et douce qui appelle du gras fumé. Le chorizo est poêlé à part et son huile rouge versée dessus : mélangé dans la masse, le gras se dilue et la tartinade devient grasse sans être fumée. Quatre jours au frais.
+
+**Ingrédients.**
+
+- **250 g** · pois cassés secs, rincés jusqu'à eau claire
+- **750 g** · eau
+- **30 g** · huile d'olive — un tiers dans la cuisson, le reste dans la purée
+- **60 g** · chorizo en tranches fines
+- **60 g** · échalote
+- **10 g** · ail
+- **25 g** · jus de citron
+- **30 g** · cébette ciselée
+- paprika fumé, sel, poivre
+
+**Méthode.** Les pois cassés (250 g), l'eau (750 g) et le tiers de l'huile (30 g au total) dans la cuve — l'huile empêche la mousse de monter dans la valve. Couvercle fermé et verrouillé, valve fermée, Mijoté 15 min, décompression naturelle complète. Égoutter en gardant l'eau de cuisson. Écraser grossièrement à la fourchette avec l'échalote (60 g) et l'ail (10 g) hachés fin, le citron (25 g), le reste de l'huile et le paprika ; détendre à l'eau de cuisson jusqu'à la texture voulue. Poêler le chorizo (60 g) à sec, 2 min par face jusqu'à ce qu'il croustille et rende son huile ; le poser sur la tartinade avec son huile, la cébette (30 g) crue par-dessus. Saler en dernier : le chorizo sale déjà.
+
+**Variantes.** Sauce pour crudités, même esprit : 150 g de skyr, 20 g de moutarde, 10 g de citron, une gousse d'ail râpée, cébette — ≈ 70 kcal et 8 g de protéines pour 100 g · sans chorizo : une tête d'ail rôtie écrasée dans la purée et des échalotes frites par-dessus.
+
+**Légumineuse sèche uniquement.** Comme les lentilles vertes, le pois cassé ne trempe pas : 15 min sous pression suffisent, décidés le soir même. La conserve de pois cassés n'existe quasiment pas, et une purée toute prête arriverait salée et délitée — il n'y a rien à gagner à la chercher.
+
+**Pièges.** Cuve remplie à plus de la moitié : les pois cassés moussent beaucoup sous pression et bouchent la valve. Valve ouverte tôt : la mousse gicle. Chorizo mélangé dans la masse : le gras se dilue et la tartinade devient grasse sans être fumée.
+</article>
+
+### Salé · Condiments
+
+<article class="fiche" markdown="1">
+#### T11 · Oignons confits, portions congelées <span class="niveau b">B</span>
+
+<p class="meta">Rissolé puis feu doux, couvercle ouvert · travail 15 min au robot · total 1 h 20 · ≈ 700 g, 18 portions de 40 g · ≈ 130 kcal et 1 g de protéines pour 100 g · ≈ 52 kcal la portion</p>
+
+Deux kilos d'oignons rendent 700 g de confit : c'est une fournée de condiment, pas une recette de repas. Le miel sur du salé est l'exception argumentée du carnet — il sert la caramélisation, l'acidité du vinaigre l'équilibre, et le résultat reste un condiment, pas un plat sucré-salé.
+
+**Ingrédients.**
+
+- **2 000 g** · oignons en rondelles fines, au robot
+- **40 g** · huile
+- **60 g** · miel
+- **80 g** · vinaigre de cidre
+- **10 g** · sel
+- thym
+
+**Méthode.** Les oignons (2 000 g) au robot en rondelles fines : cinq minutes contre vingt-cinq au couteau. Dans la cuve avec l'huile (40 g), couvercle ouvert, Rissolé 15 min en remuant — ils doivent suer sans colorer. Puis feu doux couvercle ouvert, 35 min, en remuant toutes les 7 à 8 min : des rondelles fines compotent plus vite et attachent plus facilement que des tranches au couteau. Le miel (60 g), le vinaigre (80 g), le sel (10 g) et le thym **en fin de course seulement**, 10 min de plus jusqu'à ce que ça nappe. Refroidir, couler en bac à glaçons, démouler en sachet.
+
+**Variantes.** Vinaigre balsamique à la place du cidre, plus rond et plus sombre · une portion fondue dans la farce de la courge (W5) ou à côté de l'emmental d'un pain plat farci (R32).
+
+**Pièges.** Miel mis avec les oignons : le sucre brûle avant que l'oignon ait fondu, le confit devient amer. Feu trop vif au départ : ils colorent avant de rendre leur eau et restent fermes. Sel en début de cuisson : ils rendent leur eau trop tôt et bouillent au lieu de compoter.
 </article>
 
 ## 4. Ninja Creami
@@ -1511,6 +1854,30 @@ Doser au filet ou à la cuillère, pas à la louche : c'est le topping, pas la b
 **Gourmand, à doser.** Chocolat noir fondu en filets · caramel beurre salé maison (technique : G14) · pâte de pistache ou de noisette en filet · chantilly légère non sucrée · copeaux de chocolat à l'économe.
 
 **Minimaliste.** Filet de miel · menthe ciselée · cacao non sucré au tamis · chia ou lin moulu (dose modérée) · coco râpée à peine toastée.
+</article>
+
+<article class="fiche" markdown="1">
+#### G17 · Vanille HiPro <span class="niveau b">B</span>
+
+<p class="meta">Note 4 : 672 g · Note 5 : 682 g · Note 6 : 616 g · Note 8 : 609 g · le pot : ≈ 615 · 727 · 766 · 1085 kcal (notes 4 · 5 · 6 · 8)</p>
+
+Un pot de HiPro vanille remplace 180 g du skyr de la vanille classique (G1) et apporte le parfum déjà dosé. Le gain en macros est marginal : il est dans le pot ouvert qu'on finit et le miel qu'on baisse, le HiPro étant déjà édulcoré. La note 5 est propre à cette fiche — le socle de la note 4, ses trois jaunes, plus la crème légère.
+
+| | Note 4 · Lite | Note 5 · Lite | Note 6 · Ice Cream | Note 8 · Ice Cream |
+|---|---|---|---|---|
+| Socle | 320 skyr · 180 HiPro · 3 jaunes · 35 miel · 1 sel | 250 skyr · 180 HiPro · 3 jaunes · 130 crème 15 % · 25 miel · 1 sel | 20 skyr · 180 HiPro · 250 crème 15 % · 1 jaune · 45 miel · 1 sel | 20 skyr · 180 HiPro · 240 crème 30 % · 2 jaunes · 30 miel · 1 sel |
+| Lait | 80 g écrémé | 40 g écrémé | 100 g entier | 100 g entier |
+| Parfum | 2 g extrait de vanille | 2 g | 2 g | 2 g |
+| Pour 100 g | 92 kcal · 2,2 lip · 9,7 prot | 107 kcal · 5,0 lip · 8,7 prot | 124 kcal · 7,5 lip · 5,4 prot | 178 kcal · 14,0 lip · 5,8 prot |
+| Pot | 615 kcal · 15 lip · 65 prot | 727 kcal · 34 lip · 60 prot | 766 kcal · 46 lip · 33 prot | 1085 kcal · 85 lip · 35 prot |
+
+**Méthode.** Fouetter tous les ingrédients froids, le HiPro compris. Max, 24 h à plat, programme, Re-spin si sec.
+
+**Texture.** Note 4 ferme et franche, 2-3 min à l'air avant de servir · note 5 le meilleur compromis de la fiche, la crème casse la fermeté du skyr sans effacer les protéines · notes 6 et 8 identiques à la vanille du carnet (G1), le HiPro n'y pèse plus grand-chose.
+
+**Les blancs.** Les notes 4 et 5 libèrent 3 blancs, la note 8 en libère 2. Quatre jours au frais : une omelette moitié blancs, moitié œufs entiers, ou les pancakes du lendemain (R4).
+
+**Pièges.** Macros calculées sur une étiquette à 55 kcal et 10,5 g de protéines pour 100 g : vérifier le pot, tout le tableau en dépend. HiPro tiédi avant le fouettage : la prise devient granuleuse. Miel monté au niveau de G1 sur les notes 4 et 5 : écœurant, le HiPro est déjà sucré.
 </article>
 
 ### Sucré · Boissons glacées

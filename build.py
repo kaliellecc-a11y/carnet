@@ -3,7 +3,7 @@ import re, sys, markdown, pathlib, html
 import verifie
 import quantites
 
-VERSION = "v11.1"
+VERSION = "v11.5"
 DATE = "2026-09-16"
 
 # Une fiche incohérente ne doit pas atteindre la page : le contrôle passe avant
@@ -150,8 +150,13 @@ INGREDIENTS = [
     ("riz", r"\briz\b"),
     ("sarrasin", r"sarrasin"),
     ("seigle", r"seigle"),
-    ("skyr · fromage blanc", r"\bskyr\b|fromage blanc"),
+    ("skyr · fromage blanc · yaourt", r"\bskyr\b|fromage blanc|\byaourts?\b"),
     ("vanille", r"vanille"),
+    ("pois cassés", r"pois cassés"),
+    ("chorizo", r"chorizo"),
+    ("emmental", r"emmental"),
+    ("oignons confits", r"oignons? confits?"),
+    ("oignon", r"\boignons?\b"),
 ]
 TECHNIQUES = [
     ("Air Fry · friture à l'air", r"air fry|air crisp"),
@@ -177,6 +182,7 @@ TECHNIQUES = [
     ("rabats", r"rabats"),
     ("rafraîchi du levain", r"rafraîch"),
     ("Re-spin", r"re-spin"),
+    ("dégorger et essorer", r"dégorg"),
 ]
 
 def build_index(terms, hid, titre, note):
